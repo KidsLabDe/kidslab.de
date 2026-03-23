@@ -5,11 +5,11 @@ sidebar:
   open: true
 ---
 
-> Die Menschen hinter dem KidsLab — Geschäftsführung, Festangestellte und ein wachsendes Mentoren-Team.
+> Die Menschen hinter dem KidsLab — und ein wachsendes Mentoren-Team.
 
-![Das KidsLab Mentoren-Team beim GamesPreis 2026](gamespreis-mentoren-team-2026.jpg)
+{{< hover-image src="kidslab-mentoren-team.jpg" hover="kidslab-mentoren-team-hover.jpg" alt="Das KidsLab Mentoren-Team" >}}
 
-## Geschäftsführung
+## Die Köpfe
 
 ### Regine Scheyer
 
@@ -20,8 +20,6 @@ Geschäftsführerin und das organisatorische Herz von KidsLab. Regine koordinier
 Geschäftsführer, Programmierer und Erfinder. Gregor liebt es, verrückte Sachen zu erfinden, zu basteln und zu programmieren — vom Arschbomben-Detektor über die Rutschen-Photo-Falle bis zur alarmgesicherten Hose. Er hat ein Buch über "Programmieren in Minecraft" geschrieben und baut Lern-Welten in Minecraft und Minetest.
 
 Bei KidsLab ist er für die technische Seite verantwortlich: Programmierung der Plattformen ([GamesLab Studio](/gameslab/studio/), [Konsensomat](/events/konsensomat/), [Prompt Battle](/events/promptbattle/)), Workshop-Konzepte und alles, was blinkt, piept oder auf dem Bildschirm passiert. Außerdem entwickelt er die Open-Source-Projekte und sorgt dafür, dass andere das, was KidsLab macht, selber nachmachen können.
-
-## Leitung
 
 ### Daniel Greiser
 

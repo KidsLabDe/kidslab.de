@@ -1,4 +1,4 @@
-FROM hugomods/hugo:exts AS builder
+FROM hugomods/hugo:latest AS builder
 WORKDIR /src
 COPY . .
 RUN hugo --minify
