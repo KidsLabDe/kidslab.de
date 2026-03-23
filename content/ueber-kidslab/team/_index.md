@@ -7,7 +7,7 @@ sidebar:
 
 > Die Menschen hinter dem KidsLab — und ein wachsendes Mentoren-Team.
 
-{{< hover-image src="kidslab-mentoren-team.jpg" hover="kidslab-mentoren-team-hover.jpg" alt="Das KidsLab Mentoren-Team" >}}
+{{< hover-image src="kidslab-mentoren-team.jpg" hover="kidslab-mentoren-team-hover.jpg" alt="Das KidsLab Mentoren-Team" caption="KidsLab-Team (mit Dr. Mehring, bayerischer Digitalminister)" >}}
 
 ## Die Köpfe
 

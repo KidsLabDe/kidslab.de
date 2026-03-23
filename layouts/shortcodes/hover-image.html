@@ -1,6 +1,7 @@
 {{- $src := .Get "src" -}}
 {{- $hover := .Get "hover" -}}
 {{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
 {{- $width := .Get "width" | default "800" -}}
 
 {{- $img := .Page.Resources.GetMatch $src -}}
@@ -9,13 +10,18 @@
 {{- if and $img $imgHover -}}
   {{- $resized := $img.Resize (printf "%sx webp" $width) -}}
   {{- $resizedHover := $imgHover.Resize (printf "%sx webp" $width) -}}
-  <div class="hover-image" style="position: relative; display: inline-block; max-width: 100%;">
-    <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy"
-         style="display: block; width: 100%; transition: opacity 0.3s ease;" />
-    <img src="{{ $resizedHover.RelPermalink }}" alt="{{ $alt }}" loading="lazy"
-         style="position: absolute; top: 0; left: 0; width: 100%; opacity: 0; transition: opacity 0.3s ease;"
-         onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'" />
-  </div>
+  <figure>
+    <div class="hover-image" style="position: relative; display: inline-block; max-width: 100%;">
+      <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy"
+           style="display: block; width: 100%; transition: opacity 0.3s ease;" />
+      <img src="{{ $resizedHover.RelPermalink }}" alt="{{ $alt }}" loading="lazy"
+           style="position: absolute; top: 0; left: 0; width: 100%; opacity: 0; transition: opacity 0.3s ease;"
+           onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'" />
+    </div>
+    {{- with $caption }}
+    <figcaption style="text-align: center; font-size: 0.875rem; color: var(--tw-prose-captions, #6b7280); margin-top: 0.5rem;">{{ . }}</figcaption>
+    {{- end }}
+  </figure>
 {{- else -}}
   {{- errorf "hover-image: Bild nicht gefunden. src=%q hover=%q (Seite: %s)" $src $hover .Page.File.Path -}}
 {{- end -}}

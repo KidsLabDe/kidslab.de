@@ -7,7 +7,7 @@ cascade:
 
 > Das KidsLab — wer wir sind und was uns antreibt.
 
-Das KidsLab ist ein gemeinnütziger Verein in Augsburg. Wir machen Maker Education für Kinder und Jugendliche: Programmieren, Basteln, Bauen, Experimentieren. Unser Ziel ist es, junge Menschen für Technik und Kreativität zu begeistern.
+Das KidsLab ist eine gemeinnützige Organisation in Augsburg. Wir machen Maker Education für Kinder und Jugendliche: Programmieren, Basteln, Bauen, Experimentieren. Unser Ziel ist es, junge Menschen für Technik und Kreativität zu begeistern.
 
 #### Unsere Vision & Misson
 
