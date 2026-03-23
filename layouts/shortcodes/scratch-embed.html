@@ -1,0 +1,30 @@
+{{- $id := .Get "id" -}}
+{{- $url := .Get "url" -}}
+{{- $width := .Get "width" | default "485" -}}
+{{- $height := .Get "height" | default "402" -}}
+
+{{- if $id -}}
+  {{- $url = printf "https://scratch.mit.edu/projects/%s/embed" $id -}}
+{{- end -}}
+
+{{- if $url -}}
+<div class="kidslab-scratch-embed" style="
+  margin: 1.5rem 0;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+">
+  <iframe
+    src="{{ $url }}"
+    width="{{ $width }}"
+    height="{{ $height }}"
+    style="max-width: 100%; border: 1px solid #e2e8f0; border-radius: 0.5rem;"
+    allowfullscreen
+    allowtransparency="true"
+    loading="lazy"
+    title="{{ with $id }}Scratch-Projekt {{ . }}{{ else }}Eingebettetes Projekt{{ end }}"
+  ></iframe>
+</div>
+{{- else -}}
+  {{- errorf "scratch-embed: either 'id' or 'url' parameter is required" -}}
+{{- end -}}

@@ -1,0 +1,27 @@
+services:
+  kidslab:
+    image: ghcr.io/kidslabde/kidslab.de:latest
+    container_name: kidslab-prod
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      # HTTP
+      - "traefik.http.routers.kidslab.rule=Host(`kidslab.de`) || Host(`www.kidslab.de`)"
+      - "traefik.http.routers.kidslab.entryPoints=web"
+      # HTTPS
+      - "traefik.http.routers.kidslab-ssl.rule=Host(`kidslab.de`) || Host(`www.kidslab.de`)"
+      - "traefik.http.routers.kidslab-ssl.entryPoints=websecure"
+      - "traefik.http.routers.kidslab-ssl.tls=true"
+      - "traefik.http.routers.kidslab-ssl.tls.certresolver=myresolver"
+      # www → kidslab.de Redirect
+      - "traefik.http.middlewares.www-redirect.redirectregex.regex=^https?://www\\.kidslab\\.de/(.*)"
+      - "traefik.http.middlewares.www-redirect.redirectregex.replacement=https://kidslab.de/$${1}"
+      - "traefik.http.middlewares.www-redirect.redirectregex.permanent=true"
+      - "traefik.http.routers.kidslab-ssl.middlewares=www-redirect"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

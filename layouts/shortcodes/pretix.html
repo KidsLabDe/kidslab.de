@@ -1,0 +1,51 @@
+{{ $event := .Get "event" }}
+<link rel="stylesheet" type="text/css" href="{{ $event }}widget/v2.css" media="print" onload="this.media='all'">
+<pretix-widget event="{{ $event }}"{{ with .Get "list" }} list="{{ . }}"{{ end }}{{ with .Get "style" }} style="{{ . }}"{{ end }}></pretix-widget>
+<noscript>
+  <div class="pretix-widget">
+    <div class="pretix-widget-info-message">
+      JavaScript ist in deinem Browser deaktiviert.
+      <a target="_blank" rel="noopener" href="{{ $event }}">Klicke hier für den Ticketshop.</a>
+    </div>
+  </div>
+</noscript>
+<script type="text/javascript" src="https://pretix.eu/widget/v2.de.js" async></script>
+<style>
+  .dark .pretix-widget {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+  }
+  .dark .pretix-widget,
+  .dark .pretix-widget *:not(button):not(a) {
+    color: #e2e8f0 !important;
+  }
+  .dark .pretix-widget .pretix-widget-event-list-entry {
+    color: #e2e8f0 !important;
+  }
+  .dark .pretix-widget .pretix-widget-event-list-entry:hover {
+    background-color: #334155 !important;
+  }
+  .dark .pretix-widget a {
+    color: #93c5fd !important;
+  }
+  .dark .pretix-widget button,
+  .dark .pretix-widget .pretix-widget-primary-color {
+    background-color: #3b82f6 !important;
+    color: #fff !important;
+  }
+  .dark .pretix-widget .pretix-widget-attribution {
+    color: #94a3b8 !important;
+  }
+  .dark .pretix-widget .pretix-widget-event-list-entry-availability span {
+    --status-bg-color: #334155;
+    --status-text-color: #e2e8f0;
+    --status-border-color: #475569;
+  }
+  .dark .pretix-widget .pretix-widget-btn-default,
+  .dark .pretix-widget .pretix-widget-collapse-indicator {
+    background-color: #334155 !important;
+    color: #e2e8f0 !important;
+    border-color: #475569 !important;
+  }
+</style>

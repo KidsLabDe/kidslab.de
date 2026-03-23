@@ -1,0 +1,34 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $float := .Get "float" | default "" -}}
+{{- $page := .Page -}}
+
+{{- $style := printf "max-width:%s; height:auto; border-radius:0.5rem;" $width -}}
+{{- if eq $float "left" -}}
+  {{- $style = printf "%s float:left; margin:0.25rem 1.5rem 1rem 0;" $style -}}
+{{- else if eq $float "right" -}}
+  {{- $style = printf "%s float:right; margin:0.25rem 0 1rem 1.5rem;" $style -}}
+{{- end -}}
+
+{{- $img := $page.Resources.GetMatch $src -}}
+{{- if $img -}}
+  {{- $resized := $img.Resize "1200x webp q85" -}}
+  <img
+    src="{{ $resized.RelPermalink }}"
+    alt="{{ $alt }}"
+    width="{{ $resized.Width }}"
+    height="{{ $resized.Height }}"
+    loading="lazy"
+    decoding="async"
+    style="{{ $style | safeCSS }}"
+    data-zoomable
+  />
+{{- else -}}
+  <img
+    src="{{ $src }}"
+    alt="{{ $alt }}"
+    loading="lazy"
+    style="{{ $style | safeCSS }}"
+  />
+{{- end -}}

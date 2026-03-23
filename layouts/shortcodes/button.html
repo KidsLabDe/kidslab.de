@@ -1,0 +1,47 @@
+{{- $href := .Get "href" -}}
+{{- $text := .Get "text" -}}
+{{- $target := .Get "target" | default "_self" -}}
+{{- $style := .Get "style" | default "primary" -}}
+
+{{- if not $text -}}
+  {{- $text = .Inner -}}
+{{- end -}}
+
+{{- $bgColor := "#2563eb" -}}
+{{- $textColor := "#ffffff" -}}
+{{- $hoverBg := "#1d4ed8" -}}
+{{- $border := "none" -}}
+
+{{- if eq $style "secondary" -}}
+  {{- $bgColor = "transparent" -}}
+  {{- $textColor = "#2563eb" -}}
+  {{- $hoverBg = "#eff6ff" -}}
+  {{- $border = "2px solid #2563eb" -}}
+{{- end -}}
+
+{{- if $href -}}
+<a
+  href="{{ $href }}"
+  target="{{ $target }}"
+  {{ if eq $target "_blank" }}rel="noopener noreferrer"{{ end }}
+  class="kidslab-button kidslab-button--{{ $style }}"
+  style="
+    display: inline-block;
+    padding: 0.625rem 1.5rem;
+    background-color: {{ $bgColor }};
+    color: {{ $textColor }};
+    border: {{ $border }};
+    border-radius: 0.375rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    cursor: pointer;
+    line-height: 1.5;
+  "
+  onmouseover="this.style.backgroundColor='{{ $hoverBg }}'"
+  onmouseout="this.style.backgroundColor='{{ $bgColor }}'"
+>{{ $text }}</a>
+{{- else -}}
+  {{- errorf "button: 'href' parameter is required" -}}
+{{- end -}}

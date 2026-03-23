@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+        <br class="hx:mt-1.5 hx:text-sm" />
+        <h1 class="hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">{{ .Title }}</h1>
+        <p class="hx:opacity-60 hx:mt-2 hx:mb-8">{{ len .Pages }} Artikel</p>
+        <div style="display:flex; flex-direction:column; gap:1rem;">
+          {{- range .Pages.ByDate.Reverse -}}
+            {{- $post := . -}}
+            <a href="{{ .RelPermalink }}" style="display:flex; gap:1rem; align-items:flex-start; text-decoration:none; color:inherit; padding:0.75rem; border-radius:0.5rem; border:1px solid rgba(0,0,0,0.08); transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(37,99,235,0.3)'" onmouseout="this.style.borderColor='rgba(0,0,0,0.08)'">
+              {{- with .Params.image }}
+                <img src="{{ $post.RelPermalink }}{{ . }}" alt="" loading="lazy" style="width:120px; height:80px; object-fit:cover; border-radius:0.375rem; flex-shrink:0;" />
+              {{- end }}
+              <div style="min-width:0;">
+                <div style="font-weight:600; font-size:1rem;">{{ .Title }}</div>
+                <div style="opacity:0.5; font-size:0.8rem; margin-top:0.2rem;">{{ partial "utils/format-date" .Date }}</div>
+                {{- with .Description }}
+                  <div style="opacity:0.7; font-size:0.875rem; margin-top:0.25rem; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;">{{ . }}</div>
+                {{- end }}
+              </div>
+            </a>
+          {{- end -}}
+        </div>
+      </main>
+    </article>
+    <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div>
+  </div>
+  <style>
+    .dark main a[style*="rgba(0,0,0,0.08)"] { border-color:rgba(255,255,255,0.1) !important; }
+    .dark main a[style*="rgba(0,0,0,0.08)"]:hover { border-color:rgba(59,130,246,0.4) !important; }
+    @media (max-width:640px) { main a[style*="display:flex; gap:1rem"] { flex-direction:column !important; } main a img[style*="width:120px"] { width:100% !important; height:140px !important; } }
+  </style>
+{{ end }}

@@ -1,0 +1,111 @@
+baseURL: https://kidslab.de/
+title: "KidsLab – Digitale Bildung für junge Menschen ッ"
+languageCode: de
+defaultContentLanguage: de
+
+theme: hextra
+enableRobotsTXT: true
+enableGitInfo: false
+
+# Pagination
+pagination:
+  pagerSize: 12
+
+# Markup settings
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+# Output formats
+outputs:
+  home:
+    - HTML
+    - RSS
+
+# Sitemap
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+
+# Hextra-specific params
+params:
+  description: "Digitale Bildung für junge Menschen ッ"
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/kids-lab-logo.png
+      dark: images/kids-lab-logo.png
+      width: 60
+      height: 40
+
+  page:
+    width: wide
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  theme:
+    default: light
+
+  editURL:
+    enable: false
+
+  blog:
+    list:
+      displayTags: true
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+
+  analytics:
+    goatCounter:
+      code: kidslab
+
+  imageZoom:
+    enable: true
+
+  highlight:
+    copy:
+      enable: true
+
+# Main navigation menu
+menu:
+  main:
+    - name: Kurse
+      pageRef: /kurse
+      weight: 1
+    - name: Für Schulen
+      pageRef: /schulen
+      weight: 2
+    - name: Kontakt
+      pageRef: /ueber-kidslab/kontakt
+      weight: 3
+    - name: Suche
+      weight: 4
+      params:
+        type: search
+    - name: Instagram
+      url: https://www.instagram.com/kidslabaugsburg
+      weight: 5
+      params:
+        icon: instagram
+    - name: Facebook
+      url: https://www.facebook.com/KidsLab.De
+      weight: 6
+      params:
+        icon: facebook
+    - name: GitHub
+      url: https://github.com/KidsLabDe
+      weight: 7
+      params:
+        icon: github
+

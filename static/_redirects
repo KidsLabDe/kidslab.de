@@ -1,0 +1,75 @@
+# ============================================================
+# KidsLab.de Redirects (Kirby → Hugo Migration)
+# Format: alte-url  neue-url  http-code
+# HINWEIS: Diese Datei dient als Dokumentation und für Hosting-
+# Plattformen die _redirects unterstützen (Netlify, Cloudflare Pages).
+# Für nginx werden die Regeln über nginx.conf gesteuert.
+# Die meisten Seiten-Redirects werden über Hugo aliases im
+# Front Matter der Content-Dateien gehandhabt.
+# ============================================================
+
+# --- Externe Redirects ---
+/modpack  https://github.com/KidsLabDe/kidslab-modpack/raw/master/modpack_1.8.9.zip  301
+/modpack-shader  https://github.com/KidsLabDe/kidslab-modpack/raw/master/modpack_shader_1.8.9.zip  301
+/handbuch  https://handbuch.kidslab.de/  301
+/handbuch/mcreator  https://handbuch.kidslab.de/mcreator-alapaka-ball-minecraft-mod/uebersicht  301
+/handbuch/mcreator/index.print.html  https://handbuch.kidslab.de/mcreator-alapaka-ball-minecraft-mod/uebersicht  301
+/minecraft-installation  https://handbuch.kidslab.de/minecraft/allgemeines/installation  301
+/turtlecity2  https://handbuch.kidslab.de/minecraft/turtlecity  301
+/tafel  https://app.fobizz.com/teaching_board/public_screens/bf24a24c-e8c1-4423-9734-dc2c475680b3?token=405108bb72e26e1969a07d271e0113c1  307
+
+# --- Alte Root-Level-URLs (WordPress/Kirby Legacy) ---
+/bastelanleitung-heisser-draht-spiel  /selber-machen/bastelanleitung-heisser-draht/  301
+/der-toast-brot-versuch  /selber-machen/der-toast-brot-versuch/  301
+/das-flaschen-u-boot  /selber-machen/das-flaschen-u-boot/  301
+/buerstibot-die-anleitung  /blog/buerstibot-die-anleitung/  301
+/mcreator  /minecraft/mcreator/  301
+/scratch  /selber-machen/scratch/  301
+/tinkercad  /blog/tinkercad/  301
+/impressum-2  /ueber-kidslab/impressum/  301
+/ueber-mich  /ueber-kidslab/  301
+/partner  /ueber-kidslab/partner/  301
+/kosten-und-kursgebuehren-ermaessigung  /ueber-kidslab/kursgebuehren/  301
+/wie-komme-ich-zum-kidslab  /ueber-kidslab/kontakt/  301
+/minecraft-und-mods  /minecraft/minecraft-und-mods/  301
+/onlinekurs-programmieren-lernen-in-minecraft  /minecraft/onlinekurs-programmieren-lernen-in-minecraft/  301
+/programmieren-in-minecraft-kostenlose-youtube-videos  /minecraft/  301
+/minecraft-videos  /minecraft/  301
+/einsatz-von-tinkercad-und-3d-druck-im-unterricht  /blog/einsatz-von-tinkercad-und-3d-druck-im-unterricht/  301
+/kahoot-quiz-mit-chatgpt-erstellen  /blog/kahoot-quiz-mit-chatgpt-erstellen/  301
+/robotics-feriencamp-sommerferien-2021-in-augsburg  /blog/robotics-feriencamp-sommerferien-2021-in-augsburg/  301
+/gamespreis  /gameslab/gamespreis/  301
+/gameslab-1  /gameslab/  301
+/gameslab-2024-rueckblick  /gameslab/gamespreis/2024/  301
+/kidslab-veranstaltet-das-jugendhackt-lab-augsburg  /blog/jugendhackt-2025/  301
+/willkommen  /  301
+/news-experimente-anleitungen  /selber-machen/  301
+/zocken-fuer-die-zukunft-mit-minetest-digitale-zukunftswerkstaetten-gestalten  /demokratie-in-minecraft/  301
+/category/kurse  /kurse/  301
+
+# --- /ideen/* Redirects (spezifische VOR Wildcards) ---
+# Spezifische Redirects werden über Hugo aliases in den Content-Dateien gehandhabt.
+# Hier nur Pattern-basierte Fallbacks:
+/ideen/mcreator  /minecraft/mcreator/  301
+/ideen/minecraft-*  /minecraft/selber-machen/  301
+/ideen/turtles-*  /minecraft/selber-machen/  301
+/ideen/tinkercad-*  /selber-machen/tinkercad-3d-design/  301
+/ideen/namensschild  /selber-machen/tinkercad-3d-design/  301
+/ideen/dein-pokal*  /selber-machen/tinkercad-3d-design/  301
+/ideen/schneemann*  /selber-machen/tinkercad-3d-design/  301
+/ideen/lego-*  /selber-machen/lego-spike-mindstorms/  301
+/ideen/loeten*  /selber-machen/elektronik-loeten/  301
+/ideen/*  /selber-machen/  301
+
+# --- /projekte/* Redirects ---
+# Spezifische Redirects werden über Hugo aliases in den Content-Dateien gehandhabt.
+/projekte/gameslab  /gameslab/  301
+/projekte/gameslab/*  /gameslab/  301
+/projekte/gamespreis  /gameslab/gamespreis/  301
+/projekte/gamespreis-2024  /gameslab/gamespreis/2024/  301
+/projekte/gamespreis-2025  /gameslab/gamespreis/2025/  301
+/projekte/demokratie  /demokratie-in-minecraft/  301
+/projekte/make-your-school  /make-your-school/  301
+/projekte/jugendhackt  /blog/  301
+/projekte/pixel-meets-paper  /blog/  301
+/projekte/*  /  301

@@ -1,0 +1,13 @@
+Grund,Quelle,Validierung,Seiten
+Nicht gefunden (404),Website,Nicht gestartet,113
+Duplikat – vom Nutzer nicht als kanonisch festgelegt,Website,Nicht gestartet,98
+Seite mit Weiterleitung,Website,Nicht gestartet,65
+"Durch ""noindex""-Tag ausgeschlossen",Website,Nicht gestartet,16
+Durch robots.txt-Datei blockiert,Website,Nicht gestartet,7
+Alternative Seite mit richtigem kanonischen Tag,Website,Nicht gestartet,5
+Wegen eines anderen 4xx-Problems blockiert,Website,Nicht gestartet,1
+Umleitungsfehler,Website,Nicht gestartet,1
+Soft 404,Website,Nicht gestartet,1
+Gecrawlt – zurzeit nicht indexiert,Google-Systeme,Nicht gestartet,125
+Wegen Zugriffsverbot (403) blockiert,Website,Nicht zutreffend,0
+Duplikat – Google hat eine andere Seite als der Nutzer als kanonische Seite bestimmt,Google-Systeme,Nicht zutreffend,0

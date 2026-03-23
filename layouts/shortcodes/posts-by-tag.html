@@ -1,0 +1,43 @@
+{{- $tag := .Get 0 | default (.Get "tag") -}}
+{{- $count := .Get "count" | default "100" -}}
+{{- $tagPage := index site.Taxonomies.tags (urlize $tag) -}}
+
+{{- if $tagPage -}}
+  {{- $pages := $tagPage.Pages.ByDate.Reverse -}}
+  {{- $pages = first (int $count) $pages -}}
+  <div class="posts-by-tag" style="display:flex; flex-direction:column; gap:1rem; margin:1rem 0;">
+    {{- range $pages }}
+      {{- $post := . -}}
+      <a href="{{ .RelPermalink }}" style="display:flex; gap:1rem; align-items:flex-start; text-decoration:none; color:inherit; padding:0.75rem; border-radius:0.5rem; border:1px solid rgba(0,0,0,0.08); transition:border-color 0.2s, box-shadow 0.2s;" onmouseover="this.style.borderColor='rgba(37,99,235,0.3)';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'" onmouseout="this.style.borderColor='rgba(0,0,0,0.08)';this.style.boxShadow='none'">
+        {{- with .Params.image }}
+          <img
+            src="{{ $post.RelPermalink }}{{ . }}"
+            alt=""
+            loading="lazy"
+            style="width:100px; height:70px; object-fit:cover; border-radius:0.375rem; flex-shrink:0;"
+          />
+        {{- end }}
+        <div style="min-width:0;">
+          <div style="font-weight:600; font-size:0.95rem; line-height:1.4;">{{ .Title }}</div>
+          <div style="opacity:0.5; font-size:0.75rem; margin-top:0.2rem;">{{ .Date | time.Format "2. January 2006" }}</div>
+        </div>
+      </a>
+    {{- end }}
+  </div>
+{{- else -}}
+  <p style="opacity:0.5; font-style:italic;">Keine Artikel mit Tag "{{ $tag }}" gefunden.</p>
+{{- end -}}
+
+<style>
+  .dark .posts-by-tag a {
+    border-color: rgba(255,255,255,0.1) !important;
+  }
+  .dark .posts-by-tag a:hover {
+    border-color: rgba(59,130,246,0.4) !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+  }
+  @media (max-width: 640px) {
+    .posts-by-tag a { flex-direction: column !important; }
+    .posts-by-tag img { width: 100% !important; height: 120px !important; }
+  }
+</style>

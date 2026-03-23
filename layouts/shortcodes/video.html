@@ -1,0 +1,26 @@
+{{- $src := .Get "src" -}}
+{{- $poster := .Get "poster" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $autoplay := eq (.Get "autoplay") "true" -}}
+{{- $loop := eq (.Get "loop") "true" -}}
+{{- $muted := eq (.Get "muted") "true" -}}
+
+{{- if $src -}}
+<div class="kidslab-video" style="margin: 1.5rem 0;">
+  <video
+    controls
+    preload="metadata"
+    style="width: {{ $width }}; max-width: 100%; border-radius: 0.5rem; display: block;"
+    {{ with $poster }}poster="{{ . }}"{{ end }}
+    {{ if $autoplay }}autoplay{{ end }}
+    {{ if $loop }}loop{{ end }}
+    {{ if $muted }}muted{{ end }}
+    playsinline
+  >
+    <source src="{{ $src }}" {{ if strings.HasSuffix $src ".mp4" }}type="video/mp4"{{ else if strings.HasSuffix $src ".webm" }}type="video/webm"{{ else if strings.HasSuffix $src ".ogg" }}type="video/ogg"{{ end }}>
+    Dein Browser unterstützt das Video-Element nicht.
+  </video>
+</div>
+{{- else -}}
+  {{- errorf "video: 'src' parameter is required" -}}
+{{- end -}}

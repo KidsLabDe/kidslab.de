@@ -1,0 +1,395 @@
+/* ==========================================================================
+   KidsLab.de - Custom Styles for Hugo + Hextra
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Font Faces
+   -------------------------------------------------------------------------- */
+
+/* Pixelify Sans - Heading / Brand Font */
+@font-face {
+  font-family: 'Pixelify Sans';
+  src: url('/assets/fonts/pixelify-latin.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF;
+}
+@font-face {
+  font-family: 'Pixelify Sans';
+  src: url('/assets/fonts/pixelify-latin-ext.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-024F;
+}
+
+/* Inter - Body Font */
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/inter-latin.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/inter-latin-ext.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-024F;
+}
+
+/* --------------------------------------------------------------------------
+   2. Headings - Apply Pixelify Sans
+   -------------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6,
+.content h1, .content h2, .content h3,
+.content h4, .content h5, .content h6 {
+  font-family: 'Pixelify Sans', cursive, system-ui, sans-serif;
+}
+
+/* Navbar site title */
+nav a[href="/"] span,
+nav .navbar-title,
+.nav-title {
+  font-family: 'Pixelify Sans', cursive, system-ui, sans-serif;
+}
+
+/* --------------------------------------------------------------------------
+   3. Gallery Shortcode
+   -------------------------------------------------------------------------- */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.gallery a,
+.gallery figure {
+  flex: 1 1 calc(33.333% - 0.75rem);
+  min-width: 0;
+  margin: 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 768px) {
+  .gallery a,
+  .gallery figure {
+    flex: 1 1 calc(50% - 0.75rem);
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 480px) {
+  .gallery a,
+  .gallery figure {
+    flex: 1 1 100%;
+  }
+
+  .gallery img {
+    height: 180px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Slider Shortcode
+   -------------------------------------------------------------------------- */
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.slider::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+.slider figure,
+.slider .slider-item {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+/* --------------------------------------------------------------------------
+   5. Button Shortcode
+   -------------------------------------------------------------------------- */
+
+.btn-shortcode {
+  display: inline-block;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  border: 2px solid transparent;
+  line-height: 1.4;
+}
+
+.btn-shortcode:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+}
+
+.btn-shortcode:active {
+  transform: translateY(0);
+}
+
+/* Primary button - uses Hextra primary color via HSL vars */
+.btn-primary {
+  background-color: hsl(212deg 100% 50%);
+  color: #fff;
+  border-color: hsl(212deg 100% 45%);
+}
+
+.btn-primary:hover {
+  background-color: hsl(212deg 100% 42%);
+  color: #fff;
+}
+
+/* Secondary button - outlined style */
+.btn-secondary {
+  background-color: transparent;
+  color: hsl(212deg 100% 50%);
+  border-color: hsl(212deg 100% 50%);
+}
+
+.btn-secondary:hover {
+  background-color: hsl(212deg 100% 50%);
+  color: #fff;
+}
+
+/* Dark mode button adjustments */
+.dark .btn-primary {
+  background-color: hsl(204deg 100% 50%);
+  border-color: hsl(204deg 100% 45%);
+}
+
+.dark .btn-primary:hover {
+  background-color: hsl(204deg 100% 42%);
+}
+
+.dark .btn-secondary {
+  color: hsl(204deg 100% 60%);
+  border-color: hsl(204deg 100% 60%);
+}
+
+.dark .btn-secondary:hover {
+  background-color: hsl(204deg 100% 50%);
+  color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   6. CTA Box
+   -------------------------------------------------------------------------- */
+
+.cta-box {
+  background-color: hsl(212deg 100% 96%);
+  border: 1px solid hsl(212deg 80% 88%);
+  border-radius: 0.75rem;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.cta-box h2,
+.cta-box h3 {
+  margin-top: 0;
+}
+
+.cta-box p:last-of-type {
+  margin-bottom: 0.5rem;
+}
+
+.dark .cta-box {
+  background-color: hsl(204deg 30% 15%);
+  border-color: hsl(204deg 30% 25%);
+}
+
+/* --------------------------------------------------------------------------
+   7. Download Link
+   -------------------------------------------------------------------------- */
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  background-color: hsl(212deg 15% 95%);
+  color: hsl(212deg 80% 35%);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  margin: 0.25rem 0;
+}
+
+.download-link:hover {
+  background-color: hsl(212deg 20% 90%);
+  text-decoration: none;
+}
+
+.download-link::before {
+  content: '';
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='%234a7ab5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3' /%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.dark .download-link {
+  background-color: hsl(204deg 20% 20%);
+  color: hsl(204deg 80% 70%);
+}
+
+.dark .download-link:hover {
+  background-color: hsl(204deg 20% 25%);
+}
+
+.dark .download-link::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='%2370b0e0'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3' /%3E%3C/svg%3E");
+}
+
+/* --------------------------------------------------------------------------
+   8. Scratch Embed
+   -------------------------------------------------------------------------- */
+
+.scratch-embed {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 1.5rem auto;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(0deg 0% 88%);
+}
+
+.scratch-embed iframe {
+  width: 100%;
+  height: 402px;
+  border: none;
+  display: block;
+}
+
+.dark .scratch-embed {
+  border-color: hsl(0deg 0% 30%);
+}
+
+/* Wider variant for projects that need more space */
+.scratch-embed.scratch-embed--wide {
+  max-width: 700px;
+}
+
+.scratch-embed.scratch-embed--wide iframe {
+  height: 450px;
+}
+
+/* --------------------------------------------------------------------------
+   9. Single Image Float
+   -------------------------------------------------------------------------- */
+
+/* Content images that are not inside a gallery or slider float left on larger screens */
+@media (min-width: 768px) {
+  .content > p > img:only-child,
+  .img-float-left {
+    float: left;
+    max-width: 45%;
+    margin: 0.25rem 1.5rem 1rem 0;
+    border-radius: 0.5rem;
+  }
+
+  /* Clearfix after floated images */
+  .content > p:has(> img:only-child) + p {
+    overflow: hidden;
+  }
+
+  /* Clear float after a few paragraphs to avoid runaway wrapping */
+  .content > p:has(> img:only-child) ~ h2,
+  .content > p:has(> img:only-child) ~ h3,
+  .content > p:has(> img:only-child) ~ hr,
+  .content > p:has(> img:only-child) ~ .gallery,
+  .content > p:has(> img:only-child) ~ .slider,
+  .content > p:has(> img:only-child) ~ .cta-box {
+    clear: both;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   10. Utility: Clearfix
+   -------------------------------------------------------------------------- */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* --------------------------------------------------------------------------
+   11. Responsive YouTube / Video Embeds
+   -------------------------------------------------------------------------- */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  margin: 1.5rem 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

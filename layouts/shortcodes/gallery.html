@@ -1,0 +1,62 @@
+{{- $cols := .Get "cols" | default "3" -}}
+{{- $maxWidth := .Get "maxwidth" | default "800" -}}
+{{- $page := .Page -}}
+{{- .Page.Store.Set "hasImageZoom" true -}}
+
+<div class="kidslab-gallery" style="
+  display: grid;
+  grid-template-columns: repeat({{ $cols }}, 1fr);
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+">
+  {{- range (.Inner | findRE `!\[([^\]]*)\]\(([^)]+)\)`) -}}
+    {{- $alt := replaceRE `!\[([^\]]*)\]\(([^)]+)\)` "$1" . -}}
+    {{- $src := replaceRE `!\[([^\]]*)\]\(([^)]+)\)` "$2" . -}}
+    {{- $img := $page.Resources.GetMatch $src -}}
+    {{- if $img -}}
+      {{- $resized := $img.Resize (printf "%sx webp q85" $maxWidth) -}}
+      {{- $full := $img.Resize "1600x webp q90" -}}
+      <figure style="margin:0;">
+        <img
+          src="{{ $resized.RelPermalink }}"
+          alt="{{ $alt }}"
+          width="{{ $resized.Width }}"
+          height="{{ $resized.Height }}"
+          loading="lazy"
+          decoding="async"
+          data-zoomable
+          data-zoom-src="{{ $full.RelPermalink }}"
+        />
+      </figure>
+    {{- else -}}
+      <figure style="margin:0;">
+        <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async" data-zoomable />
+      </figure>
+    {{- end -}}
+  {{- end -}}
+</div>
+
+<style>
+  .kidslab-gallery img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .kidslab-gallery img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  .kidslab-gallery figure {
+    margin: 0;
+    line-height: 0;
+  }
+  @media (max-width: 640px) {
+    .kidslab-gallery {
+      grid-template-columns: repeat({{ if gt (int $cols) 4 }}4{{ else }}2{{ end }}, 1fr) !important;
+      gap: 0.35rem !important;
+    }
+  }
+</style>

@@ -1,0 +1,62 @@
+{{- $file := .Get "file" -}}
+{{- $name := .Get "name" | default (path.Base ($file | default "")) -}}
+{{- $size := .Get "size" -}}
+
+{{- if $file -}}
+<a
+  href="{{ $file }}"
+  download
+  class="kidslab-download"
+  style="
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    margin: 0.75rem 0;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #334155;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    max-width: 100%;
+  "
+  onmouseover="this.style.borderColor='#2563eb'; this.style.boxShadow='0 2px 8px rgba(37,99,235,0.1)'"
+  onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none'"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+    <polyline points="7 10 12 15 17 10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+  </svg>
+  <span style="display: flex; flex-direction: column; min-width: 0;">
+    <span style="
+      font-weight: 600;
+      font-size: 0.95rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    ">{{ $name }}</span>
+    {{- with $size -}}
+    <span style="
+      font-size: 0.8rem;
+      color: #94a3b8;
+      margin-top: 0.125rem;
+    ">{{ . }}</span>
+    {{- end -}}
+  </span>
+</a>
+
+<style>
+  .dark .kidslab-download {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+  }
+  .dark .kidslab-download:hover {
+    border-color: #3b82f6 !important;
+  }
+</style>
+{{- else -}}
+  {{- errorf "download: 'file' parameter is required" -}}
+{{- end -}}

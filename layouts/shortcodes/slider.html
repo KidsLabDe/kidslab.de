@@ -1,0 +1,83 @@
+{{- $height := .Get "height" | default "500px" -}}
+{{- $interval := .Get "interval" | default "5000" -}}
+{{- $page := .Page -}}
+{{- $id := printf "slider-%d" (int (mul (now.UnixMilli) 1)) -}}
+
+<div class="kidslab-slider" id="{{ $id }}" style="
+  position: relative;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  border-radius: 0.75rem;
+  max-height: {{ $height }};
+">
+  <div class="kidslab-slider-track" style="
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    will-change: transform;
+  ">
+    {{- range (.Inner | findRE `!\[([^\]]*)\]\(([^)]+)\)`) -}}
+      {{- $alt := replaceRE `!\[([^\]]*)\]\(([^)]+)\)` "$1" . -}}
+      {{- $src := replaceRE `!\[([^\]]*)\]\(([^)]+)\)` "$2" . -}}
+      {{- $img := $page.Resources.GetMatch $src -}}
+      {{- if $img -}}
+        {{- $resized := $img.Resize "1200x webp q85" -}}
+        <div class="kidslab-slide" style="flex: 0 0 100%; min-width: 100%;">
+          <img
+            src="{{ $resized.RelPermalink }}"
+            alt="{{ $alt }}"
+            width="{{ $resized.Width }}"
+            height="{{ $resized.Height }}"
+            loading="lazy"
+            decoding="async"
+            style="width:100%; max-height:{{ $height }}; object-fit:cover; display:block;"
+          />
+        </div>
+      {{- else -}}
+        <div class="kidslab-slide" style="flex: 0 0 100%; min-width: 100%;">
+          <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" style="width:100%; max-height:{{ $height }}; object-fit:cover; display:block;" />
+        </div>
+      {{- end -}}
+    {{- end -}}
+  </div>
+  <button class="slider-btn slider-prev" onclick="sliderNav('{{ $id }}', -1)" aria-label="Vorheriges Bild">&#10094;</button>
+  <button class="slider-btn slider-next" onclick="sliderNav('{{ $id }}', 1)" aria-label="Nächstes Bild">&#10095;</button>
+</div>
+
+<style>
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    z-index: 10;
+    transition: background 0.2s;
+  }
+  .slider-btn:hover { background: rgba(0,0,0,0.7); }
+  .slider-prev { left: 0.5rem; }
+  .slider-next { right: 0.5rem; }
+</style>
+
+<script>
+(function() {
+  const el = document.getElementById('{{ $id }}');
+  if (!el) return;
+  const track = el.querySelector('.kidslab-slider-track');
+  const slides = el.querySelectorAll('.kidslab-slide');
+  if (slides.length === 0) return;
+  let idx = 0;
+  function go(i) {
+    idx = (i + slides.length) % slides.length;
+    track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+  }
+  window.sliderNav = function(id, dir) {
+    if (id === '{{ $id }}') go(idx + dir);
+  };
+  setInterval(function() { go(idx + 1); }, {{ $interval }});
+})();
+</script>

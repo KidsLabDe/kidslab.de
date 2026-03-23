@@ -1,0 +1,27 @@
+{{- $tags := site.Taxonomies.tags -}}
+{{- if $tags -}}
+<div class="tag-cloud" style="display:flex; flex-wrap:wrap; gap:0.5rem; margin:1rem 0;">
+  {{- range $name, $pages := $tags -}}
+    {{- if and (ne $name "") (not (hasPrefix $name "user://")) -}}
+    <a href="/tags/{{ urlize $name }}/"
+       style="display:inline-block; padding:0.3rem 0.75rem; border-radius:2rem; font-size:0.8rem; text-decoration:none; background:#f1f5f9; color:#475569; border:1px solid #e2e8f0; transition:all 0.2s;"
+       onmouseover="this.style.background='#2563eb';this.style.color='#fff';this.style.borderColor='#2563eb'"
+       onmouseout="this.style.background='#f1f5f9';this.style.color='#475569';this.style.borderColor='#e2e8f0'"
+    >{{ $name }} <span style="opacity:0.6;">({{ len $pages }})</span></a>
+    {{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}
+
+<style>
+  .dark .tag-cloud a {
+    background: #1e293b !important;
+    color: #94a3b8 !important;
+    border-color: #334155 !important;
+  }
+  .dark .tag-cloud a:hover {
+    background: #3b82f6 !important;
+    color: #fff !important;
+    border-color: #3b82f6 !important;
+  }
+</style>

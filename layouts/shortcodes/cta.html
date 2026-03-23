@@ -1,0 +1,67 @@
+{{- $title := .Get "title" -}}
+{{- $href := .Get "href" -}}
+{{- $button := .Get "button" -}}
+{{- $bg := .Get "bg" | default "#eff6ff" -}}
+
+<div class="kidslab-cta" style="
+  background-color: {{ $bg }};
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+">
+  {{- with $title -}}
+  <h3 style="
+    margin: 0 0 0.75rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+  ">{{ . }}</h3>
+  {{- end -}}
+
+  {{- with .Inner -}}
+  <div style="
+    margin-bottom: 1.25rem;
+    color: #475569;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  ">
+    {{ . | markdownify }}
+  </div>
+  {{- end -}}
+
+  {{- if and $href $button -}}
+  <a
+    href="{{ $href }}"
+    class="kidslab-cta__button"
+    style="
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      background-color: #2563eb;
+      color: #ffffff;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    "
+    onmouseover="this.style.backgroundColor='#1d4ed8'"
+    onmouseout="this.style.backgroundColor='#2563eb'"
+  >{{ $button }}</a>
+  {{- end -}}
+</div>
+
+<style>
+  .dark .kidslab-cta {
+    background-color: #1e293b !important;
+  }
+  .dark .kidslab-cta h3 {
+    color: #f1f5f9 !important;
+  }
+  .dark .kidslab-cta div {
+    color: #cbd5e1 !important;
+  }
+  .dark .kidslab-cta__button {
+    background-color: #3b82f6 !important;
+  }
+</style>

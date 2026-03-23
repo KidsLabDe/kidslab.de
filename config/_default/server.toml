@@ -1,0 +1,387 @@
+# ==========================================================================
+# Redirects für kidslab.de Hugo-Relaunch
+# Reihenfolge: spezifische Regeln VOR Wildcards!
+# ==========================================================================
+
+# --- Alte Root-Level URLs (Kirby) → neue Pfade ---
+
+[[redirects]]
+  from = "/bastelanleitung-heisser-draht-spiel"
+  to = "/selber-machen/bastelanleitung-heisser-draht/"
+  status = 301
+
+[[redirects]]
+  from = "/der-toast-brot-versuch"
+  to = "/selber-machen/der-toast-brot-versuch/"
+  status = 301
+
+[[redirects]]
+  from = "/das-flaschen-u-boot"
+  to = "/selber-machen/das-flaschen-u-boot/"
+  status = 301
+
+[[redirects]]
+  from = "/buerstibot-die-anleitung"
+  to = "/selber-machen/buerstibot/"
+  status = 301
+
+[[redirects]]
+  from = "/mcreator"
+  to = "/minecraft/mods/alpaka-ball/"
+  status = 301
+
+[[redirects]]
+  from = "/minecraft-und-mods"
+  to = "/minecraft/minecraft-und-mods/"
+  status = 301
+
+[[redirects]]
+  from = "/onlinekurs-programmieren-lernen-in-minecraft"
+  to = "/minecraft/onlinekurs-programmieren-lernen-in-minecraft/"
+  status = 301
+
+[[redirects]]
+  from = "/tinkercad"
+  to = "/blog/tinkercad/"
+  status = 301
+
+[[redirects]]
+  from = "/einsatz-von-tinkercad-und-3d-druck-im-unterricht"
+  to = "/blog/einsatz-von-tinkercad-und-3d-druck-im-unterricht/"
+  status = 301
+
+[[redirects]]
+  from = "/kahoot-quiz-mit-chatgpt-erstellen"
+  to = "/blog/kahoot-quiz-mit-chatgpt-erstellen/"
+  status = 301
+
+[[redirects]]
+  from = "/die-6-besten-programmiertools-fuer-kinder-jugendliche"
+  to = "/blog/die-6-besten-programmiertools-fuer-kinder-jugendliche/"
+  status = 301
+
+[[redirects]]
+  from = "/scratch"
+  to = "/selber-machen/scratch/"
+  status = 301
+
+[[redirects]]
+  from = "/programmieren-in-minecraft-kostenlose-youtube-videos"
+  to = "/minecraft/"
+  status = 301
+
+[[redirects]]
+  from = "/minecraft-videos"
+  to = "/minecraft/"
+  status = 301
+
+[[redirects]]
+  from = "/minecraft-installation"
+  to = "/minecraft/selber-machen/installation/"
+  status = 301
+
+[[redirects]]
+  from = "/ueber-mich"
+  to = "/ueber-kidslab/"
+  status = 301
+
+[[redirects]]
+  from = "/impressum-2"
+  to = "/ueber-kidslab/impressum/"
+  status = 301
+
+[[redirects]]
+  from = "/willkommen"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/gameslab-1"
+  to = "/gameslab/"
+  status = 301
+
+[[redirects]]
+  from = "/gamespreis"
+  to = "/gameslab/gamespreis/"
+  status = 301
+
+[[redirects]]
+  from = "/gameslab-2024-rueckblick"
+  to = "/blog/gameslab-2024-rueckblick/"
+  status = 301
+
+[[redirects]]
+  from = "/wie-komme-ich-zum-kidslab"
+  to = "/ueber-kidslab/kontakt/"
+  status = 301
+
+[[redirects]]
+  from = "/partner"
+  to = "/ueber-kidslab/partner/"
+  status = 301
+
+[[redirects]]
+  from = "/kosten-und-kursgebuehren-ermaessigung"
+  to = "/ueber-kidslab/kursgebuehren/"
+  status = 301
+
+[[redirects]]
+  from = "/robotics-feriencamp-sommerferien-2021-in-augsburg"
+  to = "/blog/robotics-feriencamp-sommerferien-2021-in-augsburg/"
+  status = 301
+
+[[redirects]]
+  from = "/zocken-fuer-die-zukunft-mit-minetest-digitale-zukunftswerkstaetten-gestalten"
+  to = "/demokratie-in-minecraft/"
+  status = 301
+
+[[redirects]]
+  from = "/kidslab-veranstaltet-das-jugendhackt-lab-augsburg"
+  to = "/blog/kidslab-veranstaltet-das-jugendhackt-lab-augsburg/"
+  status = 301
+
+# --- Neuigkeiten → Blog ---
+
+[[redirects]]
+  from = "/neuigkeiten"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/neuigkeiten/*"
+  to = "/blog/"
+  status = 301
+
+# --- /ideen/ → spezifische Seiten (VOR Wildcard!) ---
+
+[[redirects]]
+  from = "/ideen/bastelanleitung-heisser-draht"
+  to = "/selber-machen/bastelanleitung-heisser-draht/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/der-toast-brot-versuch"
+  to = "/selber-machen/der-toast-brot-versuch/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/das-flaschen-u-boot"
+  to = "/selber-machen/das-flaschen-u-boot/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/scratch"
+  to = "/selber-machen/scratch/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/baue-augsburg"
+  to = "/selber-machen/baue-augsburg/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/ballon-auto"
+  to = "/selber-machen/ballon-auto/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/shitty-robots"
+  to = "/selber-machen/shitty-robots/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/calliope-einfuhrung"
+  to = "/selber-machen/calliope-einfuhrung/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/pocketplatformer"
+  to = "/selber-machen/pocketplatformer/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/erstelle-ein-quiz"
+  to = "/selber-machen/erstelle-ein-quiz/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/mcreator"
+  to = "/minecraft/mods/alpaka-ball/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/minecraft-*"
+  to = "/minecraft/selber-machen/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/turtles-*"
+  to = "/minecraft/selber-machen/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/tinkercad-*"
+  to = "/selber-machen/tinkercad-3d-design/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/namensschild"
+  to = "/selber-machen/tinkercad-3d-design/namensschild/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/dein-pokal*"
+  to = "/selber-machen/tinkercad-3d-design/dein-pokal-designen/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/lego-*"
+  to = "/selber-machen/lego-spike-mindstorms/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/loeten*"
+  to = "/selber-machen/elektronik-loeten/"
+  status = 301
+
+[[redirects]]
+  from = "/ideen/*"
+  to = "/selber-machen/"
+  status = 301
+
+# --- /projekte/ → spezifische Seiten (VOR Wildcard!) ---
+
+[[redirects]]
+  from = "/projekte/gameslab"
+  to = "/gameslab/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/gameslab/*"
+  to = "/gameslab/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/gamespreis"
+  to = "/gameslab/gamespreis/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/gamespreis-2024"
+  to = "/gameslab/gamespreis/2024/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/gamespreis-2025"
+  to = "/gameslab/gamespreis/2025/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/demokratie"
+  to = "/demokratie-in-minecraft/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/make-your-school"
+  to = "/make-your-school/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/jugendhackt"
+  to = "/blog/jugendhackt-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/pixel-meets-paper"
+  to = "/blog/pixel-meets-paper/"
+  status = 301
+
+[[redirects]]
+  from = "/projekte/*"
+  to = "/"
+  status = 301
+
+# --- /ueber-kidslab/ Unterseiten (URLs bleiben jetzt erhalten!) ---
+
+[[redirects]]
+  from = "/ueber-uns"
+  to = "/ueber-kidslab/"
+  status = 301
+
+[[redirects]]
+  from = "/ueber-uns/*"
+  to = "/ueber-kidslab/"
+  status = 301
+
+[[redirects]]
+  from = "/impressum"
+  to = "/ueber-kidslab/impressum/"
+  status = 301
+
+[[redirects]]
+  from = "/kontakt"
+  to = "/ueber-kidslab/kontakt/"
+  status = 301
+
+# --- /fuer-schulen/ → /schulen/ (URL bleibt erhalten) ---
+
+[[redirects]]
+  from = "/fuer-schulen"
+  to = "/schulen/"
+  status = 301
+
+[[redirects]]
+  from = "/fuer-schulen/*"
+  to = "/schulen/"
+  status = 301
+
+# --- Kategorien ---
+
+[[redirects]]
+  from = "/category/kurse"
+  to = "/kurse/"
+  status = 301
+
+[[redirects]]
+  from = "/news-experimente-anleitungen"
+  to = "/selber-machen/"
+  status = 301
+
+# --- Handbuch ---
+
+[[redirects]]
+  from = "/handbuch/mcreator/index.print.html"
+  to = "/minecraft/mods/alpaka-ball/"
+  status = 301
+
+[[redirects]]
+  from = "/handbuch/mcreator"
+  to = "/minecraft/mods/alpaka-ball/"
+  status = 301
+
+[[redirects]]
+  from = "/handbuch"
+  to = "https://handbuch.kidslab.de/"
+  status = 301
+
+[[redirects]]
+  from = "/turtlecity2"
+  to = "/minecraft/selber-machen/turtlecity/"
+  status = 301
+
+# --- Externe Redirects ---
+
+[[redirects]]
+  from = "/modpack"
+  to = "https://github.com/KidsLabDe/kidslab-modpack/raw/master/modpack_1.8.9.zip"
+  status = 301
+
+[[redirects]]
+  from = "/modpack-shader"
+  to = "https://github.com/KidsLabDe/kidslab-modpack/raw/master/modpack_shader_1.8.9.zip"
+  status = 301
+
+[[redirects]]
+  from = "/tafel"
+  to = "https://app.fobizz.com/teaching_board/public_screens/bf24a24c-e8c1-4423-9734-dc2c475680b3?token=405108bb72e26e1969a07d271e0113c1"
+  status = 307
