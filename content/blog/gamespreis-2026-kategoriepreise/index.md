@@ -11,7 +11,7 @@ slug: "gamespreis-2026-kategoriepreise"
 {{< callout type="info" >}}
 ### Kategoriepreise 2026
 
-*11 Auszeichnungen für besondere Leistungen*
+*10 Auszeichnungen für besondere Leistungen*
 
 <p>Neben den drei Hauptpreisen vergab die Jury in diesem Jahr <strong>neun Kategoriepreise</strong> und einen <strong>Publikumspreis</strong> – für besondere Leistungen abseits der Gesamtwertung.</p>
 {{< /callout >}}
@@ -64,11 +64,6 @@ slug: "gamespreis-2026-kategoriepreise"
 
 {{< scratch-embed url="https://gameslab.kidslab.de/embed/projekt/1968" >}}
 
-{{< callout type="info" >}}
-### Jump & Run
-
-<p><strong>Aleks – „Classic Plattformer“</strong></p>
-{{< /callout >}}
 
 {{< scratch-embed url="https://gameslab.kidslab.de/embed/projekt/2034" >}}
 
