@@ -12,8 +12,7 @@
 /modpack  https://github.com/KidsLabDe/kidslab-modpack/raw/master/modpack_1.8.9.zip  301
 /modpack-shader  https://github.com/KidsLabDe/kidslab-modpack/raw/master/modpack_shader_1.8.9.zip  301
 /handbuch  https://handbuch.kidslab.de/  301
-/handbuch/mcreator  https://handbuch.kidslab.de/mcreator-alapaka-ball-minecraft-mod/uebersicht  301
-/handbuch/mcreator/index.print.html  https://handbuch.kidslab.de/mcreator-alapaka-ball-minecraft-mod/uebersicht  301
+/handbuch/*  https://handbuch.kidslab.de/  301
 /minecraft-installation  https://handbuch.kidslab.de/minecraft/allgemeines/installation  301
 /turtlecity2  https://handbuch.kidslab.de/minecraft/turtlecity  301
 /tafel  https://app.fobizz.com/teaching_board/public_screens/bf24a24c-e8c1-4423-9734-dc2c475680b3?token=405108bb72e26e1969a07d271e0113c1  307
@@ -46,6 +45,39 @@
 /news-experimente-anleitungen  /selber-machen/  301
 /zocken-fuer-die-zukunft-mit-minetest-digitale-zukunftswerkstaetten-gestalten  /demokratie-in-minecraft/  301
 /category/kurse  /kurse/  301
+
+# --- Google Search Console 404-Fixes (2026-03) ---
+
+# Blog-Posts: alte Root-URLs → /blog/
+/die-6-besten-programmiertools-fuer-kinder-jugendliche  /blog/die-6-besten-programmiertools-fuer-kinder-jugendliche/  301
+/einfache-installation-der-programmierbaren-schildkroete-in-minecraft  /blog/einfache-installation-der-programmierbaren-schildkroete-in-minecraft/  301
+/forschernachmitttag-bionik-samstag-25-01-20-1300-1600  /blog/forschernachmitttag-bionik-samstag-25-01-20-1300-1600/  301
+/heisser-draht-level-2  /blog/heisser-draht-level-2/  301
+/gamespreis-bestes-vater-sohn-projekt-raumschiff-gegen-asteroiden  /blog/gamespreis-bestes-vater-sohn-projekt-raumschiff-gegen-asteroiden/  301
+/gamespreis-bestes-umweltspiel-underwater-life  /blog/gamespreis-bestes-umweltspiel-underwater-life/  301
+/erstes-handy-ein-paar-tipps-zum-richtigen-verhalten-in-chats-co  /blog/erstes-handy-ein-paar-tipps-zum-richtigen-verhalten-in-chats-co/  301
+/vortrag-zum-thema-soziale-medien-und-datensicherheit-am-dossenberger-gymnasium  /blog/vortrag-zum-thema-soziale-medien-und-datensicherheit-am-dossenberger-gymnasium/  301
+/bossparents-brettspiel  /blog/bossparents-brettspiel/  301
+
+# Slug-Aenderungen
+/wir-bauen-und-programmieren-mit-lego-wedo-2-0-2-4-klasse  /blog/lego-wedo-2-0/  301
+/installation-der-programmierbaren-schildkroete-computercraftedu  /blog/einfache-installation-der-programmierbaren-schildkroete-in-minecraft/  301
+/minecraft-zum-programmieren-einrichtung  /minecraft/  301
+/minecraft-updates  /minecraft/  301
+
+# Alte Blog-Posts ohne neues Aequivalent
+/das-war-meetcode-2019  /blog/  301
+/unsichtbares-in-der-welt-samstag-13-juli-2019  /blog/  301
+/tools-fuer-die-digitale-tafel  /blog/  301
+
+# Pattern: alte WordPress-Strukturen
+/buerstibot-*  /blog/buerstibot-die-anleitung/  301
+/author/*  /blog/  301
+/category/*  /kurse/  301
+/produkt/*  /  301
+/videos  /blog/  301
+/kurs/*  /kurse/  301
+/kurse/jugendhackt  /blog/  301
 
 # --- /ideen/* Redirects (spezifische VOR Wildcards) ---
 # Spezifische Redirects werden über Hugo aliases in den Content-Dateien gehandhabt.
