@@ -53,3 +53,5 @@ Du willst Maker Education an deine Schule bringen? Wir bieten Workshops direkt i
 ---
 
 **Interesse?** Nehmen Sie Kontakt auf: [gregor@kidslab.de](mailto:gregor@kidslab.de) oder 0821-99951920 (Telefon/WhatsApp)
+
+{{< newsletter title="Infos für Schulen & Lehrkräfte" text="Neue Workshop-Angebote, Fortbildungen und Fördermöglichkeiten — direkt per E-Mail." >}}

@@ -44,3 +44,5 @@ Minecraft ist viel mehr als ein Spiel. Bei uns nutzen wir es als kreative Lernum
 <h1>TurtleCity</h1><p>Die TurtleCity ist eine Stadt, die von den Schildkröten selbst gebaut wurde, nachdem Sie zum ersten mal in Minecraft aufgetaucht sind.</p><p></p>
 
 {{< button href="https://handbuch.kidslab.de/minecraft/turtlecity" >}}Alles über TurtleCity{{< /button >}}
+
+{{< newsletter title="Minecraft-Workshops & Tutorials" text="Neue Minecraft-Kurse, Video-Tutorials und Workshop-Termine — direkt per E-Mail." >}}

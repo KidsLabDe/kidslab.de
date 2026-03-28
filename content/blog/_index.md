@@ -15,3 +15,5 @@ cascade:
 > Was bei uns los ist — neue Projekte, Termine und Rückblicke aus dem KidsLab.
 
 {{< tag-cloud >}}
+
+{{< newsletter >}}

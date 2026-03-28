@@ -74,3 +74,5 @@ Mit unseren Workshops erreichen wir Schülerinnen und Schüler direkt im Klassen
 {{< recent-posts count="5" >}}
 
 {{< button href="/blog/" >}}Alle Neuigkeiten{{< /button >}}
+
+{{< newsletter title="Nichts verpassen!" text="Neue Kurse, Workshops und Termine — direkt per E-Mail." >}}

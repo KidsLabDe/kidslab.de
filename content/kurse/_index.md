@@ -32,3 +32,5 @@ cascade:
   {{< card link="hackerwerkstatt" title="Hackerwerkstatt" subtitle="Der Nerd-Treff ab 12 — wir entscheiden gemeinsam was wir machen" >}}
   {{< card link="archiv" title="Vergangene Kurse" subtitle="Kurse die nicht mehr regelmäßig stattfinden" >}}
 {{< /cards >}}
+
+{{< newsletter title="Neue Kurse & Termine erfahren" text="Möchten Sie Infos zu neuen Kursen und Terminen? Abonnieren Sie unseren Newsletter!" >}}

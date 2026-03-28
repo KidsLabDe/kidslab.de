@@ -20,3 +20,5 @@ Hier findest du Schritt-für-Schritt-Anleitungen zu unseren Lieblings-Themen. Al
 - **Arduino** — Mikrocontroller-Projekte
 - **Python** — Programmieren lernen
 - **PicoKroko Platine** — unsere eigene Platine zum Experimentieren
+
+{{< newsletter title="Neue Anleitungen & Projekte" text="Neue Bastelanleitungen, Tutorials und Projektideen — direkt per E-Mail." >}}

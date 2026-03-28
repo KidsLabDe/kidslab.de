@@ -121,3 +121,5 @@ Wenn du eine Organisation, Schule oder Initiative bist und das GamesLab an deine
 ## Aktuelles zum GamesLab
 
 {{< posts-by-tag "GamesLab" >}}
+
+{{< newsletter title="GamesLab-News" text="Infos zum nächsten GamesPreis, Workshop-Termine und Neuigkeiten rund ums GamesLab." >}}

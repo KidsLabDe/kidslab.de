@@ -1,0 +1,92 @@
+{{- $title := .Get "title" | default "Newsletter abonnieren" -}}
+{{- $text := .Get "text" | default "Neue Kurse, Workshops und Termine — direkt per E-Mail." -}}
+
+<div class="kidslab-newsletter" style="
+  background-color: #eff6ff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+">
+  <h3 style="
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+  ">{{ $title }}</h3>
+
+  <p style="
+    margin-bottom: 1.25rem;
+    color: #475569;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  ">{{ $text }}</p>
+
+  <form method="post" action="https://listmonk.kidslab.de/subscription/form" class="listmonk-form" style="
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+  ">
+    <input type="hidden" name="nonce" />
+    <div style="margin-bottom: 0.5rem;">
+      <input type="email" name="email" required placeholder="E-Mail-Adresse"
+        style="
+          width: 100%;
+          padding: 0.625rem 0.75rem;
+          border: 1px solid #cbd5e1;
+          border-radius: 0.375rem;
+          font-size: 0.95rem;
+          box-sizing: border-box;
+        " />
+    </div>
+    <div style="margin-bottom: 0.75rem;">
+      <input type="text" name="name" placeholder="Name (optional)"
+        style="
+          width: 100%;
+          padding: 0.625rem 0.75rem;
+          border: 1px solid #cbd5e1;
+          border-radius: 0.375rem;
+          font-size: 0.95rem;
+          box-sizing: border-box;
+        " />
+    </div>
+    <input id="nl-56d1f" type="checkbox" name="l" checked value="56d1ff75-f4b9-4171-9a2f-40dc0ef1f72a" style="display:none;" />
+    <div style="text-align: center;">
+      <input type="submit" value="Kostenlos abonnieren"
+        style="
+          display: inline-block;
+          padding: 0.75rem 2rem;
+          background-color: #2563eb;
+          color: #ffffff;
+          border: none;
+          border-radius: 0.375rem;
+          font-weight: 600;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: background-color 0.2s ease;
+        "
+        onmouseover="this.style.backgroundColor='#1d4ed8'"
+        onmouseout="this.style.backgroundColor='#2563eb'"
+      />
+    </div>
+  </form>
+</div>
+
+<style>
+  .dark .kidslab-newsletter {
+    background-color: #1e293b !important;
+  }
+  .dark .kidslab-newsletter h3 {
+    color: #f1f5f9 !important;
+  }
+  .dark .kidslab-newsletter p {
+    color: #cbd5e1 !important;
+  }
+  .dark .kidslab-newsletter input[type="email"],
+  .dark .kidslab-newsletter input[type="text"] {
+    background-color: #0f172a;
+    border-color: #475569;
+    color: #f1f5f9;
+  }
+</style>
