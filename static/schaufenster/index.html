@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<title>KidsLab Schaufenster Display</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; font-family: 'Inter', system-ui, sans-serif; width: 100vw; height: 100vh; }
+  #stage-wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+  #stage { position: relative; width: 1920px; height: 1080px; background: #000; transform-origin: center center; overflow: hidden; box-shadow: 0 0 60px rgba(0,0,0,0.5); }
+  .slide-enter { animation: slideIn 800ms cubic-bezier(0.22,1,0.36,1) both; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(40px) scale(0.98); } to { opacity: 1; transform: none; } }
+  .progress-dots { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 100; pointer-events: none; }
+  .dot { width: 40px; height: 4px; background: rgba(255,255,255,0.25); border-radius: 2px; overflow: hidden; }
+  .dot.active::after { content: ''; display: block; height: 100%; background: #fff; width: 0; animation: fill var(--dur, 11000ms) linear forwards; }
+  .dot.done { background: rgba(255,255,255,0.6); }
+  @keyframes fill { from { width: 0; } to { width: 100%; } }
+
+  /* Tweaks panel */
+  #tweaks { position: fixed; top: 16px; right: 16px; background: rgba(10,14,20,0.95); color: #fff; padding: 18px 20px; border-radius: 12px; z-index: 10000; font-family: 'JetBrains Mono', monospace; font-size: 13px; min-width: 260px; backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.1); display: none; }
+  #tweaks.visible { display: block; }
+  #tweaks h3 { margin: 0 0 14px; font-size: 14px; letter-spacing: 2px; color: #00FF88; font-family: inherit; }
+  #tweaks label { display: block; margin-bottom: 14px; }
+  #tweaks .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
+  #tweaks select, #tweaks input[type=range], #tweaks input[type=text] { width: 100%; background: #1a1f2a; border: 1px solid #2a3140; color: #fff; padding: 6px 8px; border-radius: 6px; font-family: inherit; font-size: 12px; }
+  #tweaks .checkbox { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; font-size: 12px; }
+  #tweaks small { color: #8A93A6; font-size: 11px; }
+</style>
+</head>
+<body>
+
+<div id="stage-wrap">
+  <div id="stage"></div>
+</div>
+
+<div class="progress-dots" id="dots"></div>
+
+<div id="tweaks">
+  <h3>TWEAKS</h3>
+  <label>
+    <div class="row"><span>Variante</span></div>
+    <select id="tw-variant">
+      <option value="playful">1 — Playful Pixel</option>
+      <option value="terminal">2 — Maker Terminal</option>
+      <option value="warm">3 — Warm Studio</option>
+    </select>
+  </label>
+  <label>
+    <div class="row"><span>Sek/Slide</span><span id="tw-dur-val">11</span></div>
+    <input id="tw-dur" type="range" min="4" max="30" step="1" />
+  </label>
+  <label>
+    <div class="row"><span>Pause</span></div>
+    <button id="tw-pause" style="width:100%;background:#1a1f2a;border:1px solid #2a3140;color:#fff;padding:8px;border-radius:6px;font-family:inherit;cursor:pointer;">▶ Läuft</button>
+  </label>
+  <small>Shortcut: T = Panel · Leertaste = Pause · ← → = Nav</small>
+</div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="slides/common.jsx"></script>
+<script type="text/babel" src="slides/playful.jsx"></script>
+<script type="text/babel" src="slides/terminal.jsx"></script>
+<script type="text/babel" src="slides/warm.jsx"></script>
+
+<script type="text/babel">
+  const TWEAKS = /*EDITMODE-BEGIN*/{
+    "variant": "warm",
+    "durationSec": 7
+  }/*EDITMODE-END*/;
+
+  // Scale stage to viewport
+  function fitStage() {
+    const stage = document.getElementById('stage');
+    if (!stage) return;
+    const vw = window.innerWidth, vh = window.innerHeight;
+    const s = Math.min(vw / 1920, vh / 1080);
+    stage.style.transform = `scale(${s})`;
+  }
+  window.addEventListener('resize', fitStage);
+  fitStage();
+
+  const { useState, useEffect, useRef } = React;
+
+  function Display() {
+    const stored = JSON.parse(localStorage.getItem('kidslab-tweaks') || '{}');
+    const [variant, setVariant] = useState(stored.variant || TWEAKS.variant);
+    const [dur, setDur] = useState(stored.durationSec || TWEAKS.durationSec);
+    const [idx, setIdx] = useState(parseInt(localStorage.getItem('kidslab-slide') || '0'));
+    const [paused, setPaused] = useState(false);
+    const [tick, setTick] = useState(0); // force-reanimate dots on variant change
+
+    const variants = {
+      playful: window.PlayfulVariant,
+      terminal: window.TerminalVariant,
+      warm: window.WarmVariant,
+    };
+    const active = variants[variant] || variants.playful;
+    const slides = active.slides;
+    const safeIdx = idx % slides.length;
+    const SlideComp = slides[safeIdx];
+
+    useEffect(() => { localStorage.setItem('kidslab-slide', String(safeIdx)); }, [safeIdx]);
+    useEffect(() => {
+      localStorage.setItem('kidslab-tweaks', JSON.stringify({ variant, durationSec: dur }));
+    }, [variant, dur]);
+
+    // auto-advance
+    useEffect(() => {
+      if (paused) return;
+      const t = setTimeout(() => setIdx(i => (i + 1) % slides.length), dur * 1000);
+      return () => clearTimeout(t);
+    }, [safeIdx, variant, dur, paused, tick]);
+
+    // keyboard
+    useEffect(() => {
+      const onKey = (e) => {
+        if (e.key === 'ArrowRight') setIdx(i => (i + 1) % slides.length);
+        if (e.key === 'ArrowLeft') setIdx(i => (i - 1 + slides.length) % slides.length);
+        if (e.key === ' ') { e.preventDefault(); setPaused(p => !p); }
+        if (e.key === 't' || e.key === 'T') document.getElementById('tweaks').classList.toggle('visible');
+      };
+      window.addEventListener('keydown', onKey);
+      return () => window.removeEventListener('keydown', onKey);
+    }, [slides.length]);
+
+    // Dots
+    useEffect(() => {
+      const root = document.getElementById('dots');
+      root.innerHTML = '';
+      slides.forEach((_, i) => {
+        const d = document.createElement('div');
+        d.className = 'dot ' + (i === safeIdx ? 'active' : (i < safeIdx ? 'done' : ''));
+        d.style.setProperty('--dur', `${dur * 1000}ms`);
+        root.appendChild(d);
+      });
+    }, [safeIdx, slides.length, dur, variant]);
+
+    // Tweak panel wiring
+    useEffect(() => {
+      const vSel = document.getElementById('tw-variant');
+      const dEl = document.getElementById('tw-dur');
+      const dVal = document.getElementById('tw-dur-val');
+      const pBtn = document.getElementById('tw-pause');
+      vSel.value = variant;
+      dEl.value = dur;
+      dVal.textContent = dur;
+      pBtn.textContent = paused ? '❚❚ Pausiert' : '▶ Läuft';
+      const vH = (e) => { setVariant(e.target.value); setIdx(0); setTick(t=>t+1); postEdit({variant: e.target.value}); };
+      const dH = (e) => { setDur(+e.target.value); dVal.textContent = e.target.value; postEdit({durationSec: +e.target.value}); };
+      const pH = () => setPaused(p => !p);
+      vSel.addEventListener('change', vH);
+      dEl.addEventListener('input', dH);
+      pBtn.addEventListener('click', pH);
+      return () => { vSel.removeEventListener('change', vH); dEl.removeEventListener('input', dH); pBtn.removeEventListener('click', pH); };
+    }, [variant, dur, paused]);
+
+    return (
+      <div key={variant + '-' + safeIdx} className="slide-enter" style={{ position: 'absolute', inset: 0 }}>
+        <SlideComp />
+      </div>
+    );
+  }
+
+  // Tweak-mode host protocol
+  function postEdit(edits) {
+    try { window.parent.postMessage({type:'__edit_mode_set_keys', edits}, '*'); } catch(e){}
+  }
+  window.addEventListener('message', (e) => {
+    if (!e.data) return;
+    if (e.data.type === '__activate_edit_mode') document.getElementById('tweaks').classList.add('visible');
+    if (e.data.type === '__deactivate_edit_mode') document.getElementById('tweaks').classList.remove('visible');
+  });
+  try { window.parent.postMessage({type: '__edit_mode_available'}, '*'); } catch(e){}
+
+  // Wait for all variant scripts
+  function mount() {
+    if (!window.PlayfulVariant || !window.TerminalVariant || !window.WarmVariant) {
+      return setTimeout(mount, 50);
+    }
+    ReactDOM.createRoot(document.getElementById('stage')).render(<Display />);
+  }
+  mount();
+</script>
+
+</body>
+</html>

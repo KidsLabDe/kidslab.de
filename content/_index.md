@@ -19,6 +19,8 @@ Willkommen beim KidsLab! Bei uns lernst du, wie Technik funktioniert — und wie
 - Demokratie erleben in digitalen Welten
 - Workshops für Schulen und Lehrkräfte
 
+{{< schaufenster-preview >}}
+
 {{< cta title="3. Augsburger GamesPreis 2026 – Die Gewinner stehen fest!" href="/gameslab/gamespreis/" button="Zu den Gewinnern" >}}500 Schüler, 20 Klassen, 12 Preise – Digitalminister Mehring zeichnete junge Programmiertalente aus.{{< /cta >}}
 
 {{< slider interval="4000" >}}
