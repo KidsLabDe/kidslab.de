@@ -198,14 +198,12 @@ function slideGallery() {
     `<div style="background:url('${src}') center/cover no-repeat"></div>`
   ).join('');
   return `<div style="${SLIDE};background:#0D1B2A;color:#FFE66D">
-    <div style="padding:60px;box-sizing:border-box;height:100%;display:flex;flex-direction:column">
-      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:28px;flex-shrink:0">
-        <div style="${H};font-size:76px">Das passiert<br>im KidsLab.</div>
-        <div style="font-size:24px;opacity:0.7">#echtescooleprojekte</div>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:16px;flex:1;min-height:0">
-        ${items}
-      </div>
+    <div style="position:absolute;top:60px;left:60px;right:60px;display:flex;justify-content:space-between;align-items:baseline">
+      <div style="${H};font-size:76px">Das passiert<br>im KidsLab.</div>
+      <div style="font-size:24px;opacity:0.7">#echtescooleprojekte</div>
+    </div>
+    <div style="position:absolute;top:270px;left:60px;right:60px;bottom:60px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:16px">
+      ${items}
     </div>
   </div>`;
 }

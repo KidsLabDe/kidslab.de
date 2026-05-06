@@ -12,10 +12,9 @@
   #stage-wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
   #stage { position: relative; width: 1920px; height: 1080px; background: #000; transform-origin: center center; overflow: hidden; }
   #dots { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 100; pointer-events: none; }
-  .dot { width: 40px; height: 4px; background: rgba(255,255,255,0.25); border-radius: 2px; overflow: hidden; }
-  .dot.active::after { content: ''; display: block; height: 100%; background: #fff; width: 0; animation: fill var(--dur,7000ms) linear forwards; }
-  .dot.done { background: rgba(255,255,255,0.6); }
-  @keyframes fill { from { width: 0; } to { width: 100%; } }
+  .dot { width: 40px; height: 4px; background: rgba(255,255,255,0.25); border-radius: 2px; }
+  .dot.active { background: rgba(255,255,255,0.9); }
+  .dot.done { background: rgba(255,255,255,0.5); }
 </style>
 </head>
 <body>
@@ -58,7 +57,6 @@
   function updateDots(active) {
     Array.from(dotsEl.children).forEach(function(d, i) {
       d.className = 'dot' + (i === active ? ' active' : i < active ? ' done' : '');
-      d.style.setProperty('--dur', DURATION_MS + 'ms');
     });
   }
 
