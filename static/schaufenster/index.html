@@ -6,16 +6,16 @@
 <title>KidsLab Schaufenster</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 <style>
-  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; font-family: 'Inter', system-ui, sans-serif; width: 100vw; height: 100vh; }
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; width: 100vw; height: 100vh; }
   #stage-wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
   #stage { position: relative; width: 1920px; height: 1080px; background: #000; transform-origin: center center; overflow: hidden; }
-  .slide-enter { animation: slideIn 800ms cubic-bezier(0.22,1,0.36,1) both; }
-  @keyframes slideIn { from { opacity: 0; transform: translateY(40px) scale(0.98); } to { opacity: 1; transform: none; } }
-  .progress-dots { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 100; pointer-events: none; }
+  .slide-enter { animation: fadeIn 600ms ease both; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  #dots { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 100; pointer-events: none; }
   .dot { width: 40px; height: 4px; background: rgba(255,255,255,0.25); border-radius: 2px; overflow: hidden; }
-  .dot.active::after { content: ''; display: block; height: 100%; background: #fff; width: 0; animation: fill var(--dur, 7000ms) linear forwards; }
+  .dot.active::after { content: ''; display: block; height: 100%; background: #fff; width: 0; animation: fill var(--dur,7000ms) linear forwards; }
   .dot.done { background: rgba(255,255,255,0.6); }
   @keyframes fill { from { width: 0; } to { width: 100%; } }
 </style>
@@ -23,81 +23,91 @@
 <body>
 
 <div id="stage-wrap">
-  <div id="stage"></div>
+  <div id="stage">
+    <div id="dots"></div>
+  </div>
 </div>
-<div class="progress-dots" id="dots"></div>
 
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="slides/common.js"></script>
+<script src="slides/playful.js"></script>
+<script>
+  const DURATION_MS = 7000;
+  const stage = document.getElementById('stage');
+  const dotsEl = document.getElementById('dots');
+  const slides = window.PlayfulVariant.slides;
+  let idx = 0;
+  let paused = false;
+  let timer = null;
 
-<script type="text/babel" src="slides/common.jsx"></script>
-<script type="text/babel" src="slides/playful.jsx"></script>
-
-<script type="text/babel">
-  const DURATION_SEC = 7;
-
+  // Stage skalieren
   function fitStage() {
-    const stage = document.getElementById('stage');
-    if (!stage) return;
     const vw = window.innerWidth || document.documentElement.clientWidth;
     const vh = window.innerHeight || document.documentElement.clientHeight;
     if (!vw || !vh) return;
-    stage.style.transform = `scale(${Math.min(vw / 1920, vh / 1080)})`;
+    stage.style.transform = 'scale(' + Math.min(vw / 1920, vh / 1080) + ')';
   }
   window.addEventListener('resize', fitStage);
-  window.addEventListener('load', fitStage);
-  requestAnimationFrame(() => { fitStage(); requestAnimationFrame(fitStage); });
-  if (window.ResizeObserver) new ResizeObserver(fitStage).observe(document.documentElement);
+  fitStage();
 
-  const { useState, useEffect } = React;
+  // Alle Bilder im Hintergrund vorladen
+  ALL_ASSETS.forEach(function(src) {
+    var img = new Image();
+    img.src = src;
+  });
 
-  function Display() {
-    const slides = window.PlayfulVariant.slides;
-    const [idx, setIdx] = useState(0);
-    const [paused, setPaused] = useState(false);
-    const safeIdx = idx % slides.length;
-    const SlideComp = slides[safeIdx];
+  // Dots einmalig anlegen
+  slides.forEach(function() {
+    var d = document.createElement('div');
+    d.className = 'dot';
+    dotsEl.appendChild(d);
+  });
 
-    useEffect(() => {
-      if (paused) return;
-      const t = setTimeout(() => setIdx(i => (i + 1) % slides.length), DURATION_SEC * 1000);
-      return () => clearTimeout(t);
-    }, [safeIdx, paused]);
-
-    useEffect(() => {
-      const onKey = (e) => {
-        if (e.key === 'ArrowRight') setIdx(i => (i + 1) % slides.length);
-        if (e.key === 'ArrowLeft') setIdx(i => (i - 1 + slides.length) % slides.length);
-        if (e.key === ' ') { e.preventDefault(); setPaused(p => !p); }
-      };
-      window.addEventListener('keydown', onKey);
-      return () => window.removeEventListener('keydown', onKey);
-    }, [slides.length]);
-
-    useEffect(() => {
-      const root = document.getElementById('dots');
-      root.innerHTML = '';
-      slides.forEach((_, i) => {
-        const d = document.createElement('div');
-        d.className = 'dot ' + (i === safeIdx ? 'active' : i < safeIdx ? 'done' : '');
-        d.style.setProperty('--dur', `${DURATION_SEC * 1000}ms`);
-        root.appendChild(d);
-      });
-    }, [safeIdx, slides.length]);
-
-    return (
-      <div key={safeIdx} className="slide-enter" style={{ position: 'absolute', inset: 0 }}>
-        <SlideComp />
-      </div>
-    );
+  function updateDots(active) {
+    Array.from(dotsEl.children).forEach(function(d, i) {
+      d.className = 'dot' + (i === active ? ' active' : i < active ? ' done' : '');
+      d.style.setProperty('--dur', DURATION_MS + 'ms');
+    });
   }
 
-  function mount() {
-    if (!window.PlayfulVariant) return setTimeout(mount, 50);
-    ReactDOM.createRoot(document.getElementById('stage')).render(<Display />);
+  function showSlide(i) {
+    // Alten Slide entfernen (außer dots-Element)
+    Array.from(stage.children).forEach(function(el) {
+      if (el !== dotsEl) stage.removeChild(el);
+    });
+    var wrap = document.createElement('div');
+    wrap.className = 'slide-enter';
+    wrap.style.cssText = 'position:absolute;inset:0';
+    wrap.innerHTML = slides[i]();
+    stage.insertBefore(wrap, dotsEl);
+    updateDots(i);
   }
-  mount();
+
+  function tick() {
+    clearTimeout(timer);
+    if (!paused) {
+      timer = setTimeout(function() {
+        idx = (idx + 1) % slides.length;
+        showSlide(idx);
+        tick();
+      }, DURATION_MS);
+    }
+  }
+
+  window.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight') { idx = (idx + 1) % slides.length; showSlide(idx); tick(); }
+    if (e.key === 'ArrowLeft')  { idx = (idx - 1 + slides.length) % slides.length; showSlide(idx); tick(); }
+    if (e.key === ' ') { e.preventDefault(); paused = !paused; if (!paused) tick(); }
+  });
+
+  // Start: fonts abwarten (max. 2 Sekunden Timeout für Offline-Betrieb)
+  Promise.race([
+    document.fonts.ready,
+    new Promise(function(r) { setTimeout(r, 2000); })
+  ]).then(function() {
+    fitStage();
+    showSlide(0);
+    tick();
+  });
 </script>
 
 </body>
