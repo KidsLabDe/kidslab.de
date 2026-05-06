@@ -109,27 +109,27 @@ function slideFeatured(course, c, flagText) {
       <img src="${course.image}" style="width:100%;height:100%;object-fit:cover;opacity:0.35" loading="eager" alt="${course.title}">
     </div>
     ${pixelBg(c.accent, 0.18)}
-    <div style="position:relative;height:100%;padding:70px 90px 80px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between">
+    <div style="position:relative;height:100%;padding:70px 90px 0;box-sizing:border-box">
       <div style="display:flex;justify-content:space-between;align-items:flex-start">
         <div style="background:${c.accent};color:${c.bg};padding:14px 26px;font-family:'Pixelify Sans',system-ui;font-size:30px;font-weight:700;transform:rotate(-2deg);box-shadow:6px 6px 0 rgba(0,0,0,0.25)">★ ${flagText}</div>
         <div style="font-family:'Pixelify Sans',system-ui;font-size:28px;color:${c.accent}">${course.subtitle}</div>
       </div>
+      <div style="margin-top:40px">
+        <div style="${H};font-size:180px;line-height:0.9;text-shadow:4px 4px 0 rgba(0,0,0,0.25)">${course.title}</div>
+        <div style="font-size:30px;margin-top:20px;max-width:1100px;line-height:1.3;background:rgba(0,0,0,0.4);padding:16px 24px;display:inline-block">${course.teaser}</div>
+      </div>
+    </div>
+    <div style="position:absolute;bottom:70px;left:90px;right:90px;display:flex;gap:48px;align-items:flex-end;border-top:4px solid ${c.accent};padding-top:24px">
       <div>
-        <div style="${H};font-size:200px;line-height:0.88;text-shadow:4px 4px 0 rgba(0,0,0,0.25)">${course.title}</div>
-        <div style="font-size:32px;margin-top:24px;max-width:1100px;line-height:1.3;background:rgba(0,0,0,0.4);padding:16px 24px;display:inline-block">${course.teaser}</div>
+        <div style="font-size:18px;opacity:0.7;letter-spacing:2px;text-transform:uppercase">Alter</div>
+        <div style="${H};font-size:36px;margin-top:6px;white-space:nowrap">${course.age}</div>
       </div>
-      <div style="display:flex;gap:48px;align-items:flex-end;border-top:4px solid ${c.accent};padding-top:24px">
-        <div>
-          <div style="font-size:18px;opacity:0.7;letter-spacing:2px;text-transform:uppercase">Alter</div>
-          <div style="${H};font-size:38px;margin-top:6px;white-space:nowrap">${course.age}</div>
-        </div>
-        <div>
-          <div style="font-size:18px;opacity:0.7;letter-spacing:2px;text-transform:uppercase">Termin</div>
-          <div style="${H};font-size:38px;margin-top:6px;white-space:nowrap">${course.when}</div>
-        </div>
-        <div style="flex:1"></div>
-        ${qrTag(course.url, 'jetzt anmelden →')}
+      <div>
+        <div style="font-size:18px;opacity:0.7;letter-spacing:2px;text-transform:uppercase">Termin</div>
+        <div style="${H};font-size:36px;margin-top:6px;white-space:nowrap">${course.when}</div>
       </div>
+      <div style="flex:1"></div>
+      ${qrTag(course.url, 'jetzt anmelden →')}
     </div>
   </div>`;
 }
@@ -186,31 +186,28 @@ function slideDemokratie() {
       <img src="${p.image}" style="width:100%;height:100%;object-fit:cover;opacity:0.35" loading="eager" alt="Minecraft City">
     </div>
     ${pixelBg('#00FF88', 0.14)}
-    <div style="position:relative;height:100%;padding:70px 90px 80px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between">
-      <div>
-        <div style="display:inline-block;background:#00FF88;color:#0D1B2A;padding:12px 22px;font-family:'Pixelify Sans',system-ui;font-size:26px;margin-bottom:24px;transform:rotate(-1.5deg)">🏛️ Politische Bildung · seit 2022</div>
-        <div style="${H};font-size:170px;line-height:0.88;color:#FFF;text-shadow:3px 3px 0 rgba(0,0,0,0.4)">
-          Demokratie<br><span style="color:#00FF88">in Minecraft.</span>
-        </div>
-        <div style="font-size:28px;margin-top:24px;color:#FFE66D;max-width:1300px;line-height:1.4;background:rgba(0,0,0,0.5);padding:16px 24px;display:inline-block">
-          ${p.teaser}
-        </div>
+    <div style="position:relative;height:100%;padding:70px 90px 0;box-sizing:border-box">
+      <div style="display:inline-block;background:#00FF88;color:#0D1B2A;padding:12px 22px;font-family:'Pixelify Sans',system-ui;font-size:26px;margin-bottom:24px;transform:rotate(-1.5deg)">🏛️ Politische Bildung · seit 2022</div>
+      <div style="${H};font-size:155px;line-height:0.9;color:#FFF;text-shadow:3px 3px 0 rgba(0,0,0,0.4)">
+        Demokratie<br><span style="color:#00FF88">in Minecraft.</span>
       </div>
-      <div style="display:flex;gap:48px;align-items:flex-end;border-top:4px solid #00FF88;padding-top:24px">
-        ${stats}
-        <div style="flex:1"></div>
-        ${qrTag(p.url, 'mehr erfahren')}
+      <div style="font-size:26px;margin-top:20px;color:#FFE66D;max-width:1300px;line-height:1.4;background:rgba(0,0,0,0.5);padding:14px 22px;display:inline-block">
+        ${p.teaser}
       </div>
+    </div>
+    <div style="position:absolute;bottom:70px;left:90px;right:90px;display:flex;gap:48px;align-items:flex-end;border-top:4px solid #00FF88;padding-top:24px">
+      ${stats}
+      <div style="flex:1"></div>
+      ${qrTag(p.url, 'mehr erfahren')}
     </div>
   </div>`;
 }
 
-// 8. Galerie
+// 8. Galerie — background-image statt <img> vermeidet 6× Reflow beim Laden
 function slideGallery() {
-  const imgs = GALLERY.map(src => `
-    <div style="overflow:hidden">
-      <img src="${src}" style="width:100%;height:100%;object-fit:cover" loading="eager" alt="">
-    </div>`).join('');
+  const items = GALLERY.map(src =>
+    `<div style="background:url('${src}') center/cover no-repeat"></div>`
+  ).join('');
   return `<div style="${SLIDE};background:#0D1B2A;color:#FFE66D">
     <div style="padding:60px;box-sizing:border-box;height:100%;display:flex;flex-direction:column">
       <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:28px;flex-shrink:0">
@@ -218,7 +215,7 @@ function slideGallery() {
         <div style="font-size:24px;opacity:0.7">#echtescooleprojekte</div>
       </div>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:16px;flex:1;min-height:0">
-        ${imgs}
+        ${items}
       </div>
     </div>
   </div>`;

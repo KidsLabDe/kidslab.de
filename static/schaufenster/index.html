@@ -49,10 +49,11 @@
   window.addEventListener('resize', fitStage);
   fitStage();
 
-  // Alle Bilder im Hintergrund vorladen
-  ALL_ASSETS.forEach(function(src) {
+  // Alle Bilder vorladen — Referenzen halten damit GC die Downloads nicht abbricht
+  window._imgs = ALL_ASSETS.map(function(src) {
     var img = new Image();
     img.src = src;
+    return img;
   });
 
   // Dots einmalig anlegen
