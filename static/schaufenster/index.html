@@ -11,8 +11,6 @@
   html, body { margin: 0; padding: 0; background: #000; overflow: hidden; width: 100vw; height: 100vh; }
   #stage-wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
   #stage { position: relative; width: 1920px; height: 1080px; background: #000; transform-origin: center center; overflow: hidden; }
-  .slide-enter { animation: fadeIn 600ms ease both; }
-  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
   #dots { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 100; pointer-events: none; }
   .dot { width: 40px; height: 4px; background: rgba(255,255,255,0.25); border-radius: 2px; overflow: hidden; }
   .dot.active::after { content: ''; display: block; height: 100%; background: #fff; width: 0; animation: fill var(--dur,7000ms) linear forwards; }
@@ -31,30 +29,24 @@
 <script src="slides/common.js"></script>
 <script src="slides/playful.js"></script>
 <script>
-  const DURATION_MS = 7000;
-  const stage = document.getElementById('stage');
-  const dotsEl = document.getElementById('dots');
-  const slides = window.PlayfulVariant.slides;
-  let idx = 0;
-  let paused = false;
-  let timer = null;
+  var DURATION_MS = 7000;
+  var stage = document.getElementById('stage');
+  var dotsEl = document.getElementById('dots');
+  var slides = window.PlayfulVariant.slides;
+  var idx = 0;
+  var paused = false;
+  var timer = null;
 
-  // Stage skalieren
+  // Stage skalieren — transform:none wenn scale=1 (spart Compositing-Layer)
   function fitStage() {
-    const vw = window.innerWidth || document.documentElement.clientWidth;
-    const vh = window.innerHeight || document.documentElement.clientHeight;
+    var vw = window.innerWidth || document.documentElement.clientWidth;
+    var vh = window.innerHeight || document.documentElement.clientHeight;
     if (!vw || !vh) return;
-    stage.style.transform = 'scale(' + Math.min(vw / 1920, vh / 1080) + ')';
+    var s = Math.min(vw / 1920, vh / 1080);
+    stage.style.transform = (s > 0.999 && s < 1.001) ? 'none' : 'scale(' + s + ')';
   }
   window.addEventListener('resize', fitStage);
   fitStage();
-
-  // Alle Bilder vorladen — Referenzen halten damit GC die Downloads nicht abbricht
-  window._imgs = ALL_ASSETS.map(function(src) {
-    var img = new Image();
-    img.src = src;
-    return img;
-  });
 
   // Dots einmalig anlegen
   slides.forEach(function() {
@@ -71,12 +63,10 @@
   }
 
   function showSlide(i) {
-    // Alten Slide entfernen (außer dots-Element)
     Array.from(stage.children).forEach(function(el) {
       if (el !== dotsEl) stage.removeChild(el);
     });
     var wrap = document.createElement('div');
-    wrap.className = 'slide-enter';
     wrap.style.cssText = 'position:absolute;inset:0';
     wrap.innerHTML = slides[i]();
     stage.insertBefore(wrap, dotsEl);
@@ -100,7 +90,7 @@
     if (e.key === ' ') { e.preventDefault(); paused = !paused; if (!paused) tick(); }
   });
 
-  // Start: fonts abwarten (max. 2 Sekunden Timeout für Offline-Betrieb)
+  // Start: fonts abwarten (max. 2s Timeout für Offline-Betrieb)
   Promise.race([
     document.fonts.ready,
     new Promise(function(r) { setTimeout(r, 2000); })

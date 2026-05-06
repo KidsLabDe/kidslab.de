@@ -1,13 +1,7 @@
-// Variant: Playful Pixel — Vanilla JS, kein React, kein Babel
+// Variant: Playful Pixel — Pi-optimiert, kein radial-gradient, keine CSS-Animationen
 
 const H = "font-family:'Pixelify Sans',system-ui;font-weight:700;letter-spacing:0.5px";
 const SLIDE = "position:absolute;inset:0;font-family:'Inter',system-ui,sans-serif;overflow:hidden";
-
-function pixelBg(color, opacity) {
-  color = color || '#0D1B2A';
-  opacity = (opacity != null) ? opacity : 0.06;
-  return `<div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(${color} 2px,transparent 2px);background-size:24px 24px;opacity:${opacity}"></div>`;
-}
 
 function chip(text, bg, fg) {
   return `<span style="display:inline-block;padding:10px 22px;background:${bg};color:${fg};font-family:'Pixelify Sans',system-ui;font-size:24px;font-weight:600;margin-right:12px;margin-bottom:12px;white-space:nowrap">${text}</span>`;
@@ -27,8 +21,7 @@ function qrTag(url, label, dark, light, size) {
 // 1. Intro
 function slideIntro() {
   return `<div style="${SLIDE};background:#0066FF;color:#FFF">
-    ${pixelBg('#FFE66D', 0.15)}
-    <div style="position:relative;height:100%;padding:80px 100px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between">
+    <div style="height:100%;padding:80px 100px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between">
       <div style="display:flex;align-items:center;gap:28px">
         <img src="assets/logo.png" height="110" style="image-rendering:pixelated" loading="eager" alt="KidsLab Logo">
         <div>
@@ -60,8 +53,7 @@ function slideValues() {
       <div style="font-size:20px;color:#FFF;line-height:1.4">${v.d}</div>
     </div>`).join('');
   return `<div style="${SLIDE};background:#FFE66D;color:#0D1B2A">
-    ${pixelBg()}
-    <div style="position:relative;padding:80px 100px;box-sizing:border-box">
+    <div style="padding:80px 100px;box-sizing:border-box">
       <div style="${H};font-size:44px;margin-bottom:20px;color:#0066FF">// So arbeiten wir</div>
       <div style="${H};font-size:110px;line-height:1;margin-bottom:30px;max-width:1500px">„Hilf mir, es selbst zu tun."</div>
       <div style="font-size:22px;opacity:0.6;margin-bottom:60px">— Maria Montessori</div>
@@ -70,20 +62,19 @@ function slideValues() {
   </div>`;
 }
 
-// 3–5. Kurs-Slides
+// 3. Kurs (MinniMaker)
 function slideCourse(course, colors, num) {
   const highlights = course.highlights.map(h => chip(h, colors.accent, colors.bg)).join('');
   return `<div style="${SLIDE};background:${colors.bg};color:${colors.fg}">
     <div style="display:grid;grid-template-columns:1.1fr 1fr;height:100%">
-      <div style="padding:80px 80px 80px;display:flex;flex-direction:column;justify-content:space-between;position:relative;box-sizing:border-box">
-        ${pixelBg(colors.accent, 0.1)}
-        <div style="position:relative">
+      <div style="padding:80px 80px 80px;display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box">
+        <div>
           <div style="${H};font-size:32px;color:${colors.accent};margin-bottom:20px">Kurs 0${num} / 03</div>
           <div style="${H};font-size:120px;line-height:0.9;margin-bottom:24px">${course.title}</div>
           <div style="font-size:32px;opacity:0.85;margin-bottom:40px">${course.subtitle}</div>
           <div style="font-size:26px;line-height:1.45;max-width:720px">${course.teaser}</div>
         </div>
-        <div style="position:relative">
+        <div>
           <div style="margin-bottom:20px">${highlights}</div>
           <div style="display:flex;gap:32px;border-top:3px solid ${colors.fg};padding-top:24px;align-items:flex-end">
             <div style="flex:1">
@@ -96,26 +87,26 @@ function slideCourse(course, colors, num) {
           </div>
         </div>
       </div>
-      <div style="position:relative;overflow:hidden">
+      <div style="overflow:hidden">
         <img src="${course.image}" style="width:100%;height:100%;object-fit:cover" loading="eager" alt="${course.title}">
       </div>
     </div>
   </div>`;
 }
 
+// 4–5. Featured-Kurs (Lego, HackerWerkstatt)
 function slideFeatured(course, c, flagText) {
   return `<div style="${SLIDE};background:${c.bg};color:${c.fg}">
     <div style="position:absolute;inset:0">
       <img src="${course.image}" style="width:100%;height:100%;object-fit:cover;opacity:0.35" loading="eager" alt="${course.title}">
     </div>
-    ${pixelBg(c.accent, 0.18)}
     <div style="position:relative;height:100%;padding:70px 90px 0;box-sizing:border-box">
       <div style="display:flex;justify-content:space-between;align-items:flex-start">
-        <div style="background:${c.accent};color:${c.bg};padding:14px 26px;font-family:'Pixelify Sans',system-ui;font-size:30px;font-weight:700;transform:rotate(-2deg);box-shadow:6px 6px 0 rgba(0,0,0,0.25)">★ ${flagText}</div>
+        <div style="background:${c.accent};color:${c.bg};padding:14px 26px;font-family:'Pixelify Sans',system-ui;font-size:30px;font-weight:700">★ ${flagText}</div>
         <div style="font-family:'Pixelify Sans',system-ui;font-size:28px;color:${c.accent}">${course.subtitle}</div>
       </div>
       <div style="margin-top:40px">
-        <div style="${H};font-size:180px;line-height:0.9;text-shadow:4px 4px 0 rgba(0,0,0,0.25)">${course.title}</div>
+        <div style="${H};font-size:180px;line-height:0.9">${course.title}</div>
         <div style="font-size:30px;margin-top:20px;max-width:1100px;line-height:1.3;background:rgba(0,0,0,0.4);padding:16px 24px;display:inline-block">${course.teaser}</div>
       </div>
     </div>
@@ -143,9 +134,8 @@ function slideGamesLab() {
       <div style="font-size:18px;opacity:0.85;margin-top:6px">${s.l}</div>
     </div>`).join('');
   return `<div style="${SLIDE};background:#6B2DDB;color:#FFF">
-    ${pixelBg('#FFE66D', 0.12)}
     <div style="display:grid;grid-template-columns:1.2fr 1fr;height:100%">
-      <div style="padding:70px 70px 70px;position:relative;display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box">
+      <div style="padding:70px 70px 70px;display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box">
         <div>
           <div style="display:inline-block;background:#FFE66D;color:#0D1B2A;padding:10px 20px;font-family:'Pixelify Sans',system-ui;font-size:24px;margin-bottom:20px">⭐ Für Schulen · kostenlos</div>
           <div style="${H};font-size:150px;line-height:0.9;margin-bottom:16px">GamesLab</div>
@@ -185,10 +175,9 @@ function slideDemokratie() {
     <div style="position:absolute;inset:0">
       <img src="${p.image}" style="width:100%;height:100%;object-fit:cover;opacity:0.35" loading="eager" alt="Minecraft City">
     </div>
-    ${pixelBg('#00FF88', 0.14)}
     <div style="position:relative;height:100%;padding:70px 90px 0;box-sizing:border-box">
-      <div style="display:inline-block;background:#00FF88;color:#0D1B2A;padding:12px 22px;font-family:'Pixelify Sans',system-ui;font-size:26px;margin-bottom:24px;transform:rotate(-1.5deg)">🏛️ Politische Bildung · seit 2022</div>
-      <div style="${H};font-size:155px;line-height:0.9;color:#FFF;text-shadow:3px 3px 0 rgba(0,0,0,0.4)">
+      <div style="display:inline-block;background:#00FF88;color:#0D1B2A;padding:12px 22px;font-family:'Pixelify Sans',system-ui;font-size:26px;margin-bottom:24px">🏛️ Politische Bildung · seit 2022</div>
+      <div style="${H};font-size:155px;line-height:0.9;color:#FFF">
         Demokratie<br><span style="color:#00FF88">in Minecraft.</span>
       </div>
       <div style="font-size:26px;margin-top:20px;color:#FFE66D;max-width:1300px;line-height:1.4;background:rgba(0,0,0,0.5);padding:14px 22px;display:inline-block">
@@ -203,7 +192,7 @@ function slideDemokratie() {
   </div>`;
 }
 
-// 8. Galerie — background-image statt <img> vermeidet 6× Reflow beim Laden
+// 8. Galerie
 function slideGallery() {
   const items = GALLERY.map(src =>
     `<div style="background:url('${src}') center/cover no-repeat"></div>`
@@ -224,8 +213,7 @@ function slideGallery() {
 // 9. CTA / Kontakt
 function slideCTA() {
   return `<div style="${SLIDE};background:#FF6B6B;color:#FFF">
-    ${pixelBg('#FFE66D', 0.12)}
-    <div style="position:relative;height:100%;padding:80px 100px 80px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between">
+    <div style="height:100%;padding:80px 100px 80px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between">
       <div>
         <div style="${H};font-size:36px;color:#FFE66D;margin-bottom:20px">Komm rein, sag Hallo</div>
         <div style="${H};font-size:140px;line-height:0.9">Wir sind<br>hier drin. ッ</div>
