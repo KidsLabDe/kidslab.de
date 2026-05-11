@@ -1,0 +1,12 @@
+{{ $s := .s }}
+<div style="position:absolute;inset:0;background:#0D1B2A;color:#FFE66D;font-family:system-ui,sans-serif;overflow:hidden">
+  <div style="position:absolute;top:60px;left:60px;right:60px;display:flex;justify-content:space-between;align-items:baseline">
+    <div class="px" style="font-size:76px;line-height:1.1">{{ $s.heading }}</div>
+    <div style="font-size:24px;opacity:.7">{{ $s.tag }}</div>
+  </div>
+  <div style="position:absolute;top:270px;left:60px;right:60px;bottom:60px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:16px">
+    {{ range $s.images }}
+    <div style="background:url('{{ . }}') center/cover no-repeat"></div>
+    {{ end }}
+  </div>
+</div>

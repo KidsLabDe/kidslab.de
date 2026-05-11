@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }}</title>
+<style>
+  @font-face{font-family:'Pixelify Sans';src:url('/assets/fonts/pixelify-latin.woff2') format('woff2');font-weight:400 700;font-style:normal;font-display:block;unicode-range:U+0000-00FF}
+  @font-face{font-family:'Pixelify Sans';src:url('/assets/fonts/pixelify-latin-ext.woff2') format('woff2');font-weight:400 700;font-style:normal;font-display:block;unicode-range:U+0100-024F}
+  html,body{margin:0;padding:0;background:#000;overflow:hidden;width:100vw;height:100vh}
+  #stage-wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  #stage{position:relative;width:1920px;height:1080px;transform-origin:center center;overflow:hidden}
+  .slide{position:absolute;inset:0;display:none}
+  .slide.active{display:block}
+  #dots{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:100;pointer-events:none}
+  .dot{width:40px;height:4px;background:rgba(255,255,255,.25);border-radius:2px}
+  .dot.active{background:rgba(255,255,255,.9)}
+  .dot.done{background:rgba(255,255,255,.5)}
+  .px{font-family:'Pixelify Sans',system-ui;font-weight:700;letter-spacing:0.5px}
+</style>
+</head>
+<body>
+<div id="stage-wrap">
+  <div id="stage">
+    {{ range $i, $slide := .Params.slides }}
+    <div class="slide{{ if eq $i 0 }} active{{ end }}">
+      {{ partial (printf "schaufenster/slide-%s.html" $slide.type) (dict "s" $slide "c" $.Params.contact) }}
+    </div>
+    {{ end }}
+    <div id="dots">
+      {{ range .Params.slides }}<div class="dot"></div>{{ end }}
+    </div>
+  </div>
+</div>
+<script>
+var slides = document.querySelectorAll('.slide');
+var dots   = document.querySelectorAll('.dot');
+var dur    = {{ default 7000 .Params.duration }};
+var i = 0, paused = false, t;
+
+function show(n) {
+  dots[i].className  = 'dot done';
+  slides[i].classList.remove('active');
+  i = ((n % slides.length) + slides.length) % slides.length;
+  slides[i].classList.add('active');
+  dots[i].className  = 'dot active';
+}
+
+function tick() {
+  clearTimeout(t);
+  if (!paused) t = setTimeout(function(){ show(i + 1); tick(); }, dur);
+}
+
+function fitStage() {
+  var s = Math.min(innerWidth / 1920, innerHeight / 1080);
+  document.getElementById('stage').style.transform = (s > 0.999 && s < 1.001) ? 'none' : 'scale(' + s + ')';
+}
+
+window.addEventListener('resize', fitStage);
+fitStage();
+dots[0].className = 'dot active';
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'ArrowRight') { show(i + 1); tick(); }
+  if (e.key === 'ArrowLeft')  { show(i - 1); tick(); }
+  if (e.key === ' ')          { e.preventDefault(); paused = !paused; tick(); }
+});
+
+tick();
+</script>
+</body>
+</html>
