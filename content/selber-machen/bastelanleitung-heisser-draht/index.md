@@ -64,4 +64,4 @@ image:
 - 
 step: Fertig! Und es darf gespielt werden!
 image:
-- ![5-test.mov](5-test.mov)
+{{< video src="5-test.mp4" >}}
