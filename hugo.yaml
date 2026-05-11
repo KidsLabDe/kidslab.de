@@ -7,6 +7,13 @@ theme: hextra
 enableRobotsTXT: true
 enableGitInfo: false
 
+security:
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*
+
 # Pagination
 pagination:
   pagerSize: 12
