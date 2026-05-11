@@ -51,12 +51,17 @@ function tick() {
   if (!paused) t = setTimeout(function(){ show(i + 1); tick(); }, dur);
 }
 
+var stageEl = document.getElementById('stage');
 function fitStage() {
   var s = Math.min(innerWidth / 1920, innerHeight / 1080);
-  document.getElementById('stage').style.transform = (s > 0.999 && s < 1.001) ? 'none' : 'scale(' + s + ')';
+  stageEl.style.transform = (s > 0.999 && s < 1.001) ? 'none' : 'scale(' + s + ')';
 }
 
 window.addEventListener('resize', fitStage);
+if (window.ResizeObserver) {
+  new ResizeObserver(fitStage).observe(document.documentElement);
+}
+requestAnimationFrame(fitStage);
 fitStage();
 dots[0].className = 'dot active';
 
