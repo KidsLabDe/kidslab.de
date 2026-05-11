@@ -119,7 +119,7 @@ slides:
 
   - type: gallery
     heading: "Das passiert im KidsLab."
-    tag: "#echtescooleprojekte"
+    tag: "#echtcooleprojekte"
     images:
       - "/schaufenster/assets/course-minnimaker-2.webp"
       - "/schaufenster/assets/course-lego-2.webp"
