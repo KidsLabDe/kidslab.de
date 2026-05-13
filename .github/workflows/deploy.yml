@@ -38,6 +38,18 @@ jobs:
       - name: Build Hugo
         run: hugo --minify
 
+      - name: Remove original images where WebP exists
+        run: |
+          find public -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" \) | while read f; do
+            dir=$(dirname "$f")
+            base=$(basename "${f%.*}")
+            if ls "${dir}/${base}_hu_"*.webp 2>/dev/null | grep -q .; then
+              rm "$f"
+            fi
+          done
+          echo "Verbleibende Bilddateien nach Cleanup:"
+          find public -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" \) | wc -l
+
       - name: Log in to Container Registry
         uses: docker/login-action@v3
         with:
