@@ -1,5 +1,6 @@
 ---
 title: "Mitmachstation: Rakete"
+linkTitle: "Rakete"
 description: Steuere die Rakete durch den Weltraum – ein interaktives Spiel mit echten Tastern, das du direkt im KidsLab spielen kannst.
 image: "rakete-mitmachstation-kidslab-1.jpg"
 slug: "rakete"

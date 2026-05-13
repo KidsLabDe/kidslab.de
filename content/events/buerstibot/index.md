@@ -1,5 +1,6 @@
 ---
 title: "Mitmachstation: BürstiBot"
+linkTitle: "BürstiBot"
 description: Bau deinen eigenen BürstiBot aus Zahnbürste, Vibrationsmotor und Batterie – und schick ihn auf die Rennbahn. Für Kinder, Jugendliche und Erwachsene.
 image: "buerstibot-selbst-bauen-mitmachstation-kidslab-1.jpg"
 slug: "buerstibot"
