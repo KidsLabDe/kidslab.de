@@ -26,6 +26,7 @@ Du willst Maker Education an deine Schule bringen? Wir bieten Workshops direkt i
 {{< card link="3d-druck" title="3D-Druck & CAD" subtitle="Ab Klasse 3 – Vom Design zum Objekt" emoji="🖨️" >}}
 {{< card link="ki-robolehrer" title="KI: Robolehrer an die Macht?" subtitle="Ab Klasse 7 – Kostenfrei!" emoji="🤖" >}}
 {{< card link="ki-fuer-lehrkraefte" title="KI für Lehrkräfte" subtitle="Fortbildung – Praxisnah & rechtssicher" emoji="🧑‍🏫" >}}
+{{< card link="makerspace" title="MakerSpace in der Schule" subtitle="Projekttag & Beratung – 3D-Druck, Robotik & Coding" emoji="🔧" >}}
 {{< /cards >}}
 
 ---
