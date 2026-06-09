@@ -1,5 +1,6 @@
 ---
 title: "LEGO Robotik Workshop"
+description: "LEGO Robotik Workshop für Schulen: Mit Spike Prime bauen und programmieren Kinder ab Klasse 3 ihren eigenen Roboter — KidsLab kommt direkt ins Klassenzimmer."
 weight: 15
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Minecraft
+description: "Programmieren lernen in Minecraft: Roboter-Schildkröten steuern, eigene Mods bauen, Redstone verstehen. Kostenlose Kurse, Videos und Materialien für Kinder und Schulen."
 weight: 3
 cascade:
   type: docs

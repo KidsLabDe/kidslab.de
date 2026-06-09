@@ -1,5 +1,6 @@
 ---
 title: GamesLab
+description: "GamesLab Augsburg: Kostenlose Game-Design-Workshops für Klassen 5–13. Schüler entwickeln echte Computerspiele mit Scratch. Über 1.500 Teilnehmende seit 2024."
 weight: 4
 aliases:
   - /projekte/gameslab
