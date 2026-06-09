@@ -74,14 +74,6 @@ weight: 5
         },
         {
           "@type": "Question",
-          "name": "Wie wird KidsLab als externer Anbieter bezahlt?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Externe Partner werden über das Chancenbudget (Säule II) des Startchancen-Programms per Honorar- oder Dienstleistungsvertrag bezahlt. Staatliche Schulen in Bayern wickeln Zahlungen über das Portal at:las des Bayerischen Landesamts für Schule ab. KidsLab stellt nach dem Workshop eine Rechnung aus."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Ist KidsLab nur für Startchancen-Schulen buchbar?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -163,15 +155,16 @@ Die Drei-Auen-Grundschule nimmt seit 2024 am Startchancen-Programm teil. KidsLab
 
 - **Phase 1:** Einstieg in die Programmierung mit **Scratch** — eigene Spiele und Animationen ohne Vorkenntnisse
 - **Phase 2:** Spieleentwicklung im **GamesLab** — ein Teilnehmer gewann einen **Kategorie-Preis** beim Augsburger GamesPreis (verliehen durch Digitalminister Mehring)
-- **Phase 3 (aktuell):** Robotik mit **LEGO Spike Prime** — eigene Roboter bauen, Motoren und Sensoren verbinden, per Programm steuern
+- **Phase 3:** Robotik mit **LEGO Spike Prime** — eigene Roboter bauen, Motoren und Sensoren verbinden, per Programm steuern
+- **Phase 4 (aktuell, Schuljahr 2025/26):** **Stop-Motion-Videos** — die Schülerinnen und Schüler produzieren eigene Trickfilme und verbinden dabei Kreativität, Technik und Storytelling
 
 > "Die Begeisterung war sofort spürbar: Kaum lagen die Teile auf dem Tisch, wurde schon gebaut, gesteckt und getestet."
 
 [Mehr zur Technik-AG an der Drei-Auen-Schule →](/blog/technik-ag-drei-auen-schule-startchancen/)
 
-### Demokratie in Minecraft — Schule in Biberbach
+### Demokratie in Minecraft — Martinsschule Augsburg
 
-An einer Schule in Biberbach (Landkreis Augsburg) führte KidsLab das Format **Demokratie in Minecraft** durch: Schülerinnen und Schüler planen und gestalten gemeinsam eine digitale Stadt in Luanti/Minetest (Open Source), treffen demokratische Entscheidungen per Konsensomat und erleben direkte Beteiligung — digital und analog zugleich.
+An der Martinsschule in Augsburg führte KidsLab das Format **Demokratie in Minecraft** durch: Schülerinnen und Schüler planen und gestalten gemeinsam eine digitale Stadt in Luanti/Minetest (Open Source), treffen demokratische Entscheidungen per Konsensomat und erleben direkte Beteiligung — digital und analog zugleich.
 
 [Mehr zu Demokratie in Minecraft →](/blog/demokratie-in-der-mincraft-welt-in-biberbach/)
 
@@ -212,10 +205,6 @@ Die Schulleitung entscheidet eigenständig und bedarfsorientiert. Bayern schreib
 **Wie finde ich externe Partner für das Chancenbudget?**
 
 Über die **Startchancen-Pinnwand** im bayerischen Schulportal (km.bayern.de), über direkte Empfehlungen anderer Schulen oder über Internetrecherche. KidsLab ist auf der Pinnwand eingetragen und steht für direkte Anfragen zur Verfügung.
-
-**Wie wird KidsLab als externer Anbieter bezahlt?**
-
-Per Honorar- oder Dienstleistungsvertrag. Staatliche Schulen begleichen die Rechnung über das Portal **at:las** des Bayerischen Landesamts für Schule. KidsLab stellt nach dem Workshop eine korrekte Rechnung aus.
 
 **Ist KidsLab nur für Startchancen-Schulen?**
 
