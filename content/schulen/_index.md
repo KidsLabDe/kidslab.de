@@ -27,6 +27,7 @@ Du willst Maker Education an deine Schule bringen? Wir bieten Workshops direkt i
 {{< card link="ki-robolehrer" title="KI: Robolehrer an die Macht?" subtitle="Ab Klasse 7 – Kostenfrei!" emoji="🤖" >}}
 {{< card link="ki-fuer-lehrkraefte" title="KI für Lehrkräfte" subtitle="Fortbildung – Praxisnah & rechtssicher" emoji="🧑‍🏫" >}}
 {{< card link="makerspace" title="MakerSpace in der Schule" subtitle="Projekttag & Beratung – 3D-Druck, Robotik & Coding" emoji="🔧" >}}
+{{< card link="startchancen" title="Startchancen-Programm" subtitle="Finanzierung über das Chancenbudget (Säule II)" emoji="🏫" >}}
 {{< /cards >}}
 
 ---
