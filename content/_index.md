@@ -1,5 +1,6 @@
 ---
 title: KidsLab
+description: "KidsLab Augsburg: Coding- und Maker-Workshops für Kinder und Schulen. Robotik, Scratch, 3D-Druck, Spieleentwicklung — gemeinnützig, inklusiv, praxisnah."
 type: docs
 cascade:
   - _target:

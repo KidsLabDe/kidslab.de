@@ -39,7 +39,7 @@ sitemap:
 
 # Hextra-specific params
 params:
-  description: "Digitale Bildung für junge Menschen ッ"
+  description: "KidsLab: Coding- und Maker-Workshops für Kinder und Schulen in Augsburg und Schwaben. Robotik, Scratch, 3D-Druck, Spieleentwicklung — gemeinnützig und praxisnah."
 
   navbar:
     displayTitle: true

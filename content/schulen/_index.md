@@ -1,5 +1,6 @@
 ---
 title: Für Schulen
+description: "Maker- und Coding-Workshops direkt in eurer Schule: Roboter-Maus, LEGO Robotik, Scratch, 3D-Druck und KI. Finanzierbar über das Startchancen-Programm oder Schule+."
 weight: 2
 cascade:
   type: docs

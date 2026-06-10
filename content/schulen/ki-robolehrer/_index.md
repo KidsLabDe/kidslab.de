@@ -1,5 +1,6 @@
 ---
 title: "KI Workshop: Robolehrer an die Macht?"
+description: "KI-Workshop für Klassen ab 7: Schüler diskutieren im Rollenspiel Chancen und Risiken von KI im Schulalltag. Kostenfrei buchbar, kein Vorwissen nötig."
 weight: 10
 ---
 
