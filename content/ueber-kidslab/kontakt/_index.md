@@ -7,7 +7,7 @@ type: docs
 
 Du hast eine Frage, willst einen Workshop buchen oder einfach Hallo sagen? Schreib uns!
 
-**E-Mail:** [info@kidslab.de](mailto:info@kidslab.de)
+**E-Mail:** [team@kidslab.de](mailto:team@kidslab.de)
 
 ## Telefon & WhatsApp
 

@@ -7,7 +7,7 @@ duration: 7000
 contact:
   address: "Herrenhäuser 17, Fischertor · Augsburg"
   phone: "0821-99951920"
-  email: "info@kidslab.de"
+  email: "team@kidslab.de"
   instagram: "@kidslabaugsburg"
 
 slides:
