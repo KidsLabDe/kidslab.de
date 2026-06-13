@@ -3,6 +3,8 @@ title: KidsLab Schaufenster
 type: schaufenster
 layout: schaufenster
 duration: 7000
+sidebar:
+  exclude: true
 
 contact:
   address: "Herrenhäuser 17, Fischertor · Augsburg"
