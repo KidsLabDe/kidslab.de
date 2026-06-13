@@ -2,7 +2,7 @@ name: Deploy Production
 
 on:
   push:
-    branches: [main]
+    branches: [main, kontakt-adresse-impressum-redirect]
   workflow_dispatch:
 
 env:
