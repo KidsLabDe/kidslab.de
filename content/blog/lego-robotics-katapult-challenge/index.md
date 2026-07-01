@@ -1,13 +1,13 @@
 ---
-title: \"Katapult-Challenge beim Kidslab!\"
-date: \"2026-07-01\"
+title: "Katapult-Challenge beim Kidslab!"
+date: "2026-07-01"
 tags:
-  - \"Lego Robotics\"
-  - \"SPIKE Prime\"
-  - \"Maker\"
-description: \"Wer baut das weitreichendste Katapult? Unsere erfahrenen Maker haben mit LEGO SPIKE Prime die Grenzen der Physik und Programmierung ausgetestet.\"
-image: \"katapult-challenge-bau.jpg\"
-slug: \"lego-robotics-katapult-challenge\"
+  - "Lego Robotics"
+  - "SPIKE Prime"
+  - "Maker"
+description: "Wer baut das weitreichendste Katapult? Unsere erfahrenen Maker haben mit LEGO SPIKE Prime die Grenzen der Physik und Programmierung ausgetestet."
+image: "katapult-challenge-bau.jpg"
+slug: "lego-robotics-katapult-challenge"
 ---
 
 Heute gab es für unsere erfahrenen Maker eine besondere Herausforderung: **Wer baut das weitreichendste Katapult?**
