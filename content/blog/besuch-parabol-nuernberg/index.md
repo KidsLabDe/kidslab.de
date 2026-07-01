@@ -1,9 +1,8 @@
 ---
-title: "Von Pixeln zu Wellen: Ein Tag im Herz der Nürnberger Medienwelt"
+title: "Von Pixeln zu Wellen: Ein Besuch im Medienzentrum PARABOL in Nürnberg"
 date: 2026-07-01
-description: "Ein Besuch im Medienzentrum PARABOL in Nürnberg und Gedanken zur Verknüpfung von Game-Design und demokratischer Meinungsfindung."
-tags: ["Medienpädagogik", "GamesLab", "Konsensomat", "Nürnberg", "Radio"]
-image: "gregor-studio-parabol.jpg"
+description: "Ein Blick hinter die Kulissen des Medienzentrums PARABOL in Nürnberg und das Studio von max neo."
+tags: ["Medienpädagogik", "Nürnberg", "Radio", "Medienarbeit"]
 ---
 
 Ein Raum voller blinkender Lichter, riesige Mischpulte und die absolute Stille eines professionellen Aufnahmezeitraums, in dem jede Nuance der Stimme zählt. Genau dort war ich letzte Woche beim **Medienzentrum PARABOL** in Nürnberg.
@@ -14,16 +13,14 @@ Das PARABOL ist mehr als nur eine Einrichtung – es ist ein Ort zum Ausprobiere
 
 ### Im Maschinenraum von *max neo*
 
-Besonders beeindruckend war das Studio von **max neo**. Wer schon einmal vor einem echten Profi-Mischpult stand, weiß, wie viel Energie in so einem Raum steckt. Aber neben der Technik ging es vor allem um den Austausch über die Zukunft.
+Besonders beeindruckend war das Studio von **max neo**. Wer schon einmal vor einem echten Profi-Mischpult stand, weiß, wie viel Energie in so einem Raum steckt. Neben der Technik ging es vor allem um den Austausch über die medienpädagogische Arbeit mit Jugendlichen.
 
 ![Mischpult max neo](mischpult-max-neo.jpg)
 
-Wir haben darüber diskutiert, wie wir das **GamesLab** und den **Konsensomat** verknüpfen können. Die Idee ist, die Logik des Game-Designs zu nutzen, um demokratische Prozesse und Konsensbildung greifbarer zu machen. Wenn wir die Simulationen unserer Schüler mit echten gesellschaftlichen Diskussionen verbinden, wird Demokratie zu einem interaktiven Erlebnis.
-
-### Was kommt als Nächstes?
+### Fazit des Besuchs
 
 Der Besuch hat mir viel Inspiration gegeben. Wenn Maker und Medienmacher gemeinsam an einem Tisch sitzen, entstehen die besten Ideen.
 
-Wir freuen uns auf die weiteren Gespräche und möglichen Kooperationen. Vielleicht hören wir bald die ersten Game-Design-Diskussionen live auf *max neo* oder sehen einen Konsensomat-gesteuerten Radiosender.
+Wir freuen uns auf den weiteren Austausch und mögliche Kooperationen in der Medienarbeit.
 
 **Wenn sich Maker und Medienmacher treffen, entstehen die spannendsten Ideen.**
