@@ -64,10 +64,13 @@ slug: "gamespreis-2026-kategoriepreise"
 
 {{< scratch-embed url="https://gameslab.kidslab.de/embed/projekt/1968" >}}
 
+<<<<<<< ours
 
 {{< scratch-embed url="https://gameslab.kidslab.de/embed/projekt/2034" >}}
 
 {{< callout type="info" >}}
+=======
+>>>>>>> theirs
 ### Nachhaltigkeit
 
 <p><strong>Aaron – „Car Repair Shop“</strong></p>
