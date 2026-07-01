@@ -3,6 +3,7 @@ title: "Von Pixeln zu Wellen: Ein Tag im Herz der Nürnberger Medienwelt"
 date: 2026-07-01
 description: "Ein Besuch im Medienzentrum PARABOL in Nürnberg und Gedanken zur Verknüpfung von Game-Design und demokratischer Meinungsfindung."
 tags: ["Medienpädagogik", "GamesLab", "Konsensomat", "Nürnberg", "Radio"]
+image: "gregor-studio-parabol.jpg"
 ---
 
 Ein Raum voller blinkender Lichter, riesige Mischpulte und die absolute Stille eines professionellen Aufnahmezeitraums, in dem jede Nuance der Stimme zählt. Genau dort war ich letzte Woche beim **Medienzentrum PARABOL** in Nürnberg.
