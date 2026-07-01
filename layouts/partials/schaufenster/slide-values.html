@@ -1,0 +1,17 @@
+{{ $s := .s }}
+<div style="position:absolute;inset:0;background:#FFE66D;color:#0D1B2A;font-family:system-ui,sans-serif;overflow:hidden">
+  <div style="padding:80px 100px;box-sizing:border-box">
+    <div class="px" style="font-size:44px;margin-bottom:20px;color:#0066FF">// {{ $s.heading }}</div>
+    <div class="px" style="font-size:110px;line-height:1;margin-bottom:30px;max-width:1500px">„{{ $s.quote }}"</div>
+    <div style="font-size:22px;opacity:.6;margin-bottom:60px">— {{ $s.quote_author }}</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px">
+      {{ range $i, $v := $s.items }}
+      <div style="background:#0D1B2A;color:#FFE66D;padding:36px 32px">
+        <div class="px" style="font-size:42px;margin-bottom:14px">0{{ add $i 1 }}</div>
+        <div class="px" style="font-size:36px;margin-bottom:12px">{{ $v.title }}</div>
+        <div style="font-size:20px;color:#FFF;line-height:1.4">{{ $v.desc }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

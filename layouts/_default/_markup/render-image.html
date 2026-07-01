@@ -1,0 +1,19 @@
+{{- $src := .Destination -}}
+{{- $alt := .PlainText -}}
+{{- $title := .Title -}}
+{{- $isExternal := or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
+{{- $isAbsolute := hasPrefix $src "/" -}}
+{{- $ext := lower (path.Ext $src) -}}
+{{- $isVector := or (eq $ext ".svg") (eq $ext ".gif") -}}
+{{- if and (not $isExternal) (not $isAbsolute) (not $isVector) -}}
+  {{- with .Page.Resources.GetMatch $src -}}
+    {{- if eq .ResourceType "image" -}}
+      {{- $img := . -}}
+      {{- if gt .Width 1600 -}}
+        {{- $img = .Resize "1600x webp q82" -}}
+      {{- end -}}
+      {{- $src = $img.RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} loading="lazy">

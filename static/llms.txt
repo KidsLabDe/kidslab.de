@@ -1,0 +1,43 @@
+# KidsLab
+
+> KidsLab ist eine gemeinnützige Organisation (gGmbH) aus Augsburg, die Coding- und Maker-Workshops für Kinder und Schulen in Schwaben (Bayern) durchführt.
+
+KidsLab bietet hands-on Workshops in den Bereichen Programmierung, Robotik, 3D-Druck und digitale Bildung – direkt an Schulen und in eigenen Kursen. Alle Angebote werden von pädagogisch ausgebildeten Mentoren durchgeführt. Material und Technik werden mitgebracht.
+
+## Kontakt
+
+- E-Mail: gregor@kidslab.de
+- Telefon: +49 821 99951920
+- Standort: Augsburg, Bayern, Deutschland
+- Web: https://kidslab.de
+
+## Wichtige Seiten
+
+- [Angebote für Schulen](https://kidslab.de/schulen/) – Workshop-Übersicht für alle Schulformen
+- [Startchancen-Programm](https://kidslab.de/schulen/startchancen/) – Finanzierung über das Startchancen-Chancenbudget (Säule II)
+- [Roboter-Maus](https://kidslab.de/schulen/roboter-maus/) – Programmieren ohne Bildschirm, ab Klasse 1
+- [LEGO Robotik](https://kidslab.de/schulen/lego-robotik/) – Spike Prime, ab Klasse 3
+- [GamesLab Workshop](https://kidslab.de/schulen/gameslab-workshop/) – Spieleentwicklung mit Scratch, ab Klasse 5
+- [3D-Druck & CAD](https://kidslab.de/schulen/3d-druck/) – TinkerCAD, ab Klasse 3
+- [KI: Robolehrer an die Macht?](https://kidslab.de/schulen/ki-robolehrer/) – KI-Ethik, ab Klasse 7, kostenfrei
+- [MakerSpace in der Schule](https://kidslab.de/schulen/makerspace/) – Aufbau und Beratung
+- [Demokratie in Minecraft](https://kidslab.de/demokratie-in-minecraft/) – Demokratiebildung mit Luanti/Minetest
+- [Kurse für Kinder](https://kidslab.de/kurse/) – MinniMaker, LEGO Robotics, HackerWerkstatt
+- [GamesLab & GamesPreis](https://kidslab.de/gameslab/) – Spieleentwicklung und Wettbewerb
+- [Neuigkeiten / Blog](https://kidslab.de/blog/) – Berichte aus Projekten und Workshops
+- [Über KidsLab](https://kidslab.de/ueber-kidslab/) – Team, Impressum, Kontakt
+
+## Referenzen
+
+- **Drei-Auen-Grundschule Augsburg-Oberhausen** (Startchancen-Schule): Technik-AG mit Scratch → GamesLab → LEGO Spike Prime; Kategorie-Preis beim Augsburger GamesPreis 2025
+- **Schule in Biberbach** (Landkreis Augsburg): Demokratie-in-Minecraft-Projekt mit Konsensomat
+- **Weitere Schulen** in Augsburg und Schwaben: MakerSpace-Beratung und Workshop-Programme
+
+## Fakten
+
+- Rechtsform: gemeinnützige GmbH (gGmbH)
+- Standort: Augsburg, Bayern
+- Tätigkeitsgebiet: Augsburg, Schwaben, Bayern
+- Zielgruppen: Grundschulen, Mittelschulen, Gymnasien, Förderschulen, Lehrkräfte
+- Fördermöglichkeiten: Startchancen-Programm (Chancenbudget Säule II), Schule+ (50 % Förderung), DigitalPakt
+- Eingesetzte Werkzeuge: Scratch, LEGO Education Spike Prime, Calliope mini, TinkerCAD, Luanti/Minetest, OctoStudio

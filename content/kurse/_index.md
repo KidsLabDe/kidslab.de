@@ -1,5 +1,6 @@
 ---
 title: Kurse & Workshops in Augsburg
+description: "Kurse und Workshops für Kinder in Augsburg: MinniMaker, LEGO Robotics, Hackerwerkstatt. Programmieren, Roboter bauen und 3D-drucken — praxisnah, im Team, Open Source."
 weight: 1
 cascade:
   type: docs

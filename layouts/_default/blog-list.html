@@ -15,13 +15,24 @@
           {{- $post := . -}}
           <div class="hx:mb-10" style="display:flex; gap:1.5rem; align-items:flex-start;">
             {{- with .Params.image -}}
+              {{- $imgResource := $post.Resources.GetMatch . -}}
               <a href="{{ $post.RelPermalink }}" style="flex-shrink:0;">
-                <img
-                  src="{{ $post.RelPermalink }}{{ . }}"
-                  alt="{{ $post.Title }}"
-                  loading="lazy"
-                  style="width:200px; height:140px; object-fit:cover; border-radius:0.5rem;"
-                />
+                {{- if $imgResource -}}
+                  {{- $thumb := $imgResource.Fill "400x280 webp q80" -}}
+                  <img
+                    src="{{ $thumb.RelPermalink }}"
+                    alt="{{ $post.Title }}"
+                    loading="lazy"
+                    style="width:200px; height:140px; object-fit:cover; border-radius:0.5rem;"
+                  />
+                {{- else -}}
+                  <img
+                    src="{{ $post.RelPermalink }}{{ . }}"
+                    alt="{{ $post.Title }}"
+                    loading="lazy"
+                    style="width:200px; height:140px; object-fit:cover; border-radius:0.5rem;"
+                  />
+                {{- end -}}
               </a>
             {{- end }}
             <div style="min-width:0;">

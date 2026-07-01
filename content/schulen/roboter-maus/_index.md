@@ -1,5 +1,6 @@
 ---
 title: "Programmieren mit der Roboter-Maus"
+description: "Roboter-Maus Workshop für Grundschule und Kindergarten: spielerisch Programmieren lernen ohne Bildschirm. KidsLab kommt mit Lernkoffer direkt in eure Schule."
 weight: 11
 ---
 

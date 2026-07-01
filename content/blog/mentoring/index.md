@@ -40,4 +40,4 @@ slug: "mentoring"
 
 ## Bereit, dabei zu sein?
 
-<h3>Direkt anmelden:</h3><p><a href="https://anmeldung.jugendhackt.org/muenchen/mentoring-25/">anmeldung.jugendhackt.org/muenchen/mentoring-25/</a></p><h3>💬 Noch Fragen?</h3><p>Schreib uns: <a href="mailto:muenchen@jugendhackt.org">muenchen@jugendhackt.org</a> (Gregor)</p><h3>📢 Nicht dein Ding?</h3><p>Kein Problem! Vielleicht kennst du jemanden, für den das perfekt wäre? Teile diesen Aufruf gerne!</p>
+<h3>Direkt anmelden:</h3><p><a href="https://anmeldung.jugendhackt.org/muenchen/mentoring-25/">anmeldung.jugendhackt.org/muenchen/mentoring-25/</a></p><h3>💬 Noch Fragen?</h3><p>Schreib uns: <a href="mailto:team@kidslab.de">team@kidslab.de</a> (Gregor)</p><h3>📢 Nicht dein Ding?</h3><p>Kein Problem! Vielleicht kennst du jemanden, für den das perfekt wäre? Teile diesen Aufruf gerne!</p>

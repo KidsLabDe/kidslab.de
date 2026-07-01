@@ -9,6 +9,8 @@ description: "Gemeinsam mit Danilo Dietsch von Q3 haben wir auf dem 26. Gautinge
 slug: "gautinger-internettreffen-2026-luanti-workshop"
 ---
 
+![Vortrag auf dem Gautinger Internettreffen über Luanti und Demokratie](gautinger-internet-treffen-minetest-vortrag.jpg)
+
 Am 24. März 2026 waren wir zu Gast beim [26. Gautinger Internettreffen](https://www.studioimnetz.de/projekte/gautinger-internettreffen/git26/) – einer der wichtigsten Fachtagungen für Medienpädagogik in Bayern, organisiert vom [Institut für Jugendarbeit](https://www.institutgauting.de/), dem Referat für Bildung und Sport der Landeshauptstadt München und [SIN – Studio im Netz e.V.](https://www.studioimnetz.de/). Dieses Jahr stand die Tagung unter dem Motto **„Digital und selbstbestimmt"**. Gemeinsam mit **Danilo Dietsch** von [Q3 – Quartier für Medien.Bildung.Abenteuer](https://www.qdrei.info/) aus Traunstein haben wir den Workshop **„Zukunft mit Minecraft gestalten"** gehalten.
 
 ## Worum ging es?
@@ -44,3 +46,5 @@ Wer sich die Präsentation in Ruhe anschauen möchte, kann sie hier herunterlade
 ## Danke!
 
 Ein großes Dankeschön an das Team vom [SIN – Studio im Netz](https://www.studioimnetz.de/) für die Organisation des Gautinger Internettreffens und an Danilo Dietsch von [Q3](https://www.qdrei.info/) für die tolle Zusammenarbeit – sowohl auf der Bühne als auch bei unseren gemeinsamen Projekten an bayerischen Schulen.
+
+Die [Dokumentation der Tagung](https://www.studioimnetz.de/projekte/gautinger-internettreffen/git26/doku/) gibt es auf der Website von SIN – Studio im Netz.

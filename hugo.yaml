@@ -7,6 +7,13 @@ theme: hextra
 enableRobotsTXT: true
 enableGitInfo: false
 
+security:
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*
+
 # Pagination
 pagination:
   pagerSize: 12
@@ -32,7 +39,7 @@ sitemap:
 
 # Hextra-specific params
 params:
-  description: "Digitale Bildung für junge Menschen ッ"
+  description: "KidsLab: Coding- und Maker-Workshops für Kinder und Schulen in Augsburg und Schwaben. Robotik, Scratch, 3D-Druck, Spieleentwicklung — gemeinnützig und praxisnah."
 
   navbar:
     displayTitle: true
@@ -86,7 +93,7 @@ menu:
     - name: Für Schulen
       pageRef: /schulen
       weight: 2
-    - name: Kontakt
+    - name: Kontakt & Anfahrt
       pageRef: /ueber-kidslab/kontakt
       weight: 3
     - name: Suche

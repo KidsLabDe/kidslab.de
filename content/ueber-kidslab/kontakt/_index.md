@@ -7,7 +7,7 @@ type: docs
 
 Du hast eine Frage, willst einen Workshop buchen oder einfach Hallo sagen? Schreib uns!
 
-**E-Mail:** [info@kidslab.de](mailto:info@kidslab.de)
+**E-Mail:** [team@kidslab.de](mailto:team@kidslab.de)
 
 ## Telefon & WhatsApp
 
@@ -19,8 +19,16 @@ Du hast eine Frage, willst einen Workshop buchen oder einfach Hallo sagen? Schre
 
 ## Wie komme ich zum KidsLab?
 
+**Veranstaltungsort (hier finden alle Kurse & Workshops statt):**
+
+**KidsLab — Herrenhäuser 17 · 86152 Augsburg**
+
+{{< callout type="warning" >}}
+Bitte beachten: Unsere **Postanschrift** ist die Neidhartstraße 2 — dort findet **kein Kursbetrieb** statt. Alle Workshops und Kurse finden in der **Herrenhäuser 17** statt.
+{{< /callout >}}
+
 <h2>Anfahrt KidsLab / Fischertor</h2><p>Im Georgenviertel, direkt beim Fischertor, befindet sich das KidsLab.</p><h3>Mit dem Auto / Parken</h3><p>Es gibt in der näheren Umgebung sowohl Parkplätze mit Parkscheibe in der Thommstraße, als auch kostenpflichtige Parkplätze am Pfannenstiel (ca. 1 Euro pro 2 Stunden)</p><h3>… mit der öffentlichen Verkehrsmitteln</h3><p>Mit der Straßenbahn kommt man direkt mit der Linie 2 zum KidsLab – die Haltestelle ist nur wenige Meter entfernt.</p>
 
 <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=10.892279148101808%2C48.37587215635381%2C10.893971621990206%2C48.37809558623151&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=19/48.376984/10.893125">Größere Karte anzeigen</a></small>
 
-{{< button href="/impressum/" >}}Impressum{{< /button >}}
+{{< button href="/ueber-kidslab/impressum/" >}}Impressum{{< /button >}}
