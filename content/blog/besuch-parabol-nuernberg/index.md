@@ -3,6 +3,7 @@ title: "Von Pixeln zu Wellen: Ein Besuch im Medienzentrum PARABOL in Nürnberg"
 date: 2026-07-01
 description: "Ein Blick hinter die Kulissen des Medienzentrums PARABOL in Nürnberg und das Studio von max neo."
 tags: ["Medienpädagogik", "Nürnberg", "Radio", "Medienarbeit"]
+image: "gregor-studio-parabol.jpg"
 ---
 
 Ein Raum voller blinkender Lichter, riesige Mischpulte und die absolute Stille eines professionellen Aufnahmezeitraums, in dem jede Nuance der Stimme zählt. Genau dort war ich letzte Woche beim **Medienzentrum PARABOL** in Nürnberg.
