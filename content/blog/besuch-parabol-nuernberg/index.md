@@ -8,7 +8,7 @@ image: "gregor-studio-parabol.jpg"
 
 Ein Raum voller blinkender Lichter, riesige Mischpulte und die absolute Stille eines professionellen Aufnahmezeitraums, in dem jede Nuance der Stimme zählt. Genau dort war ich letzte Woche beim **Medienzentrum PARABOL** in Nürnberg.
 
-![Gregor im Studio](/content/blog/besuch-parabol-nuernberg/gregor-studio-parabol.jpg)
+![Gregor im Studio](gregor-studio-parabol.jpg)
 
 Das PARABOL ist mehr als nur eine Einrichtung – es ist ein Ort zum Ausprobieren. Seit über 40 Jahren ermöglichen sie es Kindern und Jugendlichen, Medien aktiv zu gestalten, statt sie nur zu konsumieren. Dieser Ansatz ist genau das, was wir auch im KidsLab verfolgen.
 
@@ -16,7 +16,7 @@ Das PARABOL ist mehr als nur eine Einrichtung – es ist ein Ort zum Ausprobiere
 
 Besonders beeindruckend war das Studio von **max neo**. Wer schon einmal vor einem echten Profi-Mischpult stand, weiß, wie viel Energie in so einem Raum steckt. Aber neben der Technik ging es vor allem um den Austausch über die Zukunft.
 
-![Mischpult max neo](/content/blog/besuch-parabol-nuernberg/mischpult-max-neo.jpg)
+![Mischpult max neo](mischpult-max-neo.jpg)
 
 Wir haben darüber diskutiert, wie wir das **GamesLab** und den **Konsensomat** verknüpfen können. Die Idee ist, die Logik des Game-Designs zu nutzen, um demokratische Prozesse und Konsensbildung greifbarer zu machen. Wenn wir die Simulationen unserer Schüler mit echten gesellschaftlichen Diskussionen verbinden, wird Demokratie zu einem interaktiven Erlebnis.
 
