@@ -5,6 +5,7 @@ description: "Wir waren beim Zefix Code Culture Jugend Hackathon im Deutschen Mu
 image: zefix-hackathon-schrott-roboter-battle.jpg
 tags: ["Zefix", "Schrott-Roboter", "Robotik", "Deutsches-Museum"]
 slug: zefix-hackathon-schrott-roboter-2026
+aliases: ["/blog/festival-der-zukunft-shitty-robots/"]
 ---
 
 Das Wochenende im Deutschen Museum war absolut wild.
@@ -21,7 +22,20 @@ Das bedeutet in der Praxis:
 
 Es war herrlich zu sehen, wie aus ein paar Einzelteilen Dinge entstanden sind, die zwar wackeln und quietschen, aber ihren Job erledigen. Genau das ist der KidsLab-Spirit: Selbst machen statt zuschauen.
 
-{{< callout type=\"info\" >}}
+{{< gallery cols="4" >}}
+![Schrott-Roboter bauen beim Zefix Hackathon 1](shitty-robots-festival-1.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 2](shitty-robots-festival-2.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 4](shitty-robots-festival-4.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 5](shitty-robots-festival-5.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 6](shitty-robots-festival-6.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 7](shitty-robots-festival-7.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 8](shitty-robots-festival-8.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 9](shitty-robots-festival-9.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 10](shitty-robots-festival-10.jpg)
+![Schrott-Roboter bauen beim Zefix Hackathon 11](shitty-robots-festival-11.jpg)
+{{< /gallery >}}
+
+{{< callout type="info" >}}
 Kurz-Check: Wer wissen will, wie Zefix genau funktioniert und was hinter dem Code Culture Event steckt, sollte unbedingt mal auf [zefix.org](https://zefix.org) vorbeischauen. Da gibt es alle Details.
 {{< /callout >}}
 
@@ -31,6 +45,11 @@ Der absolute Höhepunkt war das Schrott-Roboter-Finale. Wenn die selbstgebauten 
 Die Spannung war riesig. Die Kids haben bis zur letzten Sekunde getüftelt, geschraubt und optimiert, damit ihr Roboter im Kampf überlebt. Ob es am Ende geklappt hat? Das Ergebnis ist fast egal – wichtig war der Weg vom Schrotthaufen zum kampfbereiten Bot.
 
 ---
+
+### Das Team hinter dem Chaos
+
+Ein solches Event funktioniert nur mit einem starken Team, das jedem Kind den Rücken stärkt und gleichzeitig den Überblick behält. Ein riesiges Dankeschön an:
+**MatzE, Leo, Leno, Basti, Danilo, Alexander und Hannah**, die mit vollem Einsatz dabei waren.
 
 Fazit: Ein fantastisches Wochenende voller Bastelspaß, technischer Experimente und einer riesigen Portion Chaos. Danke an alle, die dabei waren und mit uns getüftelt haben.
 
