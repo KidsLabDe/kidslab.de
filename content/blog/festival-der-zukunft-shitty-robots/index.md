@@ -2,7 +2,7 @@
 title: "Schrott an Start: Das Finale der Shitty Robots beim Festival der Zukunft"
 date: "2026-07-06"
 description: "Vom Mülleimer zum Roboter-Champ: Wie wir mit Kindern Schrott-Roboter gebaut und im Deutschen Museum gegeneinander antreten ließen"
-image: "shitty-robots-finale.jpg"
+image: "shitty-robots-festival-10.jpg"
 tags: ["Robotik", "Festival der Zukunft", "Hands-on", "KidsLab"]
 slug: "festival-der-zukunft-shitty-robots"
 ---
@@ -35,7 +35,7 @@ Dabei ging es nicht nur um die Technik, sondern vor allem um das Problemlösen: 
 ### Das Team hinter dem Chaos
 
 Ein solches Event funktioniert nur mit einem starken Team, das jedem Kind den Rücken stärkt und gleichzeitig den Überblick behält. Ein riesiges Dankeschön an: 
-**MatzE, Leo, Basti, Danilo, Alexander und Hannah**, die mit vollem Einsatz dabei waren.
+**MatzE, Leo, Leno, Basti, Danilo, Alexander und Hannah**, die mit vollem Einsatz dabei waren.
 
 Besonderen Dank gilt auch **Q3 (qdrei.info)**, die uns unterstützt haben und dafür gesorgt haben, dass die technische Infrastruktur hielt. In diesem Zuge konnten wir auch wieder auf **ZeFix.org** aufmerksam machen – ein wichtiges Projekt für den offenen Umgang mit technischen Daten.
 
