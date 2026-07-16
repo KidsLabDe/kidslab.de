@@ -30,6 +30,8 @@ cascade:
 {{< cards >}}
   {{< card link="minnimaker-nachmittag" title="MinniMaker Nachmittag" subtitle="Jeden Montag — basteln, bauen und entdecken für die Jüngsten" >}}
   {{< card link="roboter-ferienkurs" title="Roboter bauen" subtitle="Ferienkurs: Baue deinen eigenen Roboter mit Raspberry Pi Pico & 3D-Druck" >}}
+  {{< card link="sommer-ferien-tinkercad" title="Sommer Ferien Tinkercad" subtitle="Design & 3D-Druck für Einsteiger (Saison 2026)" >}}
+  {{< card link="sommer-ferien-lego-robotics" title="Sommer Ferien Lego Robotics" subtitle="Robotik, Navigation & Balloon Pop Challenge" >}}
   {{< card link="godot-games-workshop" title="Godot Games Workshop" subtitle="Ferienkurs: Dein eigenes Videospiel entwickeln mit Godot" >}}
   {{< card link="lego-robotics" title="Lego Robotics" subtitle="Roboter bauen und programmieren mit Lego Spike und Mindstorms" >}}
   {{< card link="hackerwerkstatt" title="Hackerwerkstatt" subtitle="Der Nerd-Treff ab 12 — wir entscheiden gemeinsam was wir machen" >}}
