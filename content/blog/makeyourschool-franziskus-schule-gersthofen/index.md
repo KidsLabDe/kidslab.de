@@ -1,6 +1,7 @@
 ---
 title: "Hacks, Herz und ein Subaru Libero: MakeYourSchool an der Franziskus Schule Gersthofen"
 date: 2026-07-15T12:00:00+02:00
+image: subaru-libero.jpg
 draft: false
 categories: ["MakeYourSchool"]
 tags: ["Förderschule", "Gersthofen", "Subaru Libero", "Maker-Education"]

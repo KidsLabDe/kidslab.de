@@ -1,11 +1,7 @@
 ---
 title: "Baue deinen eigenen Roboter"
-description: "Ferienkurs: Robotik, 3D-Design und Block-Programmierung mit makerSpaceOS."
-date: 2026-08-17
-draft: false
+weight: 2
 ---
-
-# Baue deinen eigenen Roboter!
 
 In diesem Ferienkurs baust du einen eigenen Roboter von Grund auf. Wir nutzen den **Raspberry Pi Pico (MAKER-PI-RP2040)**, Sensoren und Motoren, um eine fahrfähige Maschine zu bauen.
 
@@ -25,4 +21,3 @@ Die Programmierung erfolgt mit **makerSpaceOS**. Das ist ein blockbasiertes Tool
 
 **Interesse? Dann sichere dir jetzt einen Platz:**
 {{< pretix event="https://pretix.eu/kidslab/roboter/" >}}
-

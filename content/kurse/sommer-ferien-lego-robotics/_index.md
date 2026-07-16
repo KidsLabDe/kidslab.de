@@ -1,5 +1,5 @@
 ---
-title: \"Sommer-Ferien Workshop: Lego Robotics\"
+title: "Sommer-Ferien Workshop: Lego Robotics"
 weight: 11
 ---
 
