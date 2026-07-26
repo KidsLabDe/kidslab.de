@@ -6,11 +6,15 @@ weight: 3
 
 Bist du bereit für eine Woche voller Technik, Code und Action? In diesem Ferienworkshop bauen wir leistungsfähige Roboter und programmieren sie so, dass sie eigenständig durch die Welt navigieren. Wir starten mit den Basics der Bewegung und steigern uns bis zu komplexen Herausforderungen.
 
-![Selbstgebauter Lego-Roboter aus dem Ferienkurs im KidsLab Augsburg](lego-roboter-ferienkurs-augsburg-selbstgebaut.jpg)
+![Kinder bauen im Lego-Ferienkurs in Augsburg einen Lego-Spike-Prime-Roboter](lego-ferienkurs-augsburg-kinder-bauen-spike-roboter.jpg)
+
+Wir bauen mit **Lego Spike Prime**: Motoren, Sensoren und ein stabiles Chassis — und dann wird programmiert, bis der Roboter genau das macht, was er soll.
+
+![Nahaufnahme eines Lego-Spike-Prime-Roboters, der im Kurs zusammengebaut wird](lego-ferienkurs-augsburg-spike-roboter-nahaufnahme.jpg)
 
 Das große Finale ist unser „Balloon Pop“: Ein Parcours aus markierten Zielen, die von den Robotern präzise angefahren und per Nadel zerplatzt werden müssen – eine echte Herausforderung an Präzision und Programmierung!
 
-{{< video src="lego-roboter-balloon-pop-challenge-ferienkurs.mp4" width="360px" >}}
+![Kinder testen ihre Lego-Roboter auf einem Parcours im Ferienkurs](lego-ferienkurs-augsburg-roboter-parcours-challenge.jpg)
 
 ### Details zum Kurs:
 - 📅 **Termin:** 19. bis 21. August 2026 (Mittwoch – Freitag)
