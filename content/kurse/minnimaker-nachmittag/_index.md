@@ -1,6 +1,6 @@
 ---
 title: MinniMaker Nachmittag
-weight: 1
+weight: 20
 ---
 
 > Basteln, bauen und entdecken — jeden Montag für die jüngsten Maker.

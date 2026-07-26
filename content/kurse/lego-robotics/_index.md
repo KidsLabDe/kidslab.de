@@ -1,6 +1,6 @@
 ---
 title: Lego Robotics
-weight: 2
+weight: 21
 ---
 
 > Roboter bauen und programmieren mit LEGO Spike Prime – für Kinder von 8 bis 12 Jahren.

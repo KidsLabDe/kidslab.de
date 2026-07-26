@@ -13,7 +13,7 @@ KidsLab ist eine **gemeinnützige Organisation**. Wir kalkulieren kostendeckend,
 
 ## Ermäßigungen
 
-Alle Ermäßigungen kannst du **direkt beim Buchen selbst auswählen** — einfach die passende Preisoption im Ticketshop anklicken. Kein Nachweis, kein Antrag.
+Die 50%-Ermäßigung kannst du **direkt beim Buchen selbst auswählen** — einfach die passende Preisoption im Ticketshop anklicken. Kein Nachweis, kein Antrag.
 
 - **50% Ermäßigung** — falls der reguläre Preis zu viel ist
 - **Geschwisterkinder** — ab dem 2. Kind: 50% günstiger
@@ -23,9 +23,9 @@ Alle Ermäßigungen kannst du **direkt beim Buchen selbst auswählen** — einfa
 ## Kein Kind wird ausgeschlossen
 
 {{< callout type="important" >}}
-**Jeder Kurs ist auch mit 0 EUR buchbar** — direkt im Ticketshop, ohne Nachfragen, ohne extra E-Mail. Wähle einfach die passende Preisoption beim Buchen.
+**Wenn auch der ermäßigte Preis nicht geht, geht es trotzdem.** Schreib uns einfach kurz — per E-Mail an [team@kidslab.de](mailto:team@kidslab.de) oder per [WhatsApp](https://wa.me/4982199951920). Wir finden eine Lösung, auch für 0 Euro.
 
-Digitale Bildung sollte keine Hürden kennen.
+Du musst nichts nachweisen und nichts begründen. Digitale Bildung sollte keine Hürden kennen.
 {{< /callout >}}
 
 {{< button href="/kurse" >}}Zu den Kursen{{< /button >}}
