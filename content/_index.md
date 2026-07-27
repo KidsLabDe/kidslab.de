@@ -33,7 +33,7 @@ Zwei Wochen Technik, Code und Action im KidsLab Augsburg — von 3D-Design über
 {{< /gallery >}}
 
 {{< cards >}}
-  {{< card link="/kurse/roboter-ferienkurs/" title="Baue deinen eigenen Roboter" subtitle="17.–21. August, 14–17 Uhr · ab 10 Jahren — Raspberry Pi Pico, Sensoren & 3D-Druck" >}}
+  {{< card link="/kurse/roboter-ferienkurs/" title="Baue deinen eigenen Roboter" subtitle="17.–21. August, 14–17 Uhr · ab 12 Jahren — Raspberry Pi Pico, Sensoren & 3D-Druck" >}}
   {{< card link="/kurse/sommer-ferien-tinkercad/" title="Tinkercad & Design" subtitle="17.–18. August, 9–12 Uhr · ab 8 Jahren — 3D-Modelle entwerfen und drucken" >}}
   {{< card link="/kurse/sommer-ferien-lego-robotics/" title="Lego Robotics" subtitle="19.–21. August, 9–12 Uhr · ab 8 Jahren — Robotik, Navigation & Balloon Pop" >}}
   {{< card link="/kurse/godot-games-workshop/" title="Godot Games Workshop" subtitle="24.–28. August, 9–12 Uhr · ab 12 Jahren — dein eigenes Videospiel entwickeln" >}}

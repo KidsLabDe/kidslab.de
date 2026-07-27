@@ -27,7 +27,7 @@ Die Programmierung erfolgt mit **makerSpaceOS**. Das ist ein blockbasiertes Tool
 ### Details zum Kurs:
 - 📅 **Termin:** 17. bis 21. August 2026 (Montag – Freitag)
 - 🕒 **Zeit:** jeweils 14:00 bis 17:00 Uhr
-- 👥 **Teilnehmer:** ab 10 Jahren (max. 8 Plätze)
+- 👥 **Teilnehmer:** ab 12 Jahren (max. 8 Plätze)
 - 💶 **Kosten:** 150 € (ermäßigt 75 €) zzgl. 25 € Materialkosten
 - 📍 **Ort:** KidsLab Augsburg
 
