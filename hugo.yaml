@@ -93,7 +93,7 @@ menu:
     - name: Für Schulen
       pageRef: /schulen
       weight: 2
-    - name: Kontakt
+    - name: Kontakt & Anfahrt
       pageRef: /ueber-kidslab/kontakt
       weight: 3
     - name: Suche

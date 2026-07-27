@@ -1,6 +1,6 @@
 ---
 title: "HackerWerkstatt 12+"
-weight: 3
+weight: 22
 ---
 
 > Technik verstehen, nicht nur benutzen – das Format für alle ab 12, die tiefer einsteigen wollen.

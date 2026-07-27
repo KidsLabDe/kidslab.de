@@ -30,11 +30,11 @@ Am Abschlusstag kam dann die aufregendste Phase: Die Karten wurden **ausgedruckt
 
 Die Vielfalt der Ideen war beeindruckend: Von fantastischen Monstern über Dinosaurier bis hin zu abstrakten Wesen – die Fantasie der Kinder kannte keine Grenzen.
 
-## Ein besonderer Gast: Hund Nero!
+## Ein besonderer Gast: Hund "Nero"!
 
-Für extra gute Laune sorgte ein besonderer Gast: Regine brachte ihren kleinen, süßen Hund mit ins KidsLab! Der flauschige Vierbeiner hat das Herz aller im Sturm erobert und für wohlige Pausen zwischen dem Ausschneiden und Laminieren gesorgt.
+Für extra gute Laune sorgte ein besonderer Gast: Einer der Knider hat seinen süßen Hund mit ins KidsLab gebcacht! Der flauschige Vierbeiner hat das Herz aller im Sturm erobert und für wohlige Pausen zwischen dem Ausschneiden und Laminieren gesorgt.
 
-![Regine mit ihrem kleinen schwarzen Hund zu Gast beim MiniMaker Nachmittag](minimaker-abschluss-regine-hund-kidslab.jpg)
+![Regine mit kleinen schwarzen Hund zu Gast beim MiniMaker Nachmittag](minimaker-abschluss-regine-hund-kidslab.jpg)
 
 ## Ein voller Erfolg!
 
