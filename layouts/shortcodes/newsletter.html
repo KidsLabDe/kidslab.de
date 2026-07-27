@@ -22,7 +22,21 @@
     line-height: 1.6;
   ">{{ $text }}</p>
 
-  <iframe src="https://news.kidslab.de/subscribe/org_EuBAblFtUKmn/embed" width="100%" height="400" frameborder="0" style="border: none; max-width: 500px; display: block; margin: 0 auto;"></iframe>
+  <iframe id="rocketem-signup-org_EuBAblFtUKmn"
+        src="https://news.kidslab.de/subscribe/org_EuBAblFtUKmn/embed"
+        width="100%" height="620" frameborder="0" scrolling="no"
+        style="border:none; max-width:500px; display:block; margin: 0 auto;"></iframe>
+  <script>
+  (function () {
+      var frame = document.getElementById("rocketem-signup-org_EuBAblFtUKmn");
+      window.addEventListener("message", function (event) {
+          if (event.origin !== "https://news.kidslab.de") return;
+          if (!event.data || event.data.type !== "rocketem-resize") return;
+          var h = parseInt(event.data.height, 10);
+          if (h > 0) frame.style.height = h + "px";
+      });
+  })();
+  </script>
 </div>
 
 <style>
