@@ -20,8 +20,6 @@ Willkommen beim KidsLab! Bei uns lernst du, wie Technik funktioniert — und wie
 - Demokratie erleben in digitalen Welten
 - Workshops für Schulen und Lehrkräfte
 
-{{< schaufenster-preview >}}
-
 {{< cta title="Sommerferien 2026 — noch Plätze frei!" href="/kurse/" button="Zu den Ferienkursen" >}}Vier Ferienkurse im August: Roboter bauen, 3D-Design mit Tinkercad, Lego Robotics und Spieleentwicklung mit Godot.{{< /cta >}}
 
 ## Ferienkurse in den Sommerferien
@@ -44,6 +42,14 @@ Zwei Wochen Technik, Code und Action im KidsLab Augsburg — von 3D-Design über
 ## Jetzt Platz sichern
 
 {{< pretix event="https://pretix.eu/kidslab/" >}}
+
+---
+
+{{< schaufenster-preview >}}
+
+---
+
+
 
 ## Unsere Angebote für Schulen und Lehrkräfte
 

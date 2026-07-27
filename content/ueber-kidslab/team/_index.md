@@ -27,6 +27,12 @@ IT-Consultant, Entwickler und seit 2019 selbstständig — Daniel bringt Systemb
 
 Bei KidsLab ist Daniel der Mensch, der gefühlt immer da ist: bei Workshops, bei den Mentoren, bei Problemen, bei Ideen — manchmal wahrscheinlich gleichzeitig an drei Orten. Er betreut Mentoren, unterstützt Projekte, repariert Dinge, baut neue Hacks, experimentiert mit LEGO-Robotern und organisiert nebenbei noch LAN-Partys. Beim GamesPreis 2026 wurde er dafür mit dem **"Super Otter"** ausgezeichnet — dem Sonderpreis für unglaublichen Einsatz, Tag und Nacht.
 
+### Matthias „MatzE" Schugg
+
+MatzE hat Informatik studiert und mit einer 1er-Note abgeschlossen — aber sein echtes Talent liegt darin, andere zu begeistern. Er ist ein MEGA Minecraft-Profi und hat mit seinen Online-Kursen „Programmieren in Minecraft" schon hunderte Kids erreicht.
+
+Bei KidsLab ist er nicht nur als Mentor dabei, sondern bringt sich als Bastler und Löter an allen Ecken ein — ob Lego Robotics, Elektronik oder kreative Workshop-Ideen. Er ist seit seiner Jugend bei JugendHackt aktiv und gibt das jetzt als Mentor weiter. Wenn er nicht gerade programmiert oder lötet, floatet er durch die Augsburger Kanäle oder spielt Unterwasserrugby.
+
 ## Das Mentoren-Team
 
 Unsere Workshops leben von den Mentorinnen und Mentoren: Junge Menschen, die selbst programmieren, basteln und gestalten — und ihre Begeisterung direkt an die Teilnehmenden weitergeben. Beim [GamesLab](/gameslab/) betreuen sie die Teams, helfen bei Scratch-Fragen und sorgen dafür, dass am Ende jedes Team ein fertiges Spiel hat.
