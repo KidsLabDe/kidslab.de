@@ -1,7 +1,7 @@
 baseURL: https://kidslab.de/
-title: "KidsLab – Digitale Bildung für junge Menschen ッ"
 languageCode: de
 defaultContentLanguage: de
+defaultContentLanguageInSubdir: false
 
 theme: hextra
 enableRobotsTXT: true
@@ -39,8 +39,6 @@ sitemap:
 
 # Hextra-specific params
 params:
-  description: "KidsLab: Coding- und Maker-Workshops für Kinder und Schulen in Augsburg und Schwaben. Robotik, Scratch, 3D-Druck, Spieleentwicklung — gemeinnützig und praxisnah."
-
   navbar:
     displayTitle: true
     displayLogo: true
@@ -84,35 +82,81 @@ params:
     copy:
       enable: true
 
-# Main navigation menu
-menu:
-  main:
-    - name: Kurse
-      pageRef: /kurse
-      weight: 1
-    - name: Für Schulen
-      pageRef: /schulen
-      weight: 2
-    - name: Kontakt & Anfahrt
-      pageRef: /ueber-kidslab/kontakt
-      weight: 3
-    - name: Suche
-      weight: 4
-      params:
-        type: search
-    - name: Instagram
-      url: https://www.instagram.com/kidslabaugsburg
-      weight: 5
-      params:
-        icon: instagram
-    - name: Facebook
-      url: https://www.facebook.com/KidsLab.De
-      weight: 6
-      params:
-        icon: facebook
-    - name: GitHub
-      url: https://github.com/KidsLabDe
-      weight: 7
-      params:
-        icon: github
+# Languages
+languages:
+  de:
+    languageName: Deutsch
+    languageCode: de
+    weight: 1
+    title: "KidsLab – Digitale Bildung für junge Menschen ッ"
+    params:
+      description: "KidsLab: Coding- und Maker-Workshops für Kinder und Schulen in Augsburg und Schwaben. Robotik, Scratch, 3D-Druck, Spieleentwicklung — gemeinnützig und praxisnah."
+    menu:
+      main:
+        - name: Kurse
+          pageRef: /kurse
+          weight: 1
+        - name: Für Schulen
+          pageRef: /schulen
+          weight: 2
+        - name: Kontakt & Anfahrt
+          pageRef: /ueber-kidslab/kontakt
+          weight: 3
+        - name: Suche
+          weight: 4
+          params:
+            type: search
+        - name: Instagram
+          url: https://www.instagram.com/kidslabaugsburg
+          weight: 5
+          params:
+            icon: instagram
+        - name: Facebook
+          url: https://www.facebook.com/KidsLab.De
+          weight: 6
+          params:
+            icon: facebook
+        - name: GitHub
+          url: https://github.com/KidsLabDe
+          weight: 7
+          params:
+            icon: github
+
+  en:
+    languageName: English
+    languageCode: en
+    weight: 2
+    title: "KidsLab – Digital Education for Kids and Teens ッ"
+    params:
+      description: "KidsLab: Coding and maker workshops for kids and schools in Augsburg, Germany. Robotics, Scratch, 3D printing, game development — nonprofit and hands-on."
+    menu:
+      main:
+        - name: Courses
+          pageRef: /kurse
+          weight: 1
+        - name: For Schools
+          pageRef: /schulen
+          weight: 2
+        - name: Contact
+          pageRef: /ueber-kidslab/kontakt
+          weight: 3
+        - name: Search
+          weight: 4
+          params:
+            type: search
+        - name: Instagram
+          url: https://www.instagram.com/kidslabaugsburg
+          weight: 5
+          params:
+            icon: instagram
+        - name: Facebook
+          url: https://www.facebook.com/KidsLab.De
+          weight: 6
+          params:
+            icon: facebook
+        - name: GitHub
+          url: https://github.com/KidsLabDe
+          weight: 7
+          params:
+            icon: github
 
