@@ -25,17 +25,6 @@ cascade:
 **Wer sind wir?** Unsere Mentoren begleiten die Kids mit Geduld und Begeisterung — [Team & Mentoren](/ueber-kidslab/team/)
 {{< /callout >}}
 
-## Ferienkurse — Sommer 2026
-
-Zwei Wochen Technik, Code und Action in den Sommerferien. Alle Kurse finden im KidsLab Augsburg statt.
-
-{{< cards >}}
-  {{< card link="roboter-ferienkurs" title="Baue deinen eigenen Roboter" subtitle="17.–21. August, 14–17 Uhr · ab 10 Jahren — Raspberry Pi Pico, Sensoren & 3D-Druck" >}}
-  {{< card link="sommer-ferien-tinkercad" title="Tinkercad & Design" subtitle="17.–18. August, 9–12 Uhr · ab 8 Jahren — 3D-Modelle entwerfen und drucken" >}}
-  {{< card link="sommer-ferien-lego-robotics" title="Lego Robotics" subtitle="19.–21. August, 9–12 Uhr · ab 8 Jahren — Robotik, Navigation & Balloon Pop" >}}
-  {{< card link="godot-games-workshop" title="Godot Games Workshop" subtitle="24.–28. August, 9–12 Uhr · ab 12 Jahren — dein eigenes Videospiel entwickeln" >}}
-{{< /cards >}}
-
 ## Regelmäßige Angebote
 
 {{< callout type="info" >}}

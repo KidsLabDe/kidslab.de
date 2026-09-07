@@ -2,6 +2,7 @@
 title: "Build Your Own Robot"
 description: "Holiday course in Augsburg: build your own robot with Raspberry Pi Pico, sensors, and 3D printing — block-based programming with makerSpaceOS. August 17–21, 2026."
 weight: 1
+aliases: ["/kurse/roboter-ferienkurs/"]
 ---
 
 In this holiday course, you'll build your own robot from scratch. We use the **Raspberry Pi Pico (MAKER-PI-RP2040)**, sensors, and motors to build a machine that can drive around.

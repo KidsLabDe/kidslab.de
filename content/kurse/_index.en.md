@@ -25,17 +25,6 @@ cascade:
 **Who are we?** Our mentors guide the kids with patience and enthusiasm — [team & mentors](/ueber-kidslab/team/)
 {{< /callout >}}
 
-## Holiday courses — Summer 2026
-
-Two weeks of tech, code, and action during summer break. All courses take place at KidsLab Augsburg.
-
-{{< cards >}}
-  {{< card link="roboter-ferienkurs" title="Build your own robot" subtitle="Aug 17–21, 2–5 pm · ages 10+ — Raspberry Pi Pico, sensors & 3D printing" >}}
-  {{< card link="sommer-ferien-tinkercad" title="Tinkercad & Design" subtitle="Aug 17–18, 9 am–12 pm · ages 8+ — design and print 3D models" >}}
-  {{< card link="sommer-ferien-lego-robotics" title="Lego Robotics" subtitle="Aug 19–21, 9 am–12 pm · ages 8+ — robotics, navigation & Balloon Pop" >}}
-  {{< card link="godot-games-workshop" title="Godot Games Workshop" subtitle="Aug 24–28, 9 am–12 pm · ages 12+ — develop your own video game" >}}
-{{< /cards >}}
-
 ## Regular offers
 
 {{< callout type="info" >}}

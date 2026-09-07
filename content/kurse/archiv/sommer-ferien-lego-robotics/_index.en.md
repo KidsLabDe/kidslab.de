@@ -2,6 +2,7 @@
 title: "Summer Holiday Workshop: Lego Robotics"
 description: "Holiday workshop in Augsburg: build Lego robots, program them, and get them navigating autonomously — with a Balloon Pop challenge finale. August 19–21, 2026."
 weight: 3
+aliases: ["/kurse/sommer-ferien-lego-robotics/"]
 ---
 
 Ready for a week full of tech, code, and action? In this holiday workshop, we build capable robots and program them to navigate the world on their own. We start with the basics of movement and work our way up to complex challenges.

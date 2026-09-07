@@ -2,6 +2,7 @@
 title: "Godot Games Workshop"
 description: "Holiday workshop in Augsburg: develop your own computer game with the Godot engine — characters, controls, points, sound, and graphics. August 24–28, 2026."
 weight: 4
+aliases: ["/kurse/godot-games-workshop/"]
 ---
 
 Want to program your own computer game? In this holiday workshop, you'll use the free game engine Godot to build your own game step by step — from the idea through characters and controls to points, sound, and your own graphics.

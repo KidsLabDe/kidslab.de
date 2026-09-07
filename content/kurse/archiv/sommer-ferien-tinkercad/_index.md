@@ -2,6 +2,7 @@
 title: "Sommer-Ferien Workshop: Tinkercad & Design"
 description: "Ferienworkshop in Augsburg: 3D-Modelle mit Tinkercad entwerfen und drucken — eigene Schlüsselanhänger und Lego-kompatible Klemmbausteine. 17.–18. August 2026."
 weight: 2
+aliases: ["/kurse/sommer-ferien-tinkercad/"]
 ---
 
 Möchtest du deine eigenen Ideen in die echte Welt bringen? In diesem Ferienworkshop lernst du, wie man mit der kostenlosen Software Tinkercad professionelle 3D-Modelle entwirft. Von den ersten einfachen Formen bis hin zu komplexen Objekten begleiten wir dich Schritt für Schritt.

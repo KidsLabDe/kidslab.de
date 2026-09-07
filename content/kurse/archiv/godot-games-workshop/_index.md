@@ -2,6 +2,7 @@
 title: "Godot Games Workshop"
 description: "Ferienworkshop in Augsburg: Eigenes Computerspiel entwickeln mit der Engine Godot — Figuren, Steuerung, Punkte, Sound und Grafik. 24.–28. August 2026."
 weight: 4
+aliases: ["/kurse/godot-games-workshop/"]
 ---
 
 Du möchtest ein eigenes Computerspiel programmieren? In diesem Ferienworkshop entwickelst du mit der kostenlosen Spiele-Engine Godot Schritt für Schritt dein eigenes Spiel – von der Idee über Figuren und Steuerung bis zu Punkten, Sound und eigenen Grafiken.

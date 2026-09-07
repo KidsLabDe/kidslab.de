@@ -2,6 +2,7 @@
 title: "Summer Holiday Workshop: Tinkercad & Design"
 description: "Holiday workshop in Augsburg: design and print 3D models with Tinkercad — your own keychains and Lego-compatible building bricks. August 17–18, 2026."
 weight: 2
+aliases: ["/kurse/sommer-ferien-tinkercad/"]
 ---
 
 Want to bring your own ideas into the real world? In this holiday workshop, you'll learn how to design professional 3D models using the free software Tinkercad. From the first simple shapes to complex objects, we'll guide you step by step.

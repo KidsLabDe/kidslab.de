@@ -2,6 +2,7 @@
 title: "Sommer-Ferien Workshop: Lego Robotics"
 description: "Ferienworkshop in Augsburg: Lego-Roboter bauen, programmieren und autonom navigieren lassen — mit Balloon-Pop-Challenge zum Abschluss. 19.–21. August 2026."
 weight: 3
+aliases: ["/kurse/sommer-ferien-lego-robotics/"]
 ---
 
 Bist du bereit für eine Woche voller Technik, Code und Action? In diesem Ferienworkshop bauen wir leistungsfähige Roboter und programmieren sie so, dass sie eigenständig durch die Welt navigieren. Wir starten mit den Basics der Bewegung und steigern uns bis zu komplexen Herausforderungen.

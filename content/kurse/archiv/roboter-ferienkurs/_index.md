@@ -2,6 +2,7 @@
 title: "Baue deinen eigenen Roboter"
 description: "Ferienkurs in Augsburg: Eigenen Roboter bauen mit Raspberry Pi Pico, Sensoren und 3D-Druck — blockbasiert programmiert mit makerSpaceOS. 17.–21. August 2026."
 weight: 1
+aliases: ["/kurse/roboter-ferienkurs/"]
 ---
 
 In diesem Ferienkurs baust du einen eigenen Roboter von Grund auf. Wir nutzen den **Raspberry Pi Pico (MAKER-PI-RP2040)**, Sensoren und Motoren, um eine fahrfähige Maschine zu bauen.

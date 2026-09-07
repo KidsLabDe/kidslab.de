@@ -20,36 +20,9 @@ Willkommen beim KidsLab! Bei uns lernst du, wie Technik funktioniert — und wie
 - Demokratie erleben in digitalen Welten
 - Workshops für Schulen und Lehrkräfte
 
-{{< cta title="Sommerferien 2026 — noch Plätze frei!" href="/kurse/" button="Zu den Ferienkursen" >}}Vier Ferienkurse im August: Roboter bauen, 3D-Design mit Tinkercad, Lego Robotics und Spieleentwicklung mit Godot.{{< /cta >}}
-
-## Ferienkurse in den Sommerferien
-
-Zwei Wochen Technik, Code und Action im KidsLab Augsburg — von 3D-Design über Robotik bis zur eigenen Spiele-Engine.
-
-{{< gallery cols="3" >}}
-![Kinder bauen einen Lego-Spike-Roboter im Ferienkurs](ferienkurse-augsburg-lego-roboter-bauen.jpg)
-![Kinder programmieren ihren Roboter am Laptop](ferienkurse-augsburg-kinder-programmieren-laptop.jpg)
-![Kinder testen ihren Roboter mit dem Tablet](ferienkurse-augsburg-roboter-testen-tablet.jpg)
-{{< /gallery >}}
-
-{{< cards >}}
-  {{< card link="/kurse/roboter-ferienkurs/" title="Baue deinen eigenen Roboter" subtitle="17.–21. August, 14–17 Uhr · ab 12 Jahren — Raspberry Pi Pico, Sensoren & 3D-Druck" >}}
-  {{< card link="/kurse/sommer-ferien-tinkercad/" title="Tinkercad & Design" subtitle="17.–18. August, 9–12 Uhr · ab 8 Jahren — 3D-Modelle entwerfen und drucken" >}}
-  {{< card link="/kurse/sommer-ferien-lego-robotics/" title="Lego Robotics" subtitle="19.–21. August, 9–12 Uhr · ab 8 Jahren — Robotik, Navigation & Balloon Pop" >}}
-  {{< card link="/kurse/godot-games-workshop/" title="Godot Games Workshop" subtitle="24.–28. August, 9–12 Uhr · ab 12 Jahren — dein eigenes Videospiel entwickeln" >}}
-{{< /cards >}}
-
-## Jetzt Platz sichern
-
-{{< pretix event="https://pretix.eu/kidslab/" >}}
-
----
-
 {{< schaufenster-preview >}}
 
 ---
-
-
 
 ## Unsere Angebote für Schulen und Lehrkräfte
 
