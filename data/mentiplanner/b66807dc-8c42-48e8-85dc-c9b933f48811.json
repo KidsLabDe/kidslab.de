@@ -1,0 +1,81 @@
+{
+  "dir": "hackerwerkstatt",
+  "firstSeen": "2026-10-03",
+  "image": "hackerwerkstatt-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-03-20",
+  "lastUpcoming": "2026-12-18",
+  "workshop": {
+    "id": "b66807dc-8c42-48e8-85dc-c9b933f48811",
+    "name": "HackerWerkstatt",
+    "slug": "hackerwerkstatt",
+    "shortDescription": "## Hackerwerkstatt: Robo-Buddy – bau deinen eigenen WLAN-Roboter\r\n\r\nEin kleiner Roboter mit rundem Display-Gesicht, zwei Rädern und eigenem WLAN: Den bauen wir gemeinsam zusammen, spielen die Software auf und steuern ihn per Handy. Danach wird es wild – ihr bringt eure Roboter zum Tanzen, lasst sie als Schwarm fahren oder steuert sie mit Handbewegungen über eine Kamera. Eure Ideen, eure Projekte.\r\n\r\n- **Für wen:** ab 12, keine Vorkenntnisse nötig\r\n- **Wo:** KidsLab, Neidhartstr. 2, Augsburg",
+    "description": "## Hackerwerkstatt: Robo-Buddy – bau deinen eigenen WLAN-Roboter\r\n\r\n### Worum geht's?\r\n\r\nRobo-Buddy ist ein kleiner fahrender Roboter mit einem runden Display als Gesicht. Er schaut in die Richtung, in die er fährt, kann lachen, staunen oder schlecht gelaunt gucken – und er spannt sein eigenes WLAN auf. Handy verbinden, QR-Code scannen, losfahren. Kein Router, kein Internet, keine App nötig.\r\n\r\nIn sechs Freitagen baut ihr den Roboter erst gemeinsam auf und lernt ihn von innen kennen. Danach gehört die Werkstatt euren Ideen: Was passiert, wenn zehn Roboter gleichzeitig fahren? Können sie zusammen tanzen? Kann ein Roboter euch folgen, wenn ihr die Hand bewegt?\r\n\r\n### Was du lernst\r\n\r\n- Wie ein Roboter aufgebaut ist: Mikrocontroller, Servomotoren, Display, Stromversorgung\r\n- Wie man Software (Firmware) auf einen Mikrocontroller aufspielt\r\n- Wie Geräte über WLAN miteinander reden – und wie du deinen Roboter von einem Programm aus steuerst statt per Hand\r\n- Wie man aus einer Idee ein fertiges Projekt macht: planen, ausprobieren, scheitern, verbessern, vorführen\r\n- Wie du KI als Werkzeug beim Programmieren einsetzt – die Ideen und Entscheidungen bleiben bei dir\r\n\r\n### Ablauf\r\n\r\n**Freitag 1 – Bauen und zum Leben erwecken**\r\nWir schrauben die Roboter zusammen, spielen die Firmware direkt aus dem Browser auf und machen die erste Fahrt per Handy.\r\n\r\n**Freitag 2 – Unter die Haube schauen**\r\nEigene Gesichter im Gesichtseditor gestalten, den Roboter ins Werkstatt-WLAN holen und ihn zum ersten Mal per Programm statt per Finger steuern.\r\n\r\n**Freitag 3 – Ideenschmiede**\r\nWir sammeln Projektideen, probieren Prototypen aus und bilden Teams.\r\n\r\n**Freitag 4 und 5 – Projektzeit**\r\nIhr setzt eure Ideen um. Wir Mentor:innen helfen, wo es hakt.\r\n\r\n**Freitag 6 – Robo-Show**\r\nIhr zeigt euren Familien und Freund:innen, was eure Roboter draufhaben.\r\n\r\n### Ideen für eure Projekte\r\n\r\nDas sind nur Startpunkte – eigene Ideen sind ausdrücklich erwünscht.\r\n\r\n- **Robo-Ballett:** Mehrere Roboter tanzen synchron eine Choreografie zur Musik\r\n- **Schwarm:** Ein Roboter fährt vor, die anderen folgen – oder alle bilden gemeinsam Formen\r\n- **Steuerung per Kamera:** Eine Bilderkennung erkennt eure Handbewegungen und lenkt den Roboter\r\n- **Der Roboter schaut dich an:** Das Display-Gesicht folgt dir, wenn du durch den Raum gehst\r\n- **Robo-Sumo und Robo-Fußball:** Wer schiebt wen aus der Arena? Gesteuert per Gamepad oder Handy\r\n- **Parcours-Rennen:** Hindernisstrecke mit Zeitmessung und Bestenliste\r\n- **Gefühls-Roboter:** Das Gesicht reagiert auf Lautstärke, Uhrzeit oder Nachrichten\r\n- **Robo-Tuning:** Eigene Aufsätze, Hüte oder Schaufeln am Rechner entwerfen und 3D-drucken\r\n- **Robo-Theater:** Mehrere Roboter spielen gemeinsam eine kleine Szene\r\n\r\n### Was du mitbringen musst\r\n\r\nNeugier und Lust zum Ausprobieren. Laptops und alle Hardware stellen wir. Ein eigenes Handy zum Steuern ist praktisch, aber nicht nötig.\r\n\r\n![Der Robo-Buddy fährt und schaut dabei in die Fahrtrichtung](https://raw.githubusercontent.com/MakeYourSchool/Robo-Buddy-Makerfestival26/main/demo.gif) \r\n\r\nDer Robo-Buddy wurde von Make Your School (Wissenschaft im Dialog) für das Maker Festival 2026 von Daniel Greiser entwickelt.",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/b66807dc-8c42-48e8-85dc-c9b933f48811",
+    "priceCents": 12000,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-10-03T11:17:04.320Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/b66807dc-8c42-48e8-85dc-c9b933f48811",
+    "upcoming": [
+      {
+        "kind": "series",
+        "id": "86170a66-3bbf-4f48-a10f-2b7d4dd58ff1",
+        "title": "RoboBuddy",
+        "dates": [
+          {
+            "date": "2026-10-16",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          },
+          {
+            "date": "2026-10-23",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          },
+          {
+            "date": "2026-11-06",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          },
+          {
+            "date": "2026-11-20",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          },
+          {
+            "date": "2026-11-27",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          },
+          {
+            "date": "2026-12-04",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          },
+          {
+            "date": "2026-12-11",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          },
+          {
+            "date": "2026-12-18",
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "location": null
+          }
+        ],
+        "priceCents": 12000,
+        "hasSpots": true
+      }
+    ],
+    "lastDate": "2026-03-20"
+  }
+}

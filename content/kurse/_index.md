@@ -25,6 +25,12 @@ cascade:
 **Wer sind wir?** Unsere Mentoren begleiten die Kids mit Geduld und Begeisterung — [Team & Mentoren](/ueber-kidslab/team/)
 {{< /callout >}}
 
+## Jetzt buchbar
+
+{{< workshop-liste >}}
+
+[Alle aktuellen Workshops →](workshops/)
+
 ## Regelmäßige Angebote
 
 {{< callout type="info" >}}

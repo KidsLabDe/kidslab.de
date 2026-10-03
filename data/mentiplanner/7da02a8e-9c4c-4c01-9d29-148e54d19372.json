@@ -1,0 +1,23 @@
+{
+  "dir": "repair-cafe-reparier-dein-zeug",
+  "firstSeen": "2026-10-03",
+  "image": "repair-cafe-reparier-dein-zeug-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-02-07",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "7da02a8e-9c4c-4c01-9d29-148e54d19372",
+    "name": "Repair-Café - Reparier dein Zeug!",
+    "slug": "repair-cafe-reparier-dein-zeug",
+    "shortDescription": "Wir helfen ehrenamtlich dabei, Defekte an mitgebrachten Gegenständen zu untersuchen und im besten Fall gemeinsam zu reparieren. ",
+    "description": "Das spart Ressourcen, weil Gebrauchsgüter länger nutzbar bleiben und nicht im Müll landen. Außerdem macht es Spaß! Übliches Werkzeug und viele Materialien stehen bereit. Spezielle Ersatzteile können wir häufig aufzutreiben helfen. \r\n\r\nEs gibt Kaffee und Kuchen. Etwas Zeit musst du mitbringen, weil Objekte vor deinem an der Reihe sein können. Das Repair-Café ist kein kostenloser Reparatur-Service: Du musst mitdenken und mithelfen.  \r\n\r\nKomm zwischen 12 und 17 Uhr vorbei, Anmeldung s. unten, ist optional. \r\n\r\nBitte bringe maximal 2 Gegenstände mit. Wir freuen uns am Ende über eine Spende.\r\n\r\nDurchgeführt von der offenen Werkstatt \"[Das Habitat Augsburg e.V.](https://das-habitat.de/)\" und gefördert durch das Bayerische Staatsministerium für Umwelt und Verbraucherschutz (StMUV).​",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/7da02a8e-9c4c-4c01-9d29-148e54d19372",
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-01-09T08:59:35.661Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/7da02a8e-9c4c-4c01-9d29-148e54d19372",
+    "upcoming": [],
+    "lastDate": "2026-02-07"
+  }
+}

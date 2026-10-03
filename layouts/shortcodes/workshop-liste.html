@@ -1,0 +1,38 @@
+{{- /*
+  Cards aller aus MentiPlanner synchronisierten Workshops (content/kurse/workshops).
+  Params: archiv="true" zeigt vergangene Workshops (neueste zuerst), sonst aktuelle (nächster Termin zuerst).
+*/ -}}
+{{- $archiv := eq (.Get "archiv") "true" -}}
+{{- $pages := slice -}}
+{{- with site.GetPage "/kurse/workshops" -}}
+  {{- $pages = where .RegularPages "Params.archiviert" $archiv -}}
+{{- end -}}
+{{- if $archiv -}}
+  {{- $pages = sort $pages "Params.letzter_termin" "desc" -}}
+{{- else -}}
+  {{- $pages = sort $pages "Params.naechster_termin" "asc" -}}
+{{- end -}}
+{{- if $pages -}}
+{{- $cards := "" -}}
+{{- range $pages -}}
+  {{- $img := "" -}}{{- $w := 0 -}}{{- $h := 0 -}}
+  {{- with and .Params.image (.Resources.Get .Params.image) -}}
+    {{- $pr := .Process "resize 800x webp q80" -}}
+    {{- $img = $pr.RelPermalink -}}{{- $w = $pr.Width -}}{{- $h = $pr.Height -}}
+  {{- end -}}
+  {{- $sub := .Description -}}
+  {{- $tag := "" -}}
+  {{- if $archiv -}}
+    {{- with .Params.letzter_termin }}{{ $tag = printf "zuletzt %s" (time.AsTime . | time.Format "01/2006") }}{{ end -}}
+  {{- else -}}
+    {{- with .Params.naechster_termin }}{{ $tag = printf "ab %s" (time.AsTime . | time.Format "02.01.2006") }}{{ end -}}
+  {{- end -}}
+  {{- $cards = print $cards (partial "shortcodes/card" (dict
+    "page" $.Page "link" .RelPermalink "title" .Title "subtitle" $sub
+    "image" $img "width" $w "height" $h "alt" .Title "imageStyle" "aspect-ratio: 16 / 9; object-fit: cover;"
+    "tag" $tag "tagType" (cond $archiv "" "info") "tagBorder" true)) -}}
+{{- end -}}
+{{- partial "shortcodes/cards" (dict "cols" (.Get "cols" | default 3) "content" ($cards | safeHTML)) -}}
+{{- else -}}
+<p>{{ if $archiv }}Noch keine vergangenen Workshops.{{ else }}Gerade sind keine Workshops buchbar. Abonniere unseren Newsletter, dann erfährst du als Erste:r von neuen Terminen.{{ end }}</p>
+{{- end -}}

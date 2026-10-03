@@ -1,0 +1,23 @@
+{
+  "dir": "stop-motion-werkstatt",
+  "firstSeen": "2026-10-03",
+  "image": "stop-motion-werkstatt-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-08-05",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "e2212dfb-7dc9-4ec1-9b44-14d1929786e6",
+    "name": "Stop-Motion-Werkstatt",
+    "slug": "stop-motion-werkstatt",
+    "shortDescription": "Mit Stop Motion erleben kleine Figuren große Abenteuer! Für alle ab 8 bis 12 Jahren",
+    "description": "Mit Stop Motion erleben kleine Figuren große Abenteuer! Egal ob\r\nKnete-Monster oder Playmobil-Familie – mit der App „Stop Motion Studio“ und unseren\r\niPads werden eure Geschichten zum Leben erweckt. In Kleingruppen nutzen wir\r\nverschiedene Materialien und produzieren kurze Videos.\r\nGerne dürfen für den Workshop eigene Spielfiguren (z.B. Lego, Duplo, Playmobil)\r\nmitgebracht werden.\r\nFür Kinder von 8 bis 12 Jahren\r\n\r\n**Stadtbücherei goes GamesLab!** Das medienpädagogische Team der Stadtbücherei\r\nAugsburg nimmt euch mit in spannende digitale Welten. Gemeinsam wird programmiert,\r\ngezockt, gefilmt und getüftelt. Mit Spaß, Kreativität und einem offenen Ohr begleiten wir\r\nKinder und Jugendliche dabei, eigene Ideen auszuprobieren und spielerisch\r\nMedienkompetenz zu stärken.\r\n\r\n**Einsteigen und Gehen sind jederzeit während der offenen Werkstatt möglich. Du entscheidest, wie lang dein Filmprojekt wird. Du musst also nicht pünktlich um 14 Uhr kommen.**\r\n\r\nBildnachweis: Paul Wollny, Stadtbücherei Augsburg",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/e2212dfb-7dc9-4ec1-9b44-14d1929786e6",
+    "priceCents": 12000,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-07-27T11:05:02.489Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/e2212dfb-7dc9-4ec1-9b44-14d1929786e6",
+    "upcoming": [],
+    "lastDate": "2026-08-05"
+  }
+}

@@ -37,7 +37,15 @@ hugo --minify
 - `gallery` – Bildergalerie mit Hugo Image Processing (Resize auf 800px WebP, 1600px für Lightbox). Params: `cols` (default 3), `maxwidth` (default 800). Setzt `hasImageZoom` für Hextra medium-zoom.
 - `slider` – Auto-rotierender Bildslider (1200px WebP). Params: `height` (default 500px), `interval` (default 5000ms).
 - `github-repo` – GitHub Repository als Card. Params: `repo` (z.B. "KidsLabDe/RepoName"), `text`.
+- `workshop-termine` – Termine, Preis und Anmelde-Button eines MentiPlanner-Workshops (liest Front Matter, wird vom Sync eingefügt)
+- `workshop-liste` – Cards aller Workshops aus `kurse/workshops`. Params: `archiv="true"` für vergangene, `cols`.
 - `button`, `cta`, `video`, `scratch-embed`, `download` – weitere Shortcodes
+
+### Workshop-Sync aus MentiPlanner
+
+- `content/kurse/workshops/` wird automatisch aus https://plan.kidslab.de/api/widget/export erzeugt (`.github/scripts/sync-workshops.mjs`, Workflow `sync-workshops.yml`: stündlich + `repository_dispatch` aus MentiPlanner).
+- Texte/Termine in MentiPlanner ändern, nicht in Hugo. Eigene Inhalte (Fotos, Galerie) nur **unterhalb** des `mentiplanner:end`-Markers in der `index.md`.
+- Workshops ohne kommende Termine werden archiviert (`archiviert: true`), nie gelöscht. Letzter Stand: `data/mentiplanner/<id>.json`.
 
 ### Hextra Theme Features
 

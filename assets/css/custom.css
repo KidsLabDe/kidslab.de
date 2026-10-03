@@ -473,3 +473,105 @@ nav .navbar-title,
   object-fit: contain !important;
   height: auto !important;
 }
+
+/* --------------------------------------------------------------------------
+   13. Workshops aus MentiPlanner (workshop-termine Shortcode)
+   -------------------------------------------------------------------------- */
+
+.workshop-box {
+  background-color: hsl(212deg 100% 96%);
+  border: 1px solid hsl(212deg 80% 88%);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.workshop-box p:first-child {
+  margin-top: 0;
+}
+
+.workshop-facts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+}
+
+.workshop-facts li {
+  margin: 0;
+}
+
+.workshop-box .workshop-termine-titel {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.workshop-termin {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.workshop-termin ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.workshop-termin li {
+  margin: 0;
+}
+
+.workshop-termin-kopf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.workshop-status {
+  font-size: 0.85rem;
+  color: hsl(142deg 70% 30%);
+}
+
+.workshop-termin--voll {
+  opacity: 0.65;
+}
+
+.workshop-termin--voll .workshop-status {
+  color: hsl(0deg 70% 45%);
+}
+
+.workshop-cta {
+  margin: 1rem 0 0;
+}
+
+.workshop-box--archiv {
+  background-color: hsl(40deg 100% 95%);
+  border-color: hsl(40deg 80% 80%);
+}
+
+.dark .workshop-box {
+  background-color: hsl(204deg 30% 15%);
+  border-color: hsl(204deg 30% 25%);
+}
+
+.dark .workshop-termin {
+  background-color: hsl(204deg 30% 10%);
+}
+
+.dark .workshop-status {
+  color: hsl(142deg 60% 60%);
+}
+
+.dark .workshop-termin--voll .workshop-status {
+  color: hsl(0deg 80% 70%);
+}
+
+.dark .workshop-box--archiv {
+  background-color: hsl(40deg 30% 14%);
+  border-color: hsl(40deg 30% 28%);
+}

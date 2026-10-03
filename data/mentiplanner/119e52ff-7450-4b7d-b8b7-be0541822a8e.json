@@ -1,0 +1,23 @@
+{
+  "dir": "gameslab-offener-workshop",
+  "firstSeen": "2026-10-03",
+  "image": "gameslab-offener-workshop-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-02-09",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "119e52ff-7450-4b7d-b8b7-be0541822a8e",
+    "name": "GamesLab - Offener Workshop",
+    "slug": "gameslab-offener-workshop",
+    "shortDescription": "Offener Workshop zum GamesLab (8–17 Jahre)\r\nDesigne und programmiere dein eigenes Game mit Scratch – und nimm am GamesPreis teil! Keine Vorkenntnisse nötig. ",
+    "description": "# Offener Workshop zum GamesLab \r\nDu möchtest dein eigenes Game designen und programmieren? \r\nOder du möchtest einfach nur einen der Mega-Preise aus dem GamesPreis gewinnen?\r\nDann bist du genau richtig hier!\r\n\r\nDas wichtigste in Kürze:\r\n- Für Kinder und Jugendliche von 8 bis 17 Jahren\r\n- Keine Vorkenntnisse nötig\r\n- Wir arbeiten mit Scratch\r\n\r\nWenn du Feuer gefangen hast, kannst du eine Woche später noch zum weiterführenden Workshop \"GamesDesign Level 2\" kommen.",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/119e52ff-7450-4b7d-b8b7-be0541822a8e",
+    "priceCents": 500,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-09-11T06:08:24.724Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/119e52ff-7450-4b7d-b8b7-be0541822a8e",
+    "upcoming": [],
+    "lastDate": "2026-02-09"
+  }
+}

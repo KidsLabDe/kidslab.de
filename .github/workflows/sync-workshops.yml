@@ -1,0 +1,49 @@
+name: Workshops synchronisieren
+
+# Holt die öffentlichen Workshops aus MentiPlanner (plan.kidslab.de/api/widget/export)
+# und schreibt sie nach content/kurse/workshops/. Bei Änderungen: Commit + Deploy.
+on:
+  schedule:
+    - cron: '17 * * * *'
+  repository_dispatch:
+    types: [workshops-updated]
+  workflow_dispatch:
+
+concurrency:
+  group: sync-workshops
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Workshops aus MentiPlanner holen
+        run: node .github/scripts/sync-workshops.mjs
+
+      - name: Committen und Deploy anstoßen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add content/kurse/workshops data/mentiplanner
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Workshops aus MentiPlanner synchronisiert"
+          git pull --rebase
+          git push
+          gh workflow run deploy.yml --ref main

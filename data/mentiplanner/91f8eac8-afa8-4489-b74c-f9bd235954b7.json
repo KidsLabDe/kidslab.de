@@ -1,0 +1,23 @@
+{
+  "dir": "gamecontroller-basteln-mit-makey-makey",
+  "firstSeen": "2026-10-03",
+  "image": "gamecontroller-basteln-mit-makey-makey-workshop-kinder-augsburg.png",
+  "lastDate": "2026-02-04",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "91f8eac8-afa8-4489-b74c-f9bd235954b7",
+    "name": "GameController basteln mit Makey Makey",
+    "slug": "gamecontroller-basteln-mit-makey-makey",
+    "shortDescription": "Mit dem Erfinder-Kit „MakeyMakey“ basteln unsere eigenen Game-Controller, Alter: 8 bis 12 Jahren.",
+    "description": "Entdecke die Welt der Elektronik und baue deinen eigenen GameController! In diesem spannenden Workshop erstellen wir mit dem Erfinder-Kit „MakeyMakey“ Stromkreise mit alltäglichen Gegenständen wie Knete, Alufolie oder sogar Obst, und basteln unsere eigenen Game-Controller, mit denen wir gleich losspielen können.\r\nFür Kinder von 8 bis 12 Jahren.\r\n\r\nStadtbücherei goes GamesLab! Das medienpädagogische Team der Stadtbücherei Augsburg nimmt euch mit in spannende digitale Welten. Gemeinsam wird programmiert, gezockt, gefilmt und getüftelt. Mit Spaß, Kreativität und einem offenen Ohr begleiten wir Kinder und Jugendliche dabei, eigene Ideen auszuprobieren und spielerisch Medienkompetenz zu stärken.\r\n\r\n\r\nBildnachweis: Makey Makey LLC",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/91f8eac8-afa8-4489-b74c-f9bd235954b7",
+    "priceCents": null,
+    "durationHours": 1,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-01-23T08:44:34.616Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/91f8eac8-afa8-4489-b74c-f9bd235954b7",
+    "upcoming": [],
+    "lastDate": "2026-02-04"
+  }
+}

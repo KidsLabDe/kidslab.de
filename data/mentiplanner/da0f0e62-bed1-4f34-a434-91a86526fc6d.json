@@ -1,0 +1,23 @@
+{
+  "dir": "gamespreis-verleihung",
+  "firstSeen": "2026-10-03",
+  "image": "gamespreis-verleihung-workshop-kinder-augsburg.jpg",
+  "lastDate": "2026-03-12",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "da0f0e62-bed1-4f34-a434-91a86526fc6d",
+    "name": "GamesPreis-Verleihung",
+    "slug": "gamespreis-verleihung",
+    "shortDescription": null,
+    "description": "# 3. Augsburger GamesPreis – Preisverleihung\r\n\r\n**12. März 2026 | Kleiner Goldener Saal, Augsburg**\r\n\r\nWir feiern die besten Scratch-Spiele des diesjährigen GamesLab! \r\nBayerns Digitalminister Dr. Fabian Mehring überreicht persönlich \r\ndie Preise an die besten Nachwuchs-Entwicklerinnen und -Entwickler \r\naus Augsburg.\r\n\r\nDie Veranstaltung ist öffentlich – Eltern, Geschwister, Freunde und \r\nalle Interessierten sind herzlich willkommen.\r\n\r\n---\r\n\r\n## Ablauf\r\n\r\n| Uhrzeit | Programmpunkt |\r\n|---------|---------------|\r\n| 15:30 Uhr | Einlass |\r\n| 16:00 Uhr | Begrüßung & Rückblick auf das GamesLab 2026 |\r\n| 16:10 Uhr | Vorstellung der Kategorie-Gewinner |\r\n| 16:40 Uhr | Grußwort Staatsminister Dr. Fabian Mehring |\r\n| 16:55 Uhr | Übergabe der drei Hauptpreise |\r\n| 17:45 Uhr | Ende der Veranstaltung |\r\n\r\n---\r\n\r\n## Infos zur Anmeldung\r\n\r\n- Die Teilnahme ist kostenlos\r\n- Bitte meldet euch an, damit wir die Plätze planen können\r\n\r\n**Ort:** Kleiner Goldener Saal, Rathausplatz 2, 86150 Augsburg  \r\n**Anreise:** Tram 2, Haltestelle Mozarthaus (2 Minuten Fußweg)",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/da0f0e62-bed1-4f34-a434-91a86526fc6d",
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "Kleiner Goldener Saal, Jesuitengasse 12, 86152 Augsburg",
+    "isAdultWorkshop": true,
+    "updatedAt": "2026-03-10T18:21:43.372Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/da0f0e62-bed1-4f34-a434-91a86526fc6d",
+    "upcoming": [],
+    "lastDate": "2026-03-12"
+  }
+}

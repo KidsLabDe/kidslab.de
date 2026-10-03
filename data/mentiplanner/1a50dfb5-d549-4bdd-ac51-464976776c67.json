@@ -1,0 +1,23 @@
+{
+  "dir": "spiel-und-spass-mit-robotern-stadbuecherei-augsburg",
+  "firstSeen": "2026-10-03",
+  "image": "spiel-und-spass-mit-robotern-stadbuecherei-augsburg-workshop-kinder-augsburg.jpg",
+  "lastDate": "2026-02-11",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "1a50dfb5-d549-4bdd-ac51-464976776c67",
+    "name": "Spiel und Spaß mit Robotern (Stadbücherei Augsburg)",
+    "slug": "spiel-und-spass-mit-robotern-stadbuecherei-augsburg",
+    "shortDescription": "Programmieren und Spielen mit Robotern (8 bis 12 Jahre)",
+    "description": "Spiel und Spaß mit Robotern | 8 – 12 J.\r\n\r\nKomm vorbei und lerne die Roboter der Stadtbücherei kennen. Unsere Roboter-Modelle kannst du mit Stiften, Tablets oder Puzzles programmieren und fahren, tanzen oder sprechen lassen.\r\n\r\nWenn du magst, kannst du auch einen eigenen Roboter mitbringen und den anderen zeigen.\r\n\r\n\r\n**Stadtbücherei goes GamesLab!** Das medienpädagogische Team der Stadtbücherei\r\nAugsburg nimmt euch mit in spannende digitale Welten. Gemeinsam wird programmiert,\r\ngezockt, gefilmt und getüftelt. Mit Spaß, Kreativität und einem offenen Ohr begleiten wir\r\nKinder und Jugendliche dabei, eigene Ideen auszuprobieren und spielerisch\r\nMedienkompetenz zu stärken.",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/1a50dfb5-d549-4bdd-ac51-464976776c67",
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-01-23T08:44:48.948Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/1a50dfb5-d549-4bdd-ac51-464976776c67",
+    "upcoming": [],
+    "lastDate": "2026-02-11"
+  }
+}

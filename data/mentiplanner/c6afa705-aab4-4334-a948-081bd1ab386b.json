@@ -1,0 +1,23 @@
+{
+  "dir": "utopielab-postkarten",
+  "firstSeen": "2026-10-03",
+  "image": "utopielab-postkarten-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-02-09",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "c6afa705-aab4-4334-a948-081bd1ab386b",
+    "name": "utopieLab - Postkarten",
+    "slug": "utopielab-postkarten",
+    "shortDescription": "GamesLab Postkarten-Workshop (2-teilig, ab 8 Jahren)\r\nKinder gestalten in zwei Terminen ihre eigenen Zukunfts-Postkarten – von der Idee über das Bild bis zur gedruckten Karte. Kreativ, fantasievoll und mit einem greifbaren Ergebnis zum Mitnehmen.",
+    "description": "## GamesLab Postkarten-Workshop – Grüße aus der Zukunft\r\n\r\nWie sieht die Welt in der Zukunft aus?  \r\nWelche Orte gibt es dort – und was würden wir uns selbst oder anderen dorthin schreiben?\r\n\r\nIm **GamesLab Postkarten-Workshop** gestalten Kinder ihre eigene Postkarte aus der Zukunft. In zwei aufeinander aufbauenden Workshoptagen verbinden wir Fantasie, kreatives Gestalten und erste digitale Design-Schritte zu einem greifbaren Ergebnis: einer gedruckten Postkarte, die jedes Kind mit nach Hause nimmt.\r\n\r\n### Was erwartet die Kinder?\r\n\r\n- Eine angeleitete Traumreise in die Zukunft als kreativer Einstieg  \r\n- Spielerische Ideenfindung rund um Zukunftsbilder, Orte und Stimmungen  \r\n- Zeichnen, Malen oder digitales Gestalten der eigenen Motive  \r\n- Präsentieren, Tauschen und Verschenken der fertige Karte\r\n\r\n### Analog & digital – mit Augenmaß\r\n\r\nDie Motive können klassisch mit Stift und Papier oder – bei vorhandener Erfahrung – auch digital auf dem Tablet erstellt werden. Alle Kinder werden ihrem Können entsprechend begleitet. Digitale Werkzeuge dienen dabei als kreatives Hilfsmittel, nicht als Voraussetzung.\r\n\r\n### Greifbares Ergebnis\r\n\r\nZwischen den beiden Workshoptagen werden die gestalteten Motive auf Postkartenkarton gedruckt.  \r\nJedes Kind erhält ** eine eigene Postkarte**, die am zweiten Tag vorgestellt, getauscht oder verschickt werden können.  \r\n\r\n### Materialkosten\r\n\r\nFür den hochwertigen Druck der Postkarten wird  **kleiner Materialkostenbeitrag von  5 € pro Kind** anfallen. Alle weiteren Materialien sind im Workshop enthalten.\r\n\r\n---\r\n\r\n**Geeignet für:** Kinder und Jugendliche  ab 8 Jahren\r\n**Dauer:** 2 Workshops an 2 Tagen\r\n**Vorkenntnisse:** Keine erforderlich",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/c6afa705-aab4-4334-a948-081bd1ab386b",
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "GamesLab, Zwischenzeit - Annastraße 16",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-02-07T10:29:44.747Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/c6afa705-aab4-4334-a948-081bd1ab386b",
+    "upcoming": [],
+    "lastDate": "2026-02-09"
+  }
+}

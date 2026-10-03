@@ -1,0 +1,23 @@
+{
+  "dir": "digital-independence-day",
+  "firstSeen": "2026-10-03",
+  "image": "digital-independence-day-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-02-01",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "edc7b839-7a89-42c5-a7da-96474bc2a866",
+    "name": "Digital Independence Day",
+    "slug": "digital-independence-day",
+    "shortDescription": "Am digital Indipendence Day zeigen wir dir, wie du Linux auf deinem Computer installieren und nutzen kannst. Wir sehen uns gemeinsam Email Clients und Office Software an. Kostenfrei, Sicher und open Source.",
+    "description": "Am digital Indipendence Day zeigen wir dir, wie du Linux auf deinem Computer installieren und nutzen kannst. Wir sehen uns gemeinsam Email Clients und Office Software an. Kostenfrei, Sicher und open Source.\r\n\r\nDer [di.day](http://di.day) wird deutschlandweit an jedem ersten Sonntag im Monat veranstaltet. Gemeinsam mit Tuxedo Computers aus Augsburg zeigen wir dir wie du deinen Computer mit Linux betreibst, welche Office Anwendungen du nutzen kannst und wo all die User sind die nicht mehr auf X aktiv sind.",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/edc7b839-7a89-42c5-a7da-96474bc2a866",
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "Zwischenzeit, GamesLab - Annastaße 16",
+    "isAdultWorkshop": true,
+    "updatedAt": "2026-01-25T20:06:15.389Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/edc7b839-7a89-42c5-a7da-96474bc2a866",
+    "upcoming": [],
+    "lastDate": "2026-02-01"
+  }
+}

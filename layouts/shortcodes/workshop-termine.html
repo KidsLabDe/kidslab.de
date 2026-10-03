@@ -1,0 +1,36 @@
+{{- /*
+  Termine, Preis und Anmelde-Button eines aus MentiPlanner synchronisierten Workshops.
+  Daten kommen aus dem Front Matter (siehe .github/scripts/sync-workshops.mjs).
+*/ -}}
+{{- $p := .Page.Params -}}
+{{- if $p.archiviert -}}
+<div class="workshop-box workshop-box--archiv">
+  <p><strong>Dieser Workshop findet gerade nicht statt.</strong>
+  {{- with $p.letzter_termin }} Zuletzt am {{ time.AsTime . | time.Format ":date_long" }}.{{ end }}</p>
+  <p>Alle aktuellen Termine und den Newsletter für neue Workshops findest du unter <a href="{{ relref .Page "/kurse/workshops" }}">Aktuelle Workshops</a>.</p>
+</div>
+{{- else -}}
+<div class="workshop-box">
+  <ul class="workshop-facts">
+    <li><strong>Preis:</strong> {{ $p.preis }}{{ if ne $p.preis "kostenlos" }} (<a href="{{ relref .Page "/ueber-kidslab/kursgebuehren" }}">Ermäßigung möglich</a>){{ end }}</li>
+    <li><strong>Ort:</strong> {{ $p.ort }}</li>
+    {{- if $p.ab_18 }}<li><strong>Für Erwachsene</strong></li>{{ end }}
+  </ul>
+  <h3 class="workshop-termine-titel">Termine</h3>
+  {{- range $p.termine }}
+  <div class="workshop-termin{{ if not .frei }} workshop-termin--voll{{ end }}">
+    <div class="workshop-termin-kopf">
+      <span>{{ with .titel }}{{ . }}{{ else }}{{ if eq .art "series" }}Kursreihe{{ else }}Einzeltermin{{ end }}{{ end }}
+        {{- if eq .art "series" }} · {{ len .daten }} Termine, nur zusammen buchbar{{ end }}</span>
+      <span class="workshop-status">{{ if .frei }}freie Plätze{{ else }}ausgebucht{{ end }}</span>
+    </div>
+    <ul>
+      {{- range .daten }}
+      <li>{{ time.AsTime .datum | time.Format ":date_full" }}, {{ .start }}{{ with .ende }}–{{ . }}{{ end }} Uhr{{ if ne .ort $p.ort }} · {{ .ort }}{{ end }}</li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+  <p class="workshop-cta"><a class="btn-shortcode btn-primary" href="{{ $p.booking_url }}">Jetzt anmelden</a></p>
+</div>
+{{- end -}}

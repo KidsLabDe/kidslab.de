@@ -61,3 +61,43 @@
   ]
 }
 </script>
+{{- /* Workshops aus MentiPlanner: ein schema.org-Event pro buchbarem Angebot */ -}}
+{{- with .Params.termine -}}
+{{- $page := $ -}}
+{{- $events := slice -}}
+{{- range . -}}
+  {{- $first := index .daten 0 -}}
+  {{- $last := index .daten (sub (len .daten) 1) -}}
+  {{- $start := time.AsTime (printf "%sT%s:00" $first.datum $first.start) "Europe/Berlin" -}}
+  {{- $endTime := $last.ende | default $last.start -}}
+  {{- $end := time.AsTime (printf "%sT%s:00" $last.datum $endTime) "Europe/Berlin" -}}
+  {{- $price := replace (replace (replace .preis " €" "") "." "") "," "." -}}
+  {{- if eq .preis "kostenlos" }}{{ $price = "0" }}{{ end -}}
+  {{- /* Kursbetrieb ist in der Herrenhäuser 17 (Neidhartstr. 2 ist nur Postanschrift) */ -}}
+  {{- $location := dict "@type" "Place" "name" $first.ort "address" (dict "@type" "PostalAddress" "addressLocality" "Augsburg" "addressCountry" "DE") -}}
+  {{- if eq $first.ort "KidsLab" -}}
+    {{- $location = dict "@type" "Place" "name" "KidsLab Augsburg" "address" (dict "@type" "PostalAddress" "streetAddress" "Herrenhäuser 17" "postalCode" "86152" "addressLocality" "Augsburg" "addressCountry" "DE") -}}
+  {{- end -}}
+  {{- $event := dict
+    "@type" "Event"
+    "name" $page.Title
+    "description" $page.Description
+    "url" $page.Permalink
+    "startDate" ($start.Format "2006-01-02T15:04:05-07:00")
+    "endDate" ($end.Format "2006-01-02T15:04:05-07:00")
+    "eventStatus" "https://schema.org/EventScheduled"
+    "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+    "location" $location
+    "organizer" (dict "@id" "https://kidslab.de/#organization")
+    "offers" (dict
+      "@type" "Offer"
+      "url" $page.Params.booking_url
+      "price" $price
+      "priceCurrency" "EUR"
+      "availability" (cond .frei "https://schema.org/InStock" "https://schema.org/SoldOut"))
+  -}}
+  {{- with $page.Params.image }}{{ with $page.Resources.Get . }}{{ $event = merge $event (dict "image" .Permalink) }}{{ end }}{{ end -}}
+  {{- $events = $events | append $event -}}
+{{- end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $events | jsonify | safeJS }}</script>
+{{- end -}}

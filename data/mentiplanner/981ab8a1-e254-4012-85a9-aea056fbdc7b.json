@@ -1,0 +1,23 @@
+{
+  "dir": "computerspielschule-gemeinsam-zocken",
+  "firstSeen": "2026-10-03",
+  "image": "computerspielschule-gemeinsam-zocken-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-02-13",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "981ab8a1-e254-4012-85a9-aea056fbdc7b",
+    "name": "ComputerSpielSchule - Gemeinsam zocken!",
+    "slug": "computerspielschule-gemeinsam-zocken",
+    "shortDescription": "Gemeinsam Zocken, neue Spiele kennenlernen, Gamedesign und mehr! Für alle zwischen 8 und 18 Jahren!\r\n",
+    "description": "In unserer ComputerSpielSchule dreht sich alles um das gemeinschaftliche Erleben der Gaming-Welt. Wir glauben fest daran, dass Spielen mehr ist als nur ein Solo-Abenteuer. Es ist eine Möglichkeit, zu lernen, zu wachsen und Beziehungen zu stärken, während man in die faszinierenden Welten der Spiele eintaucht.\r\n\r\nGemeinsames Zocken: Unsere ComputerSpielSchule bietet eine einladende und gut ausgestattete Umgebung, in der Spielerinnen und Spieler aller Altersstufen zusammenkommen, um ihre Lieblingsspiele zu spielen. Egal, ob Sie ein erfahrener Gamer oder gerade erst angefangen. Wir haben eine breite Palette von Spielen und Plattformen, von den neuesten Konsolenspielen bis hin zu klassischen PC-Titeln.\r\n\r\nGemeinsam statt allein In der ComputerSpielSchule zockst Du nie allein.\r\n\r\n\r\n\r\n\r\n**Stadtbücherei goes GamesLab!** Das medienpädagogische Team der Stadtbücherei Augsburg nimmt euch mit in spannende digitale Welten. Gemeinsam wird programmiert, gezockt, gefilmt und getüftelt. Mit Spaß, Kreativität und einem offenen Ohr begleiten wir Kinder und Jugendliche dabei, eigene Ideen auszuprobieren und spielerisch Medienkompetenz zu stärken.\r\n",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/981ab8a1-e254-4012-85a9-aea056fbdc7b",
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-01-23T08:23:46.693Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/981ab8a1-e254-4012-85a9-aea056fbdc7b",
+    "upcoming": [],
+    "lastDate": "2026-02-13"
+  }
+}

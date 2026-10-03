@@ -1,0 +1,23 @@
+{
+  "dir": "escape-room-desinformation",
+  "firstSeen": "2026-10-03",
+  "image": "escape-room-desinformation-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-02-11",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "34704b60-6b3f-4fea-b8b3-e4756292b4f1",
+    "name": "Escape Room \"Desinformation\"",
+    "slug": "escape-room-desinformation",
+    "shortDescription": "Escape Room für Rätselfreunde: Fünf Prüfungen, 30 Minuten, eine Wahrheit. Alter: 10 bis 15 Jahre",
+    "description": "# Tauche ein in den „Zirkel der Wahrheit“!\r\nBist du bereit für Rätsel, die deine Wahrnehmung auf die Probe stellen?\r\nErlebe einen einzigartigen **Escape‑Room** voller Geheimnisse, kniffliger Hinweise und überraschender Wendungen.\r\nFünf Bereiche, fünf Prüfungen – und nur 30 Minuten, die Wahrheit zu finden.\r\nTraust du dich?\r\n\r\n> Der Zirkel wartet.\r\n",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/34704b60-6b3f-4fea-b8b3-e4756292b4f1",
+    "priceCents": null,
+    "durationHours": 1,
+    "location": "KidsLab",
+    "isAdultWorkshop": false,
+    "updatedAt": "2026-01-09T10:14:38.103Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/34704b60-6b3f-4fea-b8b3-e4756292b4f1",
+    "upcoming": [],
+    "lastDate": "2026-02-11"
+  }
+}

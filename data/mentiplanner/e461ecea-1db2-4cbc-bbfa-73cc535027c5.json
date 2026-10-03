@@ -1,0 +1,23 @@
+{
+  "dir": "gameslab-erwachsene-3d-druck",
+  "firstSeen": "2026-10-03",
+  "image": "gameslab-erwachsene-3d-druck-workshop-kinder-augsburg.webp",
+  "lastDate": "2026-01-27",
+  "lastUpcoming": null,
+  "workshop": {
+    "id": "e461ecea-1db2-4cbc-bbfa-73cc535027c5",
+    "name": "GamesLab Erwachsene - 3D Druck",
+    "slug": "gameslab-erwachsene-3d-druck",
+    "shortDescription": "Von der Idee zum fertigen Objekt: Lerne die Grundlagen des 3D-Drucks kennen, entwirf dein eigenes Modell und drucke es direkt aus. Keine Vorkenntnisse nötig – nur Neugier!",
+    "description": "In unserem beliebten 3D-Druckkurs tauchst Du in die Welt des 3D-Drucks ein! Gemeinsam entdecken wir die Ursprünge und Möglichkeiten dieser faszinierenden Technologie, lernen den gesamten Arbeitsablauf kennen – von der Idee bis zum gedruckten Teil – und werden selbst kreativ. Nach einer kurzen Einführung darfst Du Dein eigenes Modell entwerfen und am 3D-Drucker zum Leben erwecken.\r\n\r\nVorkenntnisse? Nicht nötig! Wenn Du neugierig bist und Lust hast, etwas Neues auszuprobieren, bist Du hier genau richtig.\r\n\r\n**Bitte beachten Sie: tragen sie sich als Teilnehmer und als Elternteil ein. Wir machen ja normalerweise nur Angebote für Kinder und Jugendliche, darum mag unser Buchungssystem nur Teilnehmer bis 18 - da einfach 18 als Alter eintragen - danke!**",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/e461ecea-1db2-4cbc-bbfa-73cc535027c5",
+    "priceCents": null,
+    "durationHours": 3,
+    "location": "Zwischenzeit, GamesLab - Annastaße 16",
+    "isAdultWorkshop": true,
+    "updatedAt": "2026-01-14T10:34:22.150Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/e461ecea-1db2-4cbc-bbfa-73cc535027c5",
+    "upcoming": [],
+    "lastDate": "2026-01-27"
+  }
+}
