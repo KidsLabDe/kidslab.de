@@ -15,6 +15,7 @@
     "durationHours": 2,
     "location": "Kleiner Goldener Saal, Jesuitengasse 12, 86152 Augsburg",
     "isAdultWorkshop": true,
+    "minAge": null,
     "updatedAt": "2026-03-10T18:21:43.372Z",
     "bookingUrl": "https://plan.kidslab.de/workshops/book/da0f0e62-bed1-4f34-a434-91a86526fc6d",
     "upcoming": [],

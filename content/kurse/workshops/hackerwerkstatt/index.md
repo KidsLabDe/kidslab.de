@@ -3,7 +3,7 @@
 title: "HackerWerkstatt"
 description: "Hackerwerkstatt: Robo-Buddy – bau deinen eigenen WLAN-Roboter Ein kleiner Roboter mit rundem Display-Gesicht, zwei Rädern und eigenem WLAN: Den bauen wir…"
 date: "2026-10-03"
-lastmod: "2026-10-03T11:17:04.320Z"
+lastmod: "2026-10-03T15:23:06.505Z"
 mentiplanner_id: "b66807dc-8c42-48e8-85dc-c9b933f48811"
 booking_url: "https://plan.kidslab.de/workshops/book/b66807dc-8c42-48e8-85dc-c9b933f48811"
 preis: "120,00 €"

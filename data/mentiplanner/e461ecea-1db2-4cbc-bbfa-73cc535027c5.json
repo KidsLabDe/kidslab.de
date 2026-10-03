@@ -15,6 +15,7 @@
     "durationHours": 3,
     "location": "Zwischenzeit, GamesLab - Annastaße 16",
     "isAdultWorkshop": true,
+    "minAge": null,
     "updatedAt": "2026-01-14T10:34:22.150Z",
     "bookingUrl": "https://plan.kidslab.de/workshops/book/e461ecea-1db2-4cbc-bbfa-73cc535027c5",
     "upcoming": [],

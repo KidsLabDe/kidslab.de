@@ -15,6 +15,7 @@
     "durationHours": 1,
     "location": "KidsLab",
     "isAdultWorkshop": false,
+    "minAge": null,
     "updatedAt": "2026-01-09T10:14:38.103Z",
     "bookingUrl": "https://plan.kidslab.de/workshops/book/34704b60-6b3f-4fea-b8b3-e4756292b4f1",
     "upcoming": [],
