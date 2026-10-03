@@ -18,7 +18,7 @@
               {{- $imgResource := $post.Resources.GetMatch . -}}
               <a href="{{ $post.RelPermalink }}" class="blog-post-image">
                 {{- if $imgResource -}}
-                  {{- $thumb := $imgResource.Fill "400x280 webp q80" -}}
+                  {{- $thumb := (images.Filter images.AutoOrient $imgResource).Fill "400x280 webp q80" -}}
                   <img
                     src="{{ $thumb.RelPermalink }}"
                     alt="{{ $post.Title }}"

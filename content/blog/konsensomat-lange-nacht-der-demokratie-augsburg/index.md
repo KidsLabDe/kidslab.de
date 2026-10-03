@@ -10,8 +10,6 @@ tags: ["Konsensomat", "Lange Nacht der Demokratie", "Augsburg", "Rathaus", "Demo
 
 Gestern Abend war das Augsburger Rathaus voller Demokratie – und mittendrin stand unser **Konsensomat**. Bei der **Langen Nacht der Demokratie** durften wir die Demokratiemaschine aufbauen. Und was sollen wir sagen: Es war richtig voll! Vor dem Konsensomat bildeten sich den ganzen Abend lange Schlangen von Besucherinnen und Besuchern, die sich unbedingt einmal „konsensen“ wollten. 😄
 
-![Zwei Besucher vor dem Konsensomat im Augsburger Rathaus wählen eine Fragenkategorie](konsensomat-lange-nacht-der-demokratie-augsburg-rathaus-spielrunde.jpg)
-
 ## Die Lange Nacht der Demokratie
 
 Am **2. Oktober 2026** gab es im Rathaus von 18 bis 22 Uhr (Kinderprogramm schon ab 17 Uhr) über 40 Angebote rund um Demokratie: Vorträge, Diskussionen, Musik, Mitmachaktionen und viele Gelegenheiten, miteinander ins Gespräch zu kommen. Organisiert wurde der Abend vom Büro für Kommunale Prävention, dem Stadtjugendring und der Volkshochschule Augsburg. Mehr Infos gibt es auf der [Seite der Stadt Augsburg](https://www.augsburg.de/lange-nacht-der-demokratie).

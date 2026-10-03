@@ -575,3 +575,18 @@ nav .navbar-title,
   background-color: hsl(40deg 30% 14%);
   border-color: hsl(40deg 30% 28%);
 }
+
+/* --------------------------------------------------------------------------
+   14. Blog: Cover-Bild auf der Detailseite
+   -------------------------------------------------------------------------- */
+
+.blog-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 32rem;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: 0.75rem;
+  margin: 0 0 2rem;
+}

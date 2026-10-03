@@ -18,7 +18,7 @@
           {{- end -}}
         </div>
         {{- end }}
-        <div class="hx:mt-4 hx:mb-16 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2">
+        <div class="hx:mt-4 hx:mb-8 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2">
           {{- with $date := .Date }}<span class="hx:mr-1">{{ partial "utils/format-date" $date }}</span>{{ end -}}
           {{- $lazyLoading := site.Params.enableImageLazyLoading | default true -}}
           {{ if and .Date .Params.authors }}<span class="hx:mx-1">·</span>{{ end -}}
@@ -47,6 +47,15 @@
             {{- end -}}
           {{- end -}}
         </div>
+        {{- /* Cover-Bild anzeigen, außer es steht schon im Text (sonst doppelt) */ -}}
+        {{- with .Params.image -}}
+          {{- if not (strings.Contains $.RawContent .) -}}
+            {{- with $.Resources.GetMatch . -}}
+              {{- $cover := (images.Filter images.AutoOrient .).Process "resize 1200x webp q80" -}}
+              <img src="{{ $cover.RelPermalink }}" width="{{ $cover.Width }}" height="{{ $cover.Height }}" alt="{{ $.Title }}" class="blog-cover" fetchpriority="high" decoding="async" />
+            {{- end -}}
+          {{- end -}}
+        {{- end }}
         <div class="content">
           {{ .Content }}
         </div>
