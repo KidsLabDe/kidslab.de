@@ -12,13 +12,11 @@ cascade:
 
 # Digitale Bildung für junge Menschen ッ
 
-Willkommen beim KidsLab! Bei uns lernst du, wie Technik funktioniert — und wie du damit eigene Ideen umsetzen kannst.
+## Jetzt buchbare Workshops
 
-- Programmieren lernen in Minecraft und Scratch
-- Roboter bauen und programmieren
-- Löten, 3D-drucken und eigene Spiele entwickeln
-- Demokratie erleben in digitalen Welten
-- Workshops für Schulen und Lehrkräfte
+{{< workshop-liste >}}
+
+[Alle aktuellen Workshops →](/kurse/workshops/)
 
 {{< schaufenster-preview >}}
 
