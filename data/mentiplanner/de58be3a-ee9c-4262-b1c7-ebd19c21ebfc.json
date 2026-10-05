@@ -1,0 +1,46 @@
+{
+  "dir": "zefix-menti-anmeldung",
+  "firstSeen": "2026-10-05",
+  "image": "zefix-menti-anmeldung-workshop-kinder-augsburg.webp",
+  "lastDate": null,
+  "lastUpcoming": "2026-11-15",
+  "workshop": {
+    "id": "de58be3a-ee9c-4262-b1c7-ebd19c21ebfc",
+    "name": "ZeFix! Menti-Anmeldung",
+    "slug": "zefix-menti-anmeldung",
+    "shortDescription": "## Als Mentor*in bei ZeFix! dabei sein\r\n\r\nDu hast Lust, Jugendliche beim Tüfteln, Programmieren, Bauen und Gestalten zu unterstützen?\r\n\r\nBei ZeFix! begleitest du Teams bei ihren eigenen Projekten, gibst Impulse, hilfst bei technischen oder kreativen Fragen und sorgst mit dafür, dass aus Ideen echte Projekte werden.\r\n\r\nDu musst nicht alles können. Wichtig sind Neugier, Offenheit und Freude daran, Wissen weiterzugeben und gemeinsam Lösungen zu finden.",
+    "description": "## Als Mentor*in bei ZeFix! dabei sein\r\n\r\nZeFix! lebt davon, dass Jugendliche ihre eigenen Ideen entwickeln und ausprobieren können – und dabei Menschen an ihrer Seite haben, die sie unterstützen, ermutigen und bei Bedarf den richtigen Impuls geben.\r\n\r\nAls Mentor*in begleitest du Jugendliche bei ihren Projekten. Das kann ein Game, eine App, ein Elektronikprojekt, digitale Kunst, ein 3D-Druck-Projekt oder etwas völlig anderes sein.\r\n\r\nDabei geht es nicht darum, fertige Lösungen vorzugeben. Viel wichtiger ist, gemeinsam Fragen zu stellen, Fehler auszuhalten, Ideen weiterzuentwickeln und den Jugendlichen zu helfen, selbst einen Weg zu finden.\r\n\r\n### Was du als Mentor*in machst\r\n\r\n- Jugendliche bei ihren eigenen Projekten begleiten\r\n- bei technischen, kreativen oder konzeptionellen Fragen unterstützen\r\n- Wissen und Erfahrungen teilen\r\n- beim Debuggen, Bauen, Gestalten und Ausprobieren helfen\r\n- Teams motivieren, wenn etwas nicht sofort funktioniert\r\n- gemeinsam mit anderen Mentor*innen eine offene und kreative Atmosphäre schaffen\r\n\r\n### Wen wir suchen\r\n\r\nDu musst kein Profi in allem sein. Besonders freuen wir uns über Menschen mit Erfahrungen in Bereichen wie:\r\n\r\n- Programmierung und Softwareentwicklung\r\n- Games und Game Design\r\n- Elektronik, Mikrocontroller und Making\r\n- 3D-Druck, Lasercutting und digitale Fertigung\r\n- KI und digitale Medien\r\n- Design, Kunst, Musik und Kultur\r\n- Projektentwicklung und kreatives Arbeiten\r\n\r\nEntscheidend sind vor allem **Neugier, Geduld und Freude daran, Jugendliche beim Selbermachen zu unterstützen.**\r\n\r\nZeFix! findet vom **13. bis 15. November 2026 im Amerikahaus München** statt.",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/de58be3a-ee9c-4262-b1c7-ebd19c21ebfc",
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": true,
+    "minAge": null,
+    "updatedAt": "2026-10-05T10:46:36.976Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/de58be3a-ee9c-4262-b1c7-ebd19c21ebfc",
+    "upcoming": [
+      {
+        "kind": "series",
+        "id": "a121f148-456b-4573-97ed-6f5d4450ce9f",
+        "title": "Metoren-Anmeldung ZeFix! München 2026",
+        "dates": [
+          {
+            "date": "2026-11-14",
+            "startTime": "08:00",
+            "endTime": "20:00",
+            "location": null
+          },
+          {
+            "date": "2026-11-15",
+            "startTime": "08:00",
+            "endTime": "20:00",
+            "location": null
+          }
+        ],
+        "priceCents": null,
+        "hasSpots": true
+      }
+    ],
+    "lastDate": null
+  }
+}
