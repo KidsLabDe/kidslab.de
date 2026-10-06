@@ -10,28 +10,14 @@ preis: "kostenlos"
 dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: false
-archiviert: false
-naechster_termin: "2026-11-13"
-letzter_termin: null
+archiviert: true
+naechster_termin: null
+letzter_termin: "2026-11-13"
 image: "zefix-freitags-schnupper-workshops-workshop-kinder-augsburg.webp"
 images: ["zefix-freitags-schnupper-workshops-workshop-kinder-augsburg.webp"]
-termine:
-  - art: "event"
-    preis: "kostenlos"
-    frei: true
-    daten:
-      - datum: "2026-11-13"
-        start: "16:00"
-        ende: "17:30"
-        ort: "KidsLab"
-  - art: "event"
-    preis: "kostenlos"
-    frei: true
-    daten:
-      - datum: "2026-11-13"
-        start: "16:00"
-        ende: "17:30"
-        ort: "KidsLab"
+sidebar:
+  exclude: true
+termine: []
 ---
 
 <!-- mentiplanner:start – wird automatisch überschrieben, Änderungen in MentiPlanner machen -->

@@ -1,0 +1,85 @@
+{
+  "dir": "shittyrobots",
+  "firstSeen": "2026-10-06",
+  "image": null,
+  "lastDate": null,
+  "lastUpcoming": "2026-11-01",
+  "workshop": {
+    "id": "65871869-6453-4221-8d83-aef0c392fe61",
+    "name": "ShittyRobots",
+    "slug": "shittyrobots",
+    "shortDescription": null,
+    "description": null,
+    "imageUrl": null,
+    "priceCents": null,
+    "durationHours": 2,
+    "location": "KidsLab",
+    "isAdultWorkshop": true,
+    "minAge": null,
+    "updatedAt": "2026-10-06T12:20:33.837Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/65871869-6453-4221-8d83-aef0c392fe61",
+    "upcoming": [
+      {
+        "kind": "event",
+        "id": "fc02ad4b-4cd7-4915-a8cc-01665687d3dd",
+        "title": null,
+        "dates": [
+          {
+            "date": "2026-10-29",
+            "startTime": "20:00",
+            "endTime": "22:00",
+            "location": "Lab30"
+          }
+        ],
+        "priceCents": null,
+        "hasSpots": true
+      },
+      {
+        "kind": "event",
+        "id": "2fb5188e-93ef-4768-af37-785ac214fc8e",
+        "title": null,
+        "dates": [
+          {
+            "date": "2026-10-30",
+            "startTime": "20:00",
+            "endTime": "22:00",
+            "location": "Lab30"
+          }
+        ],
+        "priceCents": null,
+        "hasSpots": true
+      },
+      {
+        "kind": "event",
+        "id": "df7eff86-d41e-4ae0-a476-a2bd01cc9187",
+        "title": null,
+        "dates": [
+          {
+            "date": "2026-10-31",
+            "startTime": "14:00",
+            "endTime": "19:00",
+            "location": "Lab30"
+          }
+        ],
+        "priceCents": null,
+        "hasSpots": false
+      },
+      {
+        "kind": "event",
+        "id": "b68cfb7b-51f6-49cf-998e-b67b58c79b19",
+        "title": null,
+        "dates": [
+          {
+            "date": "2026-11-01",
+            "startTime": "13:00",
+            "endTime": "17:00",
+            "location": "Lab30"
+          }
+        ],
+        "priceCents": null,
+        "hasSpots": false
+      }
+    ],
+    "lastDate": null
+  }
+}

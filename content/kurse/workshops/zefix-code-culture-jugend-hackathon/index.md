@@ -10,29 +10,14 @@ preis: "120,00 €"
 dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: false
-archiviert: false
-naechster_termin: "2026-11-13"
-letzter_termin: null
+archiviert: true
+naechster_termin: null
+letzter_termin: "2026-11-15"
 image: "zefix-code-culture-jugend-hackathon-workshop-kinder-augsburg.webp"
 images: ["zefix-code-culture-jugend-hackathon-workshop-kinder-augsburg.webp"]
-termine:
-  - art: "series"
-    titel: "V1 - 2026"
-    preis: "120,00 €"
-    frei: true
-    daten:
-      - datum: "2026-11-13"
-        start: "15:00"
-        ende: "20:00"
-        ort: "Amerikahaus, München"
-      - datum: "2026-11-14"
-        start: "15:00"
-        ende: "20:00"
-        ort: "Amerikahaus, München"
-      - datum: "2026-11-15"
-        start: "15:00"
-        ende: "20:00"
-        ort: "Amerikahaus, München"
+sidebar:
+  exclude: true
+termine: []
 ---
 
 <!-- mentiplanner:start – wird automatisch überschrieben, Änderungen in MentiPlanner machen -->

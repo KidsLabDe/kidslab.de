@@ -2,7 +2,7 @@
   "dir": "zefix-freitags-schnupper-workshops",
   "firstSeen": "2026-10-05",
   "image": "zefix-freitags-schnupper-workshops-workshop-kinder-augsburg.webp",
-  "lastDate": null,
+  "lastDate": "2026-11-13",
   "lastUpcoming": "2026-11-13",
   "workshop": {
     "id": "b82736fe-9d29-47cb-a8e1-13884343fd64",
@@ -18,38 +18,7 @@
     "minAge": null,
     "updatedAt": "2026-10-05T10:56:14.892Z",
     "bookingUrl": "https://plan.kidslab.de/workshops/book/b82736fe-9d29-47cb-a8e1-13884343fd64",
-    "upcoming": [
-      {
-        "kind": "event",
-        "id": "10130519-3242-4c18-968d-e3641a4aa225",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-11-13",
-            "startTime": "16:00",
-            "endTime": "17:30",
-            "location": null
-          }
-        ],
-        "priceCents": 0,
-        "hasSpots": true
-      },
-      {
-        "kind": "event",
-        "id": "cb3bcf91-be1f-4320-ab79-927a4ba21a02",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-11-13",
-            "startTime": "16:00",
-            "endTime": "17:30",
-            "location": null
-          }
-        ],
-        "priceCents": 0,
-        "hasSpots": true
-      }
-    ],
+    "upcoming": [],
     "lastDate": null
   }
 }

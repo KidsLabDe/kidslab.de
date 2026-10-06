@@ -2,7 +2,7 @@
   "dir": "zefix-code-culture-jugend-hackathon",
   "firstSeen": "2026-10-05",
   "image": "zefix-code-culture-jugend-hackathon-workshop-kinder-augsburg.webp",
-  "lastDate": null,
+  "lastDate": "2026-11-15",
   "lastUpcoming": "2026-11-15",
   "workshop": {
     "id": "cc48b172-2efc-4b71-93ff-db3612c360f2",
@@ -18,35 +18,7 @@
     "minAge": null,
     "updatedAt": "2026-10-05T10:42:32.030Z",
     "bookingUrl": "https://plan.kidslab.de/workshops/book/cc48b172-2efc-4b71-93ff-db3612c360f2",
-    "upcoming": [
-      {
-        "kind": "series",
-        "id": "d8da6d70-45b1-4870-b026-c48be0d1f202",
-        "title": "V1 - 2026",
-        "dates": [
-          {
-            "date": "2026-11-13",
-            "startTime": "15:00",
-            "endTime": "20:00",
-            "location": "Amerikahaus, München"
-          },
-          {
-            "date": "2026-11-14",
-            "startTime": "15:00",
-            "endTime": "20:00",
-            "location": "Amerikahaus, München"
-          },
-          {
-            "date": "2026-11-15",
-            "startTime": "15:00",
-            "endTime": "20:00",
-            "location": "Amerikahaus, München"
-          }
-        ],
-        "priceCents": 12000,
-        "hasSpots": true
-      }
-    ],
+    "upcoming": [],
     "lastDate": null
   }
 }

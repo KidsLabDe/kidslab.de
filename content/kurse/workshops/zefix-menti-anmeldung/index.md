@@ -10,25 +10,14 @@ preis: "kostenlos"
 dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: true
-archiviert: false
-naechster_termin: "2026-11-14"
-letzter_termin: null
+archiviert: true
+naechster_termin: null
+letzter_termin: "2026-11-15"
 image: "zefix-menti-anmeldung-workshop-kinder-augsburg.webp"
 images: ["zefix-menti-anmeldung-workshop-kinder-augsburg.webp"]
-termine:
-  - art: "series"
-    titel: "Metoren-Anmeldung ZeFix! München 2026"
-    preis: "kostenlos"
-    frei: true
-    daten:
-      - datum: "2026-11-14"
-        start: "08:00"
-        ende: "20:00"
-        ort: "KidsLab"
-      - datum: "2026-11-15"
-        start: "08:00"
-        ende: "20:00"
-        ort: "KidsLab"
+sidebar:
+  exclude: true
+termine: []
 ---
 
 <!-- mentiplanner:start – wird automatisch überschrieben, Änderungen in MentiPlanner machen -->
