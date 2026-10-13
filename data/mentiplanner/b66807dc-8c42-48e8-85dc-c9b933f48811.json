@@ -74,7 +74,7 @@
           }
         ],
         "priceCents": 12000,
-        "hasSpots": true
+        "hasSpots": false
       }
     ],
     "lastDate": "2026-03-20"

@@ -19,7 +19,7 @@ termine:
   - art: "series"
     titel: "RoboBuddy"
     preis: "120,00 €"
-    frei: true
+    frei: false
     daten:
       - datum: "2026-10-16"
         start: "15:00"
