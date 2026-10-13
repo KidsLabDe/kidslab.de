@@ -10,60 +10,14 @@ preis: "130,00 €"
 dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: false
-archiviert: false
-naechster_termin: "2026-11-09"
-letzter_termin: "2026-07-13"
+archiviert: true
+naechster_termin: null
+letzter_termin: "2026-12-14"
 image: "minnimakernachmittag-workshop-kinder-augsburg.webp"
 images: ["minnimakernachmittag-workshop-kinder-augsburg.webp"]
-termine:
-  - art: "event"
-    preis: "130,00 €"
-    frei: true
-    daten:
-      - datum: "2026-11-09"
-        start: "16:30"
-        ende: "18:00"
-        ort: "kidslab fischertor"
-  - art: "event"
-    preis: "130,00 €"
-    frei: true
-    daten:
-      - datum: "2026-11-16"
-        start: "16:30"
-        ende: "18:00"
-        ort: "kidslab fischertor"
-  - art: "event"
-    preis: "130,00 €"
-    frei: true
-    daten:
-      - datum: "2026-11-23"
-        start: "16:30"
-        ende: "18:00"
-        ort: "kidslab fischertor"
-  - art: "event"
-    preis: "130,00 €"
-    frei: true
-    daten:
-      - datum: "2026-11-30"
-        start: "16:30"
-        ende: "18:00"
-        ort: "kidslab fischertor"
-  - art: "event"
-    preis: "130,00 €"
-    frei: true
-    daten:
-      - datum: "2026-12-07"
-        start: "16:30"
-        ende: "18:00"
-        ort: "kidslab fischertor"
-  - art: "event"
-    preis: "130,00 €"
-    frei: true
-    daten:
-      - datum: "2026-12-14"
-        start: "16:30"
-        ende: "18:00"
-        ort: "kidslab fischertor"
+sidebar:
+  exclude: true
+termine: []
 ---
 
 <!-- mentiplanner:start – wird automatisch überschrieben, Änderungen in MentiPlanner machen -->

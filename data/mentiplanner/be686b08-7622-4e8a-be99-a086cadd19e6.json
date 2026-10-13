@@ -2,7 +2,7 @@
   "dir": "minnimakernachmittag",
   "firstSeen": "2026-10-12",
   "image": "minnimakernachmittag-workshop-kinder-augsburg.webp",
-  "lastDate": "2026-07-13",
+  "lastDate": "2026-12-14",
   "lastUpcoming": "2026-12-14",
   "workshop": {
     "id": "be686b08-7622-4e8a-be99-a086cadd19e6",
@@ -18,98 +18,7 @@
     "minAge": null,
     "updatedAt": "2026-09-11T06:09:58.108Z",
     "bookingUrl": "https://plan.kidslab.de/workshops/book/be686b08-7622-4e8a-be99-a086cadd19e6",
-    "upcoming": [
-      {
-        "kind": "event",
-        "id": "a9bd9555-8dde-4bab-abee-1930ff2d9515",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-11-09",
-            "startTime": "16:30",
-            "endTime": "18:00",
-            "location": "kidslab fischertor"
-          }
-        ],
-        "priceCents": 13000,
-        "hasSpots": true
-      },
-      {
-        "kind": "event",
-        "id": "42d7bdca-9770-4853-a6b3-36df0686f98e",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-11-16",
-            "startTime": "16:30",
-            "endTime": "18:00",
-            "location": "kidslab fischertor"
-          }
-        ],
-        "priceCents": 13000,
-        "hasSpots": true
-      },
-      {
-        "kind": "event",
-        "id": "88ec1323-4c51-49d7-b230-bb4e4923a2d8",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-11-23",
-            "startTime": "16:30",
-            "endTime": "18:00",
-            "location": "kidslab fischertor"
-          }
-        ],
-        "priceCents": 13000,
-        "hasSpots": true
-      },
-      {
-        "kind": "event",
-        "id": "b6866287-8714-47aa-95ec-4758ce3d4a87",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-11-30",
-            "startTime": "16:30",
-            "endTime": "18:00",
-            "location": "kidslab fischertor"
-          }
-        ],
-        "priceCents": 13000,
-        "hasSpots": true
-      },
-      {
-        "kind": "event",
-        "id": "ac6bb17e-0d06-47a5-bd57-37ffce4d3ba0",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-12-07",
-            "startTime": "16:30",
-            "endTime": "18:00",
-            "location": "kidslab fischertor"
-          }
-        ],
-        "priceCents": 13000,
-        "hasSpots": true
-      },
-      {
-        "kind": "event",
-        "id": "77ca9bc7-768a-4719-b0fe-9c31e57a6cbe",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-12-14",
-            "startTime": "16:30",
-            "endTime": "18:00",
-            "location": "kidslab fischertor"
-          }
-        ],
-        "priceCents": 13000,
-        "hasSpots": true
-      }
-    ],
+    "upcoming": [],
     "lastDate": "2026-05-11"
   }
 }
