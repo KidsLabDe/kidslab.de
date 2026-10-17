@@ -11,8 +11,8 @@ dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: false
 archiviert: false
-naechster_termin: "2026-10-16"
-letzter_termin: "2026-03-20"
+naechster_termin: "2026-10-23"
+letzter_termin: "2026-10-16"
 image: "hackerwerkstatt-workshop-kinder-augsburg.webp"
 images: ["hackerwerkstatt-workshop-kinder-augsburg.webp"]
 termine:
@@ -21,10 +21,6 @@ termine:
     preis: "120,00 €"
     frei: false
     daten:
-      - datum: "2026-10-16"
-        start: "15:00"
-        ende: "16:30"
-        ort: "KidsLab"
       - datum: "2026-10-23"
         start: "15:00"
         ende: "16:30"

@@ -2,7 +2,7 @@
   "dir": "hackerwerkstatt",
   "firstSeen": "2026-10-03",
   "image": "hackerwerkstatt-workshop-kinder-augsburg.webp",
-  "lastDate": "2026-03-20",
+  "lastDate": "2026-10-16",
   "lastUpcoming": "2026-12-18",
   "workshop": {
     "id": "b66807dc-8c42-48e8-85dc-c9b933f48811",
@@ -24,12 +24,6 @@
         "id": "86170a66-3bbf-4f48-a10f-2b7d4dd58ff1",
         "title": "RoboBuddy",
         "dates": [
-          {
-            "date": "2026-10-16",
-            "startTime": "15:00",
-            "endTime": "16:30",
-            "location": null
-          },
           {
             "date": "2026-10-23",
             "startTime": "15:00",
@@ -77,6 +71,6 @@
         "hasSpots": false
       }
     ],
-    "lastDate": "2026-03-20"
+    "lastDate": "2026-10-16"
   }
 }
