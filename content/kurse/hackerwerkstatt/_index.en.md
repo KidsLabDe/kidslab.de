@@ -19,12 +19,15 @@ Hacker Workshop runs in **series of 4–6 weeks**, each with its own topic. That
 
 ## Current series
 
-{{< card link="esp32-neopixel-pixelkunst" title="Series #3 – ESP32 & NeoPixel: Glowing Pixel Art" subtitle="Starts: Friday, March 27, 2026 – 5 sessions" >}}
+{{< card link="https://plan.kidslab.de/workshops/book/b66807dc-8c42-48e8-85dc-c9b933f48811" title="Series #4 – Robo-Buddy: Build your own Wi-Fi robot" subtitle="Starts: Friday, October 16, 2026 – 8 sessions" >}}
 
 ## Tickets & dates
 
-{{< pretix event="https://pretix.eu/kidslab/hackerwerkstatt/" >}}
+Dates and registration: [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops)
+
+{{< button href="https://plan.kidslab.de/workshops/book/b66807dc-8c42-48e8-85dc-c9b933f48811" >}}Register now{{< /button >}}
 
 ## Past series
 
+- [Series #3 – ESP32 & NeoPixel: Glowing Pixel Art](esp32-neopixel-pixelkunst/)
 - [Series #2 – Programming with AI](programmieren-mit-ki/)

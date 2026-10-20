@@ -19,12 +19,15 @@ Die HackerWerkstatt läuft in **Staffeln von 4–6 Wochen**, jede mit einem eige
 
 ## Aktuelle Staffel
 
-{{< card link="esp32-neopixel-pixelkunst" title="Staffel #3 – ESP32 & NeoPixel: Leuchtende Pixelkunst" subtitle="Start: Freitag, 27. März 2026 – 5 Termine" >}}
+{{< card link="/kurse/workshops/hackerwerkstatt/" title="Staffel #4 – Robo-Buddy: Bau deinen eigenen WLAN-Roboter" subtitle="Start: Freitag, 16. Oktober 2026 – 8 Termine" >}}
 
 ## Tickets & Termine
 
-{{< pretix event="https://pretix.eu/kidslab/hackerwerkstatt/" >}}
+{{< workshop-termine workshop="hackerwerkstatt" >}}
+
+Alle weiteren Workshops findest du unter [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops).
 
 ## Vergangene Staffeln
 
+- [Staffel #3 – ESP32 & NeoPixel: Leuchtende Pixelkunst](esp32-neopixel-pixelkunst/)
 - [Staffel #2 – Programmieren mit KI](programmieren-mit-ki/)

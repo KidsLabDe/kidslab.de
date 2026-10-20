@@ -1,8 +1,14 @@
 {{- /*
   Termine, Preis und Anmelde-Button eines aus MentiPlanner synchronisierten Workshops.
   Daten kommen aus dem Front Matter (siehe .github/scripts/sync-workshops.mjs).
+  Optional: workshop="<ordner>" zeigt die Termine eines Workshops aus kurse/workshops auf einer anderen Seite an.
 */ -}}
-{{- $p := .Page.Params -}}
+{{- $page := .Page -}}
+{{- with .Get "workshop" -}}
+  {{- $page = site.GetPage (printf "/kurse/workshops/%s" .) -}}
+  {{- if not $page }}{{ errorf "workshop-termine: Workshop %q nicht gefunden" . }}{{ end -}}
+{{- end -}}
+{{- $p := $page.Params -}}
 {{- if $p.archiviert -}}
 <div class="workshop-box workshop-box--archiv">
   <p><strong>Dieser Workshop findet gerade nicht statt.</strong>
