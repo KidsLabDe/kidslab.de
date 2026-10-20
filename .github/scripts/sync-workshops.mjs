@@ -176,6 +176,18 @@ async function main() {
   await fs.mkdir(SNAPSHOT_DIR, { recursive: true })
   const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Berlin' })
   const seen = new Set()
+  // Ordner -> MentiPlanner-ID, damit gleichnamige Workshops sich nicht überschreiben
+  const dirOwner = new Map()
+  for (const f of await fs.readdir(SNAPSHOT_DIR)) {
+    const snap = f.endsWith('.json') && (await readJson(path.join(SNAPSHOT_DIR, f)))
+    if (snap?.dir && !dirOwner.has(snap.dir)) dirOwner.set(snap.dir, f.replace(/\.json$/, ''))
+  }
+  const uniqueDir = (ws) => {
+    let dir = ws.slug
+    for (let n = 2; dirOwner.has(dir) && dirOwner.get(dir) !== ws.id; n++) dir = `${ws.slug}-${n}`
+    dirOwner.set(dir, ws.id)
+    return dir
+  }
 
   for (const ws of feed.workshops) {
     seen.add(ws.id)
@@ -189,7 +201,7 @@ async function main() {
     }
     const upcomingDates = ws.upcoming.flatMap((o) => o.dates.map((d) => d.date))
     const snap = {
-      dir: old?.dir || ws.slug,
+      dir: old?.dir || uniqueDir(ws),
       firstSeen: old?.firstSeen || today,
       image: old?.image || null,
       // Letzter bekannter Termin, auch wenn er inzwischen vergangen ist
