@@ -27,7 +27,7 @@ The **MinniMaker Afternoon** is a creative workshop format that runs over severa
 
 ## Tickets & dates
 
-{{< pretix event="https://pretix.eu/kidslab/minni-maker/" >}}
+Dates and registration: [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops)
 
 ## Past courses
 

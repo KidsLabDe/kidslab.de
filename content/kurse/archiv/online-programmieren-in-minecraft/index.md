@@ -11,8 +11,6 @@ start: |
   2026-01-06 17:00:00
 end: |
   2026-02-24 18:00:00
-purchaseLink: |
-  https://pretix.eu/kidslab/minecraft/
 ---
 
 

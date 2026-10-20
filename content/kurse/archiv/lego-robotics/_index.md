@@ -1,6 +1,7 @@
 ---
 title: Lego Robotics
-weight: 21
+weight: 1
+aliases: ["/kurse/lego-robotics/"]
 ---
 
 > Roboter bauen und programmieren mit LEGO Spike Prime – für Kinder von 8 bis 12 Jahren.
@@ -38,6 +39,10 @@ Im **Lego Robotics**-Kurs tauchen Kinder in die Welt der Robotik und Programmier
 - **Wann:** Wöchentlich im KidsLab Augsburg
 - **Material:** LEGO Spike Prime Sets werden gestellt
 
-## Tickets & Termine
+## Termine
 
-{{< pretix event="https://pretix.eu/kidslab/robo-2/" >}}
+{{< callout type="info" >}}
+Lego Robotics findet in diesem Schuljahr leider nicht statt – uns fehlen Mentor:innen. Du bist ab 16 und hast Lust, Kindern Robotik beizubringen? Schreib an [gregor@kidslab.de](mailto:gregor@kidslab.de)!
+
+Alle aktuellen Workshops findest du unter [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops).
+{{< /callout >}}

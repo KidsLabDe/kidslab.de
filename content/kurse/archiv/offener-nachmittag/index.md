@@ -6,8 +6,6 @@ slug: "offener-nachmittag"
 price: "15"
 soldout: false
 comingsoon: false
-purchaseLink: |
-  https://pretix.eu/kidslab/openday-2/
 ---
 
 

@@ -28,12 +28,11 @@ cascade:
 ## Regular offers
 
 {{< callout type="info" >}}
-Our ongoing courses pause over summer break and resume **in the new school year** — not bookable right now. Dates will be announced via newsletter — sign up below on this page.
+Dates and registration for all courses and workshops: [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops).
 {{< /callout >}}
 
 {{< cards >}}
   {{< card link="minnimaker-nachmittag" title="MinniMaker Afternoon" subtitle="Every Monday — crafting, building, and discovering for the youngest ones" >}}
-  {{< card link="lego-robotics" title="Lego Robotics" subtitle="Build and program robots with Lego Spike and Mindstorms" >}}
   {{< card link="hackerwerkstatt" title="Hacker Workshop" subtitle="The nerd hangout for ages 12+ — we decide together what we build" >}}
 {{< /cards >}}
 

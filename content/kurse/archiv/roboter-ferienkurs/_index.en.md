@@ -38,5 +38,6 @@ You take the finished robot home with you — that's what the €25 material cos
 **No child is excluded** — the ticket shop has a self-service 50% discount option. If that's not enough, just send us a quick [email](mailto:team@kidslab.de) or [WhatsApp message](https://wa.me/4982199951920) — we'll find a solution, even for €0. [More on this](/ueber-kidslab/kursgebuehren/)
 {{< /callout >}}
 
-**Interested? Reserve your spot now:**
-{{< pretix event="https://pretix.eu/kidslab/roboter/" >}}
+{{< callout type="warning" >}}
+This workshop has already taken place. Current workshops and registration: [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops)
+{{< /callout >}}

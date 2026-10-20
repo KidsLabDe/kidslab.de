@@ -22,4 +22,4 @@ Mit LEGO Mindstorms können Kinder Roboter bauen, die auf ihre Umgebung reagiere
 
 Bei uns im KidsLab nutzen wir LEGO-Robotik-Sets, um Kindern den Einstieg in die Programmierung so greifbar wie möglich zu machen. Es gibt kaum etwas Cooleres, als wenn der selbst gebaute Roboter zum ersten Mal losfährt, einem Hindernis ausweicht oder einer Linie folgt. Diese "Wow-Momente" sind es, die Kinder für Technik begeistern – und genau das ist unser Ziel.
 
-Mittlerweile setzen wir in unseren [Lego Robotics Kursen](/kurse/lego-robotics/) vor allem auf LEGO Spike Prime, den Nachfolger von Mindstorms. Das Konzept bleibt aber das gleiche: Bauen, Programmieren, Staunen.
+Mittlerweile setzen wir in unseren [Lego Robotics Kursen](/kurse/archiv/lego-robotics/) vor allem auf LEGO Spike Prime, den Nachfolger von Mindstorms. Das Konzept bleibt aber das gleiche: Bauen, Programmieren, Staunen.

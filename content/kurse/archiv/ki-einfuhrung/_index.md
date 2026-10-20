@@ -9,8 +9,6 @@ start: |
   2026-01-09 14:50:00
 end: |
   2026-02-19 14:50:00
-purchaseLink: |
-  https://pretix.eu/kidslab/hackerwerkstatt/
 ---
 
 KI hands-on: Vision & lokale KI

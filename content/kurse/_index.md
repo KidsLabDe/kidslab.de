@@ -34,12 +34,11 @@ cascade:
 ## Regelmäßige Angebote
 
 {{< callout type="info" >}}
-Unsere laufenden Kurse pausieren über die Sommerferien und starten **im neuen Schuljahr** wieder — aktuell nicht buchbar. Termine gibt's per Newsletter — Anmeldung unten auf dieser Seite.
+Termine und Anmeldung für alle Kurse und Workshops findest du unter [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops).
 {{< /callout >}}
 
 {{< cards >}}
   {{< card link="minnimaker-nachmittag" title="MinniMaker Nachmittag" subtitle="Jeden Montag — basteln, bauen und entdecken für die Jüngsten" >}}
-  {{< card link="lego-robotics" title="Lego Robotics" subtitle="Roboter bauen und programmieren mit Lego Spike und Mindstorms" >}}
   {{< card link="hackerwerkstatt" title="Hackerwerkstatt" subtitle="Der Nerd-Treff ab 12 — wir entscheiden gemeinsam was wir machen" >}}
 {{< /cards >}}
 

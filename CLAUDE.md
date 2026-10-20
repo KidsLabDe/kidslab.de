@@ -33,11 +33,10 @@ hugo --minify
 
 ### Custom Shortcodes (layouts/shortcodes/)
 
-- `pretix` – Pretix Ticket-Widget v2 einbetten. Params: `event` (URL). CSS wird eventspezifisch geladen.
 - `gallery` – Bildergalerie mit Hugo Image Processing (Resize auf 800px WebP, 1600px für Lightbox). Params: `cols` (default 3), `maxwidth` (default 800). Setzt `hasImageZoom` für Hextra medium-zoom.
 - `slider` – Auto-rotierender Bildslider (1200px WebP). Params: `height` (default 500px), `interval` (default 5000ms).
 - `github-repo` – GitHub Repository als Card. Params: `repo` (z.B. "KidsLabDe/RepoName"), `text`.
-- `workshop-termine` – Termine, Preis und Anmelde-Button eines MentiPlanner-Workshops (liest Front Matter, wird vom Sync eingefügt)
+- `workshop-termine` – Termine, Preis und Anmelde-Button eines MentiPlanner-Workshops (liest Front Matter, wird vom Sync eingefügt). Param `workshop="<ordner>"` bindet die Termine eines Workshops aus `kurse/workshops` auf einer anderen Seite ein (z.B. HackerWerkstatt, MinniMaker).
 - `workshop-liste` – Cards aller Workshops aus `kurse/workshops`. Params: `archiv="true"` für vergangene, `cols`.
 - `button`, `cta`, `video`, `scratch-embed`, `download` – weitere Shortcodes
 
@@ -56,7 +55,7 @@ hugo --minify
 
 ### Content-Struktur (content/)
 
-- `kurse/` – MinniMaker, Lego Robotics, HackerWerkstatt (mit Staffeln als Unterseiten)
+- `kurse/` – MinniMaker, HackerWerkstatt (mit Staffeln als Unterseiten); Lego Robotics pausiert → `kurse/archiv/`. Tickets/Anmeldung ausschließlich über MentiPlanner (plan.kidslab.de), Pretix ist abgeschaltet.
 - `schulen/` – Workshop-Angebote für Schulen, Koffer leihen, Selber machen, Workshops buchen
 - `gameslab/` – GamesLab, GamesPreis, Studio, Mentoring
 - `minecraft/` – Minecraft-Inhalte

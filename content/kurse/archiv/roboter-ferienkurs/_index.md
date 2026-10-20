@@ -38,5 +38,6 @@ Den fertigen Roboter nimmst du mit nach Hause — dafür die 25 € Materialkost
 **Kein Kind wird ausgeschlossen** — im Ticketshop gibt es eine 50%-Ermäßigung zum Selbstauswählen. Reicht das nicht, schreib uns kurz per [E-Mail](mailto:team@kidslab.de) oder [WhatsApp](https://wa.me/4982199951920) — wir finden eine Lösung, auch für 0 Euro. [Mehr dazu](/ueber-kidslab/kursgebuehren/)
 {{< /callout >}}
 
-**Interesse? Dann sichere dir jetzt einen Platz:**
-{{< pretix event="https://pretix.eu/kidslab/roboter/" >}}
+{{< callout type="warning" >}}
+Dieser Workshop hat bereits stattgefunden. Aktuelle Workshops und Anmeldung: [plan.kidslab.de/workshops](https://plan.kidslab.de/workshops)
+{{< /callout >}}

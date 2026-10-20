@@ -9,8 +9,6 @@ start: |
   2026-04-17 14:55:00
 end: |
   2025-10-16 14:55:00
-purchaseLink: |
-  https://pretix.eu/kidslab/hackerwerkstatt/
 ---
 
 HackerWerkstatt 12+ - Staffel #3 – Programmieren mit KI

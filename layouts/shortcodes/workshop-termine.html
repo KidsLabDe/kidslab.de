@@ -9,7 +9,12 @@
   {{- if not $page }}{{ errorf "workshop-termine: Workshop %q nicht gefunden" . }}{{ end -}}
 {{- end -}}
 {{- $p := $page.Params -}}
-{{- if $p.archiviert -}}
+{{- if and $p.archiviert (ne $page .Page) -}}
+<div class="workshop-box workshop-box--archiv">
+  <p><strong>Gerade sind keine Termine buchbar – neue Termine folgen in Kürze.</strong></p>
+  <p>Alle aktuellen Workshops und die Anmeldung findest du unter <a href="https://plan.kidslab.de/workshops">plan.kidslab.de/workshops</a>.</p>
+</div>
+{{- else if $p.archiviert -}}
 <div class="workshop-box workshop-box--archiv">
   <p><strong>Dieser Workshop findet gerade nicht statt.</strong>
   {{- with $p.letzter_termin }} Zuletzt am {{ time.AsTime . | time.Format ":date_long" }}.{{ end }}</p>

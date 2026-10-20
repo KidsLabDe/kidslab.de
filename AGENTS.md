@@ -14,7 +14,7 @@
 
 ## Architecture Notes
 - **Framework:** Hugo with Hextra theme.
-- **Custom Shortcodes:** Located in `layouts/shortcodes/`. Key ones: `pretix`, `gallery`, `slider`, `github-repo`.
+- **Custom Shortcodes:** Located in `layouts/shortcodes/`. Key ones: `workshop-termine`, `gallery`, `slider`, `github-repo`.
 - **Hextra Components:** Uses callouts and cards. Refer to `themes/hextra/layouts/_shortcodes/` for available theme shortcodes.
 - **Navigation:** Managed in `hugo.yaml` under `menu.main`.
 - **Deployment:** Automated via GitHub Action on push to `main` $\rightarrow$ Docker (GHCR) $\rightarrow$ Nginx.

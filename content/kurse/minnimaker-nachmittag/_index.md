@@ -27,7 +27,7 @@ Der **MinniMakerNachmittag** ist ein kreatives Werkstattformat, das über mehrer
 
 ## Tickets & Termine
 
-{{< pretix event="https://pretix.eu/kidslab/minni-maker/" >}}
+{{< workshop-termine workshop="minnimakernachmittag" >}}
 
 ## Vergangene Kurse
 

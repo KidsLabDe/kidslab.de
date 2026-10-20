@@ -23,7 +23,7 @@ Elektronik, KI.
 - **Veranstaltungsort:** Herrenhäuser 17, 86152 Augsburg (Georgenviertel, am Fischertor).
 - **Kontakt:** Tel./WhatsApp 0821-99951920 · team@kidslab.de · gregor@kidslab.de · gameslab@kidslab.de
 - **Social:** Instagram @kidslabaugsburg, Facebook KidsLab.De, GitHub org KidsLabDe.
-- **Tickets:** zentral über Pretix (pretix.eu/kidslab).
+- **Tickets/Anmeldung:** zentral über MentiPlanner (https://plan.kidslab.de/workshops).
 - **Motto:** „Bau dir deine Welt."
 - **Web:** https://kidslab.de
 
@@ -75,12 +75,13 @@ Basteln, Plattformen, Workshop-Konzepte, Open Source).
 
 [core-006]
 4.1 Laufende Kurse (im KidsLab am Fischertor)
-- **MinniMaker-Nachmittag** – 8–12 J., Mo 16:00–18:00 Uhr, wöchentlich; Basteln/Bauen/Entdecken (3D-Druck, LED, Löten). Tickets Pretix `kidslab/minni-maker`.
-- **Lego Robotics** – 8–12 J., wöchentlich; LEGO Spike Prime, Mechanik + Block-Programmierung, wöchentliche Challenges. Pretix `kidslab/robo-2`.
+- **MinniMaker-Nachmittag** – 8–12 J., Mo 16:00–18:00 Uhr, wöchentlich; Basteln/Bauen/Entdecken (3D-Druck, LED, Löten). Anmeldung über plan.kidslab.de/workshops.
+- **Lego Robotics** – 8–12 J.; LEGO Spike Prime, Mechanik + Block-Programmierung. Findet im Schuljahr 2026/27 mangels Mentor:innen nicht statt (Archiv).
 - **HackerWerkstatt (ab 12 J., Nerd-Treff)** – Fr 15:00–16:30 Uhr, Staffeln 4–6 Wochen.
   - Staffel 2 „Programmieren mit KI" (2025): Claude Code, Lovable, Cursor, Copilot, HTML/CSS/JS, Prompting.
   - Staffel 3 (2026) „ESP32 & NeoPixel Pixelkunst": 15:00–16:30 Uhr, 27.03., 17.04., 24.04., 08.05., 15.05.2026; ESP32 + LED-Matrix, Python, optionale 3D-Gehäuse.
-  - Preis: 120 € (ermäßigt 60 €; kostenlos auf Anfrage). Pretix `kidslab/hackerwerkstatt`.
+  - Staffel 4 (Herbst 2026) „Robo-Buddy – bau deinen eigenen WLAN-Roboter": Fr 15:00–16:30 Uhr, ab 16.10.2026, 8 Termine.
+  - Preis: 120 € (ermäßigt 60 €; kostenlos auf Anfrage). Anmeldung über plan.kidslab.de/workshops.
 
 - **Sommersession 2026 (Ferien)**
   - Tinkercad & Design – 17.–18.08., 9–12 U., ab 8 J., max. 10, 60 € (Erm. 30 €). `kidslab/sommer-3d`
@@ -163,7 +164,7 @@ Rubrik mit Schritt-für-Schritt-Tutorials (alle CC BY-NC 4.0):
 - **Standort Kursen/Workshops:** Herrenhäuser 17, 86152 Augsburg, am Fischertor.
 - **Postadresse (kein Betrieb!):** Neidhartstraße 2, 86159 Augsburg.
 - **Anfahrt:** Tram Linien 2 „Fischertor"; PKW: Parkplatz Thommstraße / Pfannenstiel (~1 €/2 h).
-- **Buchung:** Pretix `kidslab` – `kidslab/minni-maker`, `kidslab/robo-2`, `kidslab/hackerwerkstatt`, `kidslab/sommer-3d`, `kidslab/robo-ferien`, `kidslab/roboter`, `kidslab/godot`.
+- **Buchung:** über MentiPlanner – https://plan.kidslab.de/workshops (Pretix ist abgeschaltet).
 - **Newsletter:** auf der Website (Ghost-basiert).
 
 [core-013]
