@@ -180,11 +180,21 @@ async function main() {
   const dirOwner = new Map()
   for (const f of await fs.readdir(SNAPSHOT_DIR)) {
     const snap = f.endsWith('.json') && (await readJson(path.join(SNAPSHOT_DIR, f)))
-    if (snap?.dir && !dirOwner.has(snap.dir)) dirOwner.set(snap.dir, f.replace(/\.json$/, ''))
+    if (snap?.dir && !snap.replacedBy && !dirOwner.has(snap.dir)) dirOwner.set(snap.dir, f.replace(/\.json$/, ''))
   }
+  // Ordner von Workshops, die nicht mehr im Feed sind, darf ein neuer gleichnamiger
+  // Workshop übernehmen (z.B. in MentiPlanner neu angelegt) – so bleiben URLs und Einbindungen gültig
+  const feedIds = new Set(feed.workshops.map((ws) => ws.id))
+  const replaced = new Map()
   const uniqueDir = (ws) => {
     let dir = ws.slug
-    for (let n = 2; dirOwner.has(dir) && dirOwner.get(dir) !== ws.id; n++) dir = `${ws.slug}-${n}`
+    for (let n = 2; dirOwner.has(dir) && dirOwner.get(dir) !== ws.id; n++) {
+      if (!feedIds.has(dirOwner.get(dir))) {
+        replaced.set(dirOwner.get(dir), ws.id)
+        break
+      }
+      dir = `${ws.slug}-${n}`
+    }
     dirOwner.set(dir, ws.id)
     return dir
   }
@@ -201,7 +211,7 @@ async function main() {
     }
     const upcomingDates = ws.upcoming.flatMap((o) => o.dates.map((d) => d.date))
     const snap = {
-      dir: old?.dir || uniqueDir(ws),
+      dir: (!old?.replacedBy && old?.dir) || uniqueDir(ws),
       firstSeen: old?.firstSeen || today,
       image: old?.image || null,
       // Letzter bekannter Termin, auch wenn er inzwischen vergangen ist
@@ -223,6 +233,13 @@ async function main() {
     if (!f.endsWith('.json') || seen.has(id)) continue
     const snap = await readJson(path.join(SNAPSHOT_DIR, f))
     if (!snap?.workshop) continue
+    // Ordner wurde von einem Nachfolger übernommen: Stand behalten, aber keine Seite mehr schreiben
+    if (replaced.has(id)) snap.replacedBy = replaced.get(id)
+    if (snap.replacedBy) {
+      await writeIfChanged(path.join(SNAPSHOT_DIR, f), JSON.stringify(snap, null, 2) + '\n')
+      console.log(`= ${snap.workshop.name} (ersetzt durch ${snap.replacedBy})`)
+      continue
+    }
     snap.lastDate = latest(snap.lastDate, snap.lastUpcoming)
     const changed = await renderPage(path.join(CONTENT_DIR, snap.dir), snap.workshop, snap, true)
     await writeIfChanged(path.join(SNAPSHOT_DIR, f), JSON.stringify(snap, null, 2) + '\n')

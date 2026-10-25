@@ -2,22 +2,49 @@
 # Automatisch erzeugt von .github/scripts/sync-workshops.mjs – Änderungen in MentiPlanner machen
 title: "MinniMakerNachmittag"
 description: "FunkelFabrik ✨ – Bling-Bling to go"
-date: "2026-10-12"
-lastmod: "2026-10-12T16:14:04.950Z"
-mentiplanner_id: "64048b51-d4e8-4e78-bef7-afe651a78e8a"
-booking_url: "https://plan.kidslab.de/workshops/book/64048b51-d4e8-4e78-bef7-afe651a78e8a"
+date: "2026-10-25"
+lastmod: "2026-10-25T13:49:41.938Z"
+mentiplanner_id: "be686b08-7622-4e8a-be99-a086cadd19e6"
+booking_url: "https://plan.kidslab.de/workshops/book/be686b08-7622-4e8a-be99-a086cadd19e6"
 preis: "130,00 €"
 dauer: "2 Stunden"
-ort: "KidsLab am Fischertor"
+ort: "KidsLab"
 ab_18: false
-archiviert: true
-naechster_termin: null
-letzter_termin: null
+archiviert: false
+naechster_termin: "2026-11-09"
+letzter_termin: "2026-05-11"
 image: "minnimakernachmittag-workshop-kinder-augsburg.webp"
 images: ["minnimakernachmittag-workshop-kinder-augsburg.webp"]
-sidebar:
-  exclude: true
-termine: []
+termine:
+  - art: "series"
+    titel: "Bling Bling to Go"
+    preis: "130,00 €"
+    frei: true
+    daten:
+      - datum: "2026-11-09"
+        start: "16:00"
+        ende: "18:00"
+        ort: "KidsLab"
+      - datum: "2026-11-16"
+        start: "16:00"
+        ende: "18:00"
+        ort: "KidsLab"
+      - datum: "2026-11-23"
+        start: "16:00"
+        ende: "18:00"
+        ort: "KidsLab"
+      - datum: "2026-11-30"
+        start: "16:00"
+        ende: "18:00"
+        ort: "KidsLab"
+      - datum: "2026-12-07"
+        start: "16:00"
+        ende: "18:00"
+        ort: "KidsLab"
+      - datum: "2026-12-14"
+        start: "16:00"
+        ende: "18:00"
+        ort: "KidsLab"
 ---
 
 <!-- mentiplanner:start – wird automatisch überschrieben, Änderungen in MentiPlanner machen -->
