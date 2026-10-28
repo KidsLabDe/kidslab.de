@@ -24,7 +24,7 @@ termine:
         ort: "Lab30"
   - art: "event"
     preis: "kostenlos"
-    frei: true
+    frei: false
     daten:
       - datum: "2026-10-30"
         start: "20:00"
