@@ -16,7 +16,7 @@ letzter_termin: null
 termine:
   - art: "event"
     preis: "kostenlos"
-    frei: true
+    frei: false
     daten:
       - datum: "2026-10-29"
         start: "20:00"

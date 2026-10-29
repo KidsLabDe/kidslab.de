@@ -32,7 +32,7 @@
           }
         ],
         "priceCents": null,
-        "hasSpots": true
+        "hasSpots": false
       },
       {
         "kind": "event",
