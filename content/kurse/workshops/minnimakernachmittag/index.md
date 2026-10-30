@@ -3,7 +3,7 @@
 title: "MinniMakerNachmittag"
 description: "FunkelFabrik ✨ – Bling-Bling to go"
 date: "2026-10-25"
-lastmod: "2026-10-25T13:49:41.938Z"
+lastmod: "2026-10-30T14:29:12.451Z"
 mentiplanner_id: "be686b08-7622-4e8a-be99-a086cadd19e6"
 booking_url: "https://plan.kidslab.de/workshops/book/be686b08-7622-4e8a-be99-a086cadd19e6"
 preis: "130,00 €"
@@ -75,7 +75,7 @@ termine:
 
  📅 **Kursdetails**
  - Start: Montag, [09.11.26]
- - Dauer: 6 Termine, jeweils 1,5 Stunden
+ - Dauer: 6 Termine, jeweils 2 Stunden
  - Uhrzeit: 16:00 – 18:00 Uhr
  - Ort: KidsLab Augsburg
 
