@@ -9,6 +9,10 @@ services:
       # HTTP
       - "traefik.http.routers.kidslab.rule=Host(`kidslab.de`) || Host(`www.kidslab.de`)"
       - "traefik.http.routers.kidslab.entryPoints=web"
+      - "traefik.http.routers.kidslab.middlewares=www-redirect,kidslab-https-redirect"
+      # HTTP → HTTPS Redirect
+      - "traefik.http.middlewares.kidslab-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.kidslab-https-redirect.redirectscheme.permanent=true"
       # HTTPS
       - "traefik.http.routers.kidslab-ssl.rule=Host(`kidslab.de`) || Host(`www.kidslab.de`)"
       - "traefik.http.routers.kidslab-ssl.entryPoints=websecure"
