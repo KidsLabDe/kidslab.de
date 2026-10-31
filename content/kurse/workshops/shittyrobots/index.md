@@ -11,17 +11,9 @@ dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: true
 archiviert: false
-naechster_termin: "2026-10-30"
-letzter_termin: "2026-10-29"
+naechster_termin: "2026-10-31"
+letzter_termin: "2026-10-30"
 termine:
-  - art: "event"
-    preis: "kostenlos"
-    frei: false
-    daten:
-      - datum: "2026-10-30"
-        start: "20:00"
-        ende: "22:00"
-        ort: "Lab30"
   - art: "event"
     preis: "kostenlos"
     frei: false
