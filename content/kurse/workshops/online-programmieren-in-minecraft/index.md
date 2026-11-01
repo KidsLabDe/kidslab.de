@@ -3,7 +3,7 @@
 title: "Online - Programmieren in Minecraft"
 description: "Programmieren lernen in Minecraft: In unserem Online-Kurs bringst du in 8 Wochen die Robo-Schildkröte Robokröti mit eigenem Code zum Bauen, Graben und Denken.…"
 date: "2026-11-01"
-lastmod: "2026-11-01T10:15:33.217Z"
+lastmod: "2026-11-01T10:36:29.910Z"
 mentiplanner_id: "3a50f604-f56c-4dfc-9fe1-9b1528ba2352"
 booking_url: "https://plan.kidslab.de/workshops/book/3a50f604-f56c-4dfc-9fe1-9b1528ba2352"
 preis: "79,00 €"
