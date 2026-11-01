@@ -1,10 +1,56 @@
 ---
-title: |
-  Online Programmierkurs
+title: "Online-Kurs: Programmieren lernen in Minecraft"
+linkTitle: "Online Programmierkurs"
+description: "Programmieren lernen in Minecraft: In unserem Online-Kurs bringst du in 8 Wochen die Robo-Schildkröte Robokröti mit eigenem Code zum Bauen, Graben und Denken. Jeden Dienstag um 18 Uhr gibt es einen Live-Stream, dazwischen programmierst du auf unserem eigenen Server TurtleCity. Für Kinder und Jugendliche von 10 bis 16 Jahren, Start am 12. Januar 2027."
 date: "2025-07-26"
 slug: "onlinekurs-programmieren-lernen-in-minecraft"
 ---
 
+## Programmieren lernen in Minecraft – Online-Kurs ab 12. Januar 2027
 
+Du spielst gern Minecraft und willst wissen, wie man eigene Programme schreibt? In diesem Kurs lernst du echtes Programmieren, mitten in der Minecraft-Welt. Du schreibst Code für unsere Robo-Schildkröte Robokröti und bringst ihr bei, für dich zu bauen, zu graben und Probleme zu lösen.
 
-<h1>Minecraft Programmieren mit der Robo-Schildkröte "Robokröti"</h1><h2>Gemeinsam in Minecraft Programmieren lernen!</h2><p>Viele Kinder lieben Minecraft – sie sind oft richtige Experten in der Welt von Alex und Steve! Diese Begeisterung nutzen wir, um spielerisch das Programmieren zu vermitteln. Das Beste daran: Die Kids merken gar nicht, dass sie lernen, weil sie einfach nur coole Sachen bauen und dabei Spaß haben!</p><h2>Für wen ist der Kurs geeignet?</h2><ul><li><p><strong>Alter</strong>: 10 bis 16 Jahre</p></li><li><p><strong>Voraussetzungen</strong>: Spaß an Minecraft und erste Erfahrungen mit Minecraft Java</p></li><li><p><strong>Technisch</strong>: Eine Minecraft Java-Lizenz wird benötigt (ca. 24 Euro)</p></li><li><p><strong>Vorkenntnisse</strong>: Keine Programmiererfahrung nötig!</p></li></ul><h2>Warum Programmieren lernen?</h2><h3>🎮 Aktiv mitgestalten</h3><p>Mit dem Computer geht viel mehr als nur Zocken! Wir zeigen den Kids, wie sie die digitale Welt von morgen aktiv mitgestalten können.</p><h3>🎨 Kreativität fördern</h3><p>Kinder lernen bei uns, wie kreativ man mit Computern und digitalen Medien sein kann.</p><h3>🤝 Teamwork</h3><p>Minecraft bietet die perfekte Umgebung, um gemeinsam mit anderen zu programmieren, spielen und bauen. Zusammen erreicht man so viel mehr!</p><h3>💡 Lösungsorientiertes Denken</h3><p>Die Fähigkeit zur Problemlösung ist eine der wichtigsten Kompetenzen auf dem heutigen Arbeitsmarkt – und wird in Zukunft noch bedeutsamer.</p><h2>Was bietet der Kurs?</h2><h3>Installation &amp; Setup</h3><p>Für die programmierbare Robo-Schildkröte "LabKröti" muss ein spezielles ModPack installiert werden. Keine Sorge – wir liefern eine ausführliche Anleitung mit Video und helfen bei Problemen!</p><h3>Live-Unterricht (1x pro Woche)</h3><ul><li><p>60 Minuten Live-Stream pro Woche</p></li><li><p>Theoretische Einführung ins jeweilige Thema</p></li><li><p>Praktische Umsetzung auf unserem gemeinsamen Minecraft-Server</p></li><li><p>Fragen können jederzeit im Chat gestellt werden</p></li></ul><h3>Video-Tutorials &amp; Materialien</h3><ul><li><p>Nach jedem Live-Stream gibt's ein ausführliches Video-Tutorial</p></li><li><p>Begleitende PDFs mit allen Programmen und detaillierten Erklärungen</p></li><li><p>Zeitlich unbegrenzter Zugriff auf alle Materialien</p></li></ul><h3>TurtleCity – Unser Programmier-Server</h3><p>Täglich von 14:00 bis 18:00 Uhr steht TurtleCity offen – ein gemeinsamer Server, wo:</p><ul><li><p>Das Gelernte direkt umgesetzt werden kann</p></li><li><p>Programme und Ideen anderer Teilnehmer besichtigt werden können</p></li><li><p>Kids sich austauschen und voneinander lernen</p></li></ul><h3>Support &amp; Sicherheit</h3><ul><li><p>Fragen beantworten wir gerne per Mail, WhatsApp oder im Forum</p></li><li><p>Alle Online-Sessions sind passwortgeschützt</p></li><li><p>Die Kinder befinden sich in einem sicheren, moderierten Raum</p></li></ul><h2>Kursoptionen &amp; Preise</h2><h3>Basic-Kurs: Einführung ins Programmieren</h3><ul><li><p><strong>Dauer</strong>: 4 Wochen (4 Live-Termine)</p></li><li><p><strong>Inhalt</strong>: Alle Grundlagen des Programmierens</p></li><li><p><strong>Zugriff</strong>: 8 Wochen TurtleCity + alle Basic-Tutorials</p></li><li><p><strong>Preis</strong>: 19 € (ermäßigt: 9 €)</p></li></ul><h3>Komplett-Kurs: Der volle Programmier-Spaß</h3><ul><li><p><strong>Dauer</strong>: 12 Wochen (12 Live-Termine à 60 Min)</p></li><li><p><strong>Zugriff</strong>: Unbegrenzt auf TurtleCity &amp; alle Materialien</p></li><li><p><strong>Extras</strong>: Programm-Bibliothek + Programmkarten zum Ausdrucken</p></li><li><p><strong>Preis</strong>: 59 € (ermäßigt: 29 €)</p></li></ul><h2>Nächster Kursstart</h2><p>🗓️ <strong>Unsere Minecraft-Programmierkurse finden einmal jährlich statt – immer zum Jahresende!</strong></p><p>Der nächste Kurs startet voraussichtlich im <strong>November/Dezember</strong>.</p><h3>📧 Jetzt vormerken lassen!</h3><p>Sie möchten informiert werden, sobald der neue Kurs startet?</p><p><strong>Schicken Sie einfach eine kurze Mail an: gregor@kidslab.de</strong></p><p>Wir setzen Sie gerne auf unsere Interessentenliste und informieren Sie rechtzeitig über:</p><ul><li><p>Den genauen Starttermin</p></li><li><p>Die Anmeldemöglichkeiten</p></li><li><p>Eventuelle Frühbucher-Rabatte</p></li></ul><h2>Warum nur einmal im Jahr?</h2><p>Wir konzentrieren unsere Minecraft-Programmierkurse bewusst auf die Wintermonate, weil:</p><ul><li><p>Die dunkle Jahreszeit sich perfekt für Indoor-Aktivitäten eignet</p></li><li><p>Kinder in dieser Zeit besonders motiviert für digitale Projekte sind</p></li><li><p>Wir so die beste Kursqualität mit optimaler Betreuung gewährleisten können</p></li></ul><h2>Noch Fragen?</h2><p>Kontaktieren Sie uns gerne:</p><ul><li><p><strong>E-Mail</strong>: gregor@kidslab.de</p></li></ul><p><em>Hinweis: Die Plätze sind begrenzt und erfahrungsgemäß schnell ausgebucht. Eine frühzeitige Vormerkung lohnt sich!</em></p>
+Programmierkenntnisse brauchst du keine. Du solltest aber Spaß an Minecraft haben und die Java Edition schon ein bisschen kennen.
+
+## So läuft der Kurs ab
+
+**Live-Stream:** Einmal pro Woche treffen wir uns zum Live-Stream (60 Minuten). Dort erklären wir das neue Thema und setzen es direkt gemeinsam auf unserem Server um.
+
+**TurtleCity:** Auf unserem Programmier-Server TurtleCity probierst du alles selbst aus, baust eigene Projekte und schaust dir an, was die anderen programmiert haben. TurtleCity ist täglich von 14 bis 18 Uhr geöffnet.
+
+**Videos und PDFs:** Alle Themen gibt es auch als Video-Tutorial und als PDF mit den Programmen und Erklärungen. Wenn du einen Termin verpasst, kannst du so alles in Ruhe nachholen.
+
+**Hilfe:** Wenn du nicht weiterkommst, beantworten wir deine Fragen per Mail, WhatsApp oder im Forum.
+
+## Termine
+
+- 8 Live-Termine, immer dienstags von 18:00 bis 19:00 Uhr
+- 12., 19. und 26. Januar, 2., 9., 16. und 23. Februar sowie 2. März 2027
+
+Wir haben Teilnehmende aus ganz Deutschland, deshalb läuft der Kurs auch in den Ferien weiter. Wer in den Ferien nicht dabei sein kann, holt den Termin einfach mit dem Video nach.
+
+## Was du brauchst
+
+- einen PC oder Laptop (Windows, Mac oder Linux)
+- Minecraft Java Edition (Lizenz ca. 24 €, nicht im Kurspreis enthalten)
+- unser Kurs-ModPack für die Robo-Schildkröte – eine Anleitung zur Installation bekommst du vor dem Start
+
+## Für wen?
+
+Für Kinder und Jugendliche von 10 bis 16 Jahren.
+
+## Sicherheit
+
+Alle Online-Sessions sind passwortgeschützt, und auf TurtleCity sind nur Kursteilnehmende unterwegs.
+
+## Kosten
+
+79 € (10 € pro Termin, inklusive Zugang zu TurtleCity und allen Materialien). Ermäßigt 39,50 €.
+
+Wenn auch das für eure Familie nicht machbar ist, schreibt uns einfach formlos an [team@kidslab.de](mailto:team@kidslab.de). Wir haben in jedem Kurs kostenlose Plätze, einen Nachweis brauchen wir dafür nicht. Am Geld soll die Teilnahme nicht scheitern.
+
+## Anmeldung
+
+Die Plätze sind begrenzt. Die Anmeldung läuft über [plan.kidslab.de](https://plan.kidslab.de/workshops).
+
+{{< workshop-termine workshop="online-programmieren-in-minecraft" >}}

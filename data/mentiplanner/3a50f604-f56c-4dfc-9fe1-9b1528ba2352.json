@@ -1,0 +1,82 @@
+{
+  "dir": "online-programmieren-in-minecraft",
+  "firstSeen": "2026-11-01",
+  "image": "online-programmieren-in-minecraft-workshop-kinder-augsburg.webp",
+  "lastDate": null,
+  "lastUpcoming": "2027-03-02",
+  "workshop": {
+    "id": "3a50f604-f56c-4dfc-9fe1-9b1528ba2352",
+    "name": "Online - Programmieren in Minecraft",
+    "slug": "online-programmieren-in-minecraft",
+    "shortDescription": "Programmieren lernen in Minecraft: In unserem Online-Kurs bringst du in 8 Wochen die Robo-Schildkröte Robokröti mit eigenem Code zum Bauen, Graben und Denken. Jeden Dienstag um 18 Uhr gibt es einen Live-Stream, dazwischen programmierst du auf unserem eigenen Server TurtleCity. Für Kinder und Jugendliche von 10 bis 16 Jahren, Start am 12. Januar 2027.",
+    "description": "## Programmieren lernen in Minecraft – Online-Kurs ab 12. Januar 2027\r\n\r\nDu spielst gern Minecraft und willst wissen, wie man eigene Programme schreibt? In diesem Kurs lernst du echtes Programmieren, mitten in der Minecraft-Welt. Du schreibst Code für unsere Robo-Schildkröte Robokröti und bringst ihr bei, für dich zu bauen, zu graben und Probleme zu lösen.\r\n\r\nProgrammierkenntnisse brauchst du keine. Du solltest aber Spaß an Minecraft haben und die Java Edition schon ein bisschen kennen.\r\n\r\n## So läuft der Kurs ab\r\n\r\n**Live-Stream:** Einmal pro Woche treffen wir uns zum Live-Stream (60 Minuten). Dort erklären wir das neue Thema und setzen es direkt gemeinsam auf unserem Server um.\r\n\r\n**TurtleCity:** Auf unserem Programmier-Server TurtleCity probierst du alles selbst aus, baust eigene Projekte und schaust dir an, was die anderen programmiert haben. TurtleCity ist täglich von 14 bis 18 Uhr geöffnet.\r\n\r\n**Videos und PDFs:** Alle Themen gibt es auch als Video-Tutorial und als PDF mit den Programmen und Erklärungen. Wenn du einen Termin verpasst, kannst du so alles in Ruhe nachholen.\r\n\r\n**Hilfe:** Wenn du nicht weiterkommst, beantworten wir deine Fragen per Mail, WhatsApp oder im Forum.\r\n\r\n## Termine\r\n\r\n- 8 Live-Termine, immer dienstags von 18:00 bis 19:00 Uhr\r\n- 12., 19. und 26. Januar, 2., 9., 16. und 23. Februar sowie 2. März 2027\r\n\r\nWir haben Teilnehmende aus ganz Deutschland, deshalb läuft der Kurs auch in den Ferien weiter. Wer in den Ferien nicht dabei sein kann, holt den Termin einfach mit dem Video nach.\r\n\r\n## Was du brauchst\r\n\r\n- einen PC oder Laptop (Windows, Mac oder Linux)\r\n- Minecraft Java Edition (Lizenz ca. 24 €, nicht im Kurspreis enthalten)\r\n- unser Kurs-ModPack für die Robo-Schildkröte – eine Anleitung zur Installation bekommst du vor dem Start\r\n\r\n## Für wen?\r\n\r\nFür Kinder und Jugendliche von 10 bis 16 Jahren.\r\n\r\n## Sicherheit\r\n\r\nAlle Online-Sessions sind passwortgeschützt, und auf TurtleCity sind nur Kursteilnehmende unterwegs.\r\n\r\n## Kosten\r\n\r\n79 € (10 € pro Termin, inklusive Zugang zu TurtleCity und allen Materialien). Ermäßigt 39,50 €.\r\n\r\nWenn auch das für eure Familie nicht machbar ist, schreibt uns einfach formlos an [team@kidslab.de](mailto:team@kidslab.de). Wir haben in jedem Kurs kostenlose Plätze, einen Nachweis brauchen wir dafür nicht. Am Geld soll die Teilnahme nicht scheitern.",
+    "imageUrl": "https://plan.kidslab.de/img/workshop/3a50f604-f56c-4dfc-9fe1-9b1528ba2352",
+    "priceCents": 7900,
+    "durationHours": 1,
+    "location": "Online",
+    "isAdultWorkshop": false,
+    "minAge": 9,
+    "updatedAt": "2026-11-01T10:15:33.217Z",
+    "bookingUrl": "https://plan.kidslab.de/workshops/book/3a50f604-f56c-4dfc-9fe1-9b1528ba2352",
+    "upcoming": [
+      {
+        "kind": "series",
+        "id": "b88f0fc4-58e8-4643-ac95-5fa12cae7044",
+        "title": "Programmieren in Minecraft - 2027",
+        "dates": [
+          {
+            "date": "2027-01-12",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          },
+          {
+            "date": "2027-01-19",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          },
+          {
+            "date": "2027-01-26",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          },
+          {
+            "date": "2027-02-02",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          },
+          {
+            "date": "2027-02-09",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          },
+          {
+            "date": "2027-02-16",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          },
+          {
+            "date": "2027-02-23",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          },
+          {
+            "date": "2027-03-02",
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "location": "Online, Live-Streaming"
+          }
+        ],
+        "priceCents": 7900,
+        "hasSpots": true
+      }
+    ],
+    "lastDate": null
+  }
+}
