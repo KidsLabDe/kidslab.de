@@ -10,18 +10,12 @@ preis: "kostenlos"
 dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: true
-archiviert: false
-naechster_termin: "2026-11-01"
-letzter_termin: "2026-10-31"
-termine:
-  - art: "event"
-    preis: "kostenlos"
-    frei: true
-    daten:
-      - datum: "2026-11-01"
-        start: "13:00"
-        ende: "17:00"
-        ort: "Lab30"
+archiviert: true
+naechster_termin: null
+letzter_termin: "2026-11-01"
+sidebar:
+  exclude: true
+termine: []
 ---
 
 <!-- mentiplanner:start – wird automatisch überschrieben, Änderungen in MentiPlanner machen -->

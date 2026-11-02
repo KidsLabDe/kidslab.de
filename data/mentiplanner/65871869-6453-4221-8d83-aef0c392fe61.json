@@ -2,7 +2,7 @@
   "dir": "shittyrobots",
   "firstSeen": "2026-10-06",
   "image": null,
-  "lastDate": "2026-10-31",
+  "lastDate": "2026-11-01",
   "lastUpcoming": "2026-11-01",
   "workshop": {
     "id": "65871869-6453-4221-8d83-aef0c392fe61",
@@ -18,23 +18,7 @@
     "minAge": null,
     "updatedAt": "2026-10-06T12:20:33.837Z",
     "bookingUrl": "https://plan.kidslab.de/workshops/book/65871869-6453-4221-8d83-aef0c392fe61",
-    "upcoming": [
-      {
-        "kind": "event",
-        "id": "b68cfb7b-51f6-49cf-998e-b67b58c79b19",
-        "title": null,
-        "dates": [
-          {
-            "date": "2026-11-01",
-            "startTime": "13:00",
-            "endTime": "17:00",
-            "location": "Lab30"
-          }
-        ],
-        "priceCents": null,
-        "hasSpots": true
-      }
-    ],
-    "lastDate": "2026-10-31"
+    "upcoming": [],
+    "lastDate": "2026-11-01"
   }
 }
