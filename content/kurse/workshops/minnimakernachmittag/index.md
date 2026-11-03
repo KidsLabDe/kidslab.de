@@ -19,7 +19,7 @@ termine:
   - art: "series"
     titel: "Bling Bling to Go"
     preis: "130,00 €"
-    frei: true
+    frei: false
     daten:
       - datum: "2026-11-09"
         start: "16:00"
