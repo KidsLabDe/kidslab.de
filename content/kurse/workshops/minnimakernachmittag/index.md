@@ -3,7 +3,7 @@
 title: "MinniMakerNachmittag"
 description: "FunkelFabrik ✨ – Bling-Bling to go"
 date: "2026-10-25"
-lastmod: "2026-10-30T14:29:12.451Z"
+lastmod: "2026-11-09T08:00:39.462Z"
 mentiplanner_id: "be686b08-7622-4e8a-be99-a086cadd19e6"
 booking_url: "https://plan.kidslab.de/workshops/book/be686b08-7622-4e8a-be99-a086cadd19e6"
 preis: "130,00 €"
@@ -55,7 +55,7 @@ termine:
 
  In diesem MinniMaker-Kurs bauen Kinder ihr eigenes Windlicht. Zuerst wird das Ausschnitt-Muster auf Papier entworfen und ausgeschnitten, dann wandert das Design in den Lasercutter und wird zum stabilen Grundgerüst aus Holz. Im Inneren sorgt eine selbst gelötete Rainbow-LED mit Schalter für bunten Lichtzauber. Am Ende nimmt jedes Kind sein eigenes, selbst gebautes Windlicht mit nach Hause und zeigt es stolz bei der kleinen Minni-Messe.
 
- Für Kinder von 8 bis 12 Jahren, Montags 16:30 – 18 Uhr, 6 Termine (außer in den bayerischen Schulferien).
+ Für Kinder von 8 bis 12 Jahren, Montags 16:00 – 18 Uhr, 6 Termine (außer in den bayerischen Schulferien).
 
  ---
 
