@@ -2,7 +2,7 @@
   "dir": "minnimakernachmittag",
   "firstSeen": "2026-10-25",
   "image": "minnimakernachmittag-workshop-kinder-augsburg.webp",
-  "lastDate": "2026-05-11",
+  "lastDate": "2026-11-09",
   "lastUpcoming": "2026-12-14",
   "workshop": {
     "id": "be686b08-7622-4e8a-be99-a086cadd19e6",
@@ -24,12 +24,6 @@
         "id": "c0fb9e70-bde7-423f-a442-dea2f3e26e9b",
         "title": "Bling Bling to Go",
         "dates": [
-          {
-            "date": "2026-11-09",
-            "startTime": "16:00",
-            "endTime": "18:00",
-            "location": null
-          },
           {
             "date": "2026-11-16",
             "startTime": "16:00",
@@ -65,6 +59,6 @@
         "hasSpots": false
       }
     ],
-    "lastDate": "2026-05-11"
+    "lastDate": "2026-11-09"
   }
 }

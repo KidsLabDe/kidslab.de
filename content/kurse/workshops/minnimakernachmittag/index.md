@@ -11,8 +11,8 @@ dauer: "2 Stunden"
 ort: "KidsLab"
 ab_18: false
 archiviert: false
-naechster_termin: "2026-11-09"
-letzter_termin: "2026-05-11"
+naechster_termin: "2026-11-16"
+letzter_termin: "2026-11-09"
 image: "minnimakernachmittag-workshop-kinder-augsburg.webp"
 images: ["minnimakernachmittag-workshop-kinder-augsburg.webp"]
 termine:
@@ -21,10 +21,6 @@ termine:
     preis: "130,00 €"
     frei: false
     daten:
-      - datum: "2026-11-09"
-        start: "16:00"
-        ende: "18:00"
-        ort: "KidsLab"
       - datum: "2026-11-16"
         start: "16:00"
         ende: "18:00"
